@@ -11,6 +11,7 @@ export const handler =
       new Requests.LaunchRequestHandler(),
       new Intents.HelpIntentHandler(),
       new Intents.CancelAndStopIntentHandler(),
+      new Intents.ConditionIntentHandler(),
       new Intents.ReferenceIntentHandler(),
       new Requests.SessionEndedRequestHandler()
     )

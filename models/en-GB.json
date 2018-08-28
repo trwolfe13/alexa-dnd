@@ -35,25 +35,140 @@
             "what page can I find {Item}",
             "what page can I find the {Item}",
             "what page can I find the {Item} on",
-
             "on what page can I find {Item}",
             "on what page can I find the {Item}",
-
             "where can I find {Item}",
             "where can I find the {Item}",
-
-            "where I can find {Item}",
-            "where I can find the {Item}",
-
             "what page is {Item}",
             "what page is {Item} on",
-
             "what book is {Item}",
             "what book is {Item} in"
           ]
+        },
+        {
+          "name": "ConditionIntent",
+          "slots": [
+            {
+              "name": "Condition",
+              "type": "Condition"
+            }
+          ],
+          "samples": [
+            "What does it mean when you're {Condition}",
+            "What happens when you're {Condition}",
+            "What does the {Condition} condition mean",
+            "What does the {Condition} condition do",
+            "What does {Condition} mean"
+          ]
         }
       ],
-      "types": []
+      "types": [
+        {
+          "name": "Condition",
+          "values": [
+            {
+              "name": {
+                "value": "Unconscious"
+              }
+            },
+            {
+              "name": {
+                "value": "Stunned"
+              }
+            },
+            {
+              "name": {
+                "value": "Restrained"
+              }
+            },
+            {
+              "name": {
+                "value": "Prone",
+                "synonyms": [
+                  "knocked prone"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Poisoned"
+              }
+            },
+            {
+              "name": {
+                "value": "Petrified"
+              }
+            },
+            {
+              "name": {
+                "value": "Paralyzed"
+              }
+            },
+            {
+              "name": {
+                "value": "Invisible"
+              }
+            },
+            {
+              "name": {
+                "value": "Incapacitated"
+              }
+            },
+            {
+              "name": {
+                "value": "Grappled",
+                "synonyms": [
+                  "Grapple"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Frightened",
+                "synonyms": [
+                  "Scared",
+                  "Scare",
+                  "Fright"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Exhausted",
+                "synonyms": [
+                  "Fatigued",
+                  "Fatigue",
+                  "Exhaustion"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Deafened",
+                "synonyms": [
+                  "Deaf"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Charmed",
+                "synonyms": [
+                  "Charm"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Blinded",
+                "synonyms": [
+                  "Blind"
+                ]
+              }
+            }
+          ]
+        }
+      ]
     }
   }
 }
