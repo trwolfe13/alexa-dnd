@@ -5,7 +5,7 @@ export const DefaultErrorHandler: ErrorHandler = {
   canHandle(handlerInput: HandlerInput): boolean { return true; },
   handle(handlerInput: HandlerInput, error): Response {
     console.log(`Error handled: ${error.message}`);
-    const speechText = 'Sorry, I didn\'t understand the command. Please try again.';
+    const speechText = 'Sorry, I didn\'t understand the command.';
 
     return handlerInput.responseBuilder
       .speak(speechText)

@@ -1,19 +1,54 @@
 import { HandlerInput } from 'ask-sdk-core';
-import { IntentRequest, Response } from 'ask-sdk-model';
+import { Intent, IntentRequest, Response } from 'ask-sdk-model';
 
+import { IntentHandler, IntentMap } from '../framework';
 import * as Conditions from '../data/conditions.json';
-import { IntentHandler } from '../framework';
+import * as Exhaustion from '../data/exhaustion.json';
+
+const CONDITION = 'ConditionIntent';
+const LIST = 'ConditionListIntent';
+const EXHAUSTION = 'ConditionExhaustionIntent';
+const EXHAUSTION_LEVEL = 'ConditionExhaustionLevelIntent';
 
 export class ConditionIntentHandler extends IntentHandler {
-  get intentNames(): string[] { return ['ConditionIntent']; }
+  get intentNames(): string[] { return [CONDITION, LIST, EXHAUSTION, EXHAUSTION_LEVEL]; }
+
+  map: IntentMap = {
+    [CONDITION]: this.conditionDetail,
+    [LIST]: this.conditionList,
+    [EXHAUSTION]: this.exhaustion,
+    [EXHAUSTION_LEVEL]: this.exhaustionLevel
+  };
 
   handle(handlerInput: HandlerInput): Response {
     const intent = (<IntentRequest>handlerInput.requestEnvelope.request).intent;
+    return this.map[intent.name](handlerInput, intent);
+  }
 
+  conditionList(handlerInput: HandlerInput): Response {
+    let speech = 'The conditions are: ';
+    const conditions = Object.keys(Conditions).sort();
+    for (let x = 0; x < conditions.length; x++) {
+      const c = conditions[x];
+      if (x === 0) {
+        speech += c;
+      } else if (x < conditions.length - 1) {
+        speech += ', ' + c;
+      } else if (x === conditions.length - 1) {
+        speech += ' and ' + c + '.';
+      }
+    }
+
+    return handlerInput.responseBuilder
+      .speak(speech)
+      .getResponse();
+  }
+
+  conditionDetail(handlerInput: HandlerInput, intent: Intent): Response {
     const conditionSlot = intent.slots.Condition;
     let condition;
     if (conditionSlot && conditionSlot.value) {
-      condition = conditionSlot.value.toLowerCase();
+      condition = conditionSlot.resolutions.resolutionsPerAuthority[0].values[0].value.name.toLowerCase();
     }
 
     if (!Conditions[condition]) {
@@ -25,6 +60,40 @@ export class ConditionIntentHandler extends IntentHandler {
     return handlerInput.responseBuilder
       .speak(Conditions[condition])
       .withSimpleCard(condition, Conditions[condition])
+      .getResponse();
+  }
+
+  exhaustion(handlerInput: HandlerInput): Response {
+    let speech = 'The levels of exhaustion are:';
+    const levels = <any[]><any>Exhaustion;
+    levels.forEach(level => {
+      speech += ` Level ${level.level}: ${level.effect}.`;
+    });
+
+    return handlerInput.responseBuilder
+      .speak(speech)
+      .getResponse();
+  }
+
+  exhaustionLevel(handlerInput: HandlerInput, intent: Intent): Response {
+    const positionSlot = intent.slots.Position;
+    let position, positionName;
+    if (positionSlot && positionSlot.value) {
+      positionName = positionSlot.value.toLowerCase();
+      position = Number(positionSlot.resolutions.resolutionsPerAuthority[0].values[0].value.id);
+    }
+
+    const levels = <any[]><any>Exhaustion;
+    const level = levels.find(l => l.level === position);
+
+    if (!level) {
+      return handlerInput.responseBuilder
+        .speak('I could find that level of exhaustion.')
+        .getResponse();
+    }
+
+    return handlerInput.responseBuilder
+      .speak(`The ${positionName} level of exhaustion is ${level.effect}.`)
       .getResponse();
   }
 }

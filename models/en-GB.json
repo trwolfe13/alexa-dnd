@@ -46,6 +46,40 @@
           ]
         },
         {
+          "name": "ConditionListIntent",
+          "samples": [
+            "Name the conditions",
+            "List the conditions",
+            "What conditions are there",
+            "What are the conditions",
+            "What is the list of conditions"
+          ]
+        },
+        {
+          "name": "ConditionExhaustionIntent",
+          "samples": [
+            "Name the stages of exhaustion",
+            "Name the levels of exhaustion",
+            "What are the stages of exhaustion",
+            "What are the levels of exhaustion",
+            "List the stages of exhaustion",
+            "List the levels of exhaustion"
+          ]
+        },
+        {
+          "name": "ConditionExhaustionLevelIntent",
+          "slots": [
+            {
+              "name": "Position",
+              "type": "Position"
+            }
+          ],
+          "samples": [
+            "What is the {Position} stage of exhaustion",
+            "What is the {Position} level of exhaustion"
+          ]
+        },
+        {
           "name": "ConditionIntent",
           "slots": [
             {
@@ -54,6 +88,7 @@
             }
           ],
           "samples": [
+            "How does {Condition} work",
             "What does it mean when you're {Condition}",
             "What happens when you're {Condition}",
             "What does the {Condition} condition mean",
@@ -164,6 +199,71 @@
                 "synonyms": [
                   "Blind"
                 ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Position",
+          "values": [
+            {
+              "id": "10",
+              "name": {
+                "value": "Tenth"
+              }
+            },
+            {
+              "id": "9",
+              "name": {
+                "value": "Ninth"
+              }
+            },
+            {
+              "id": "8",
+              "name": {
+                "value": "Eighth"
+              }
+            },
+            {
+              "id": "7",
+              "name": {
+                "value": "Seventh"
+              }
+            },
+            {
+              "id": "6",
+              "name": {
+                "value": "Sixth"
+              }
+            },
+            {
+              "id": "5",
+              "name": {
+                "value": "Fifth"
+              }
+            },
+            {
+              "id": "4",
+              "name": {
+                "value": "Fourth"
+              }
+            },
+            {
+              "id": "3",
+              "name": {
+                "value": "Third"
+              }
+            },
+            {
+              "id": "2",
+              "name": {
+                "value": "Second"
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "First"
               }
             }
           ]
