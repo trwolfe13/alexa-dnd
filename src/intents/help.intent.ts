@@ -1,11 +1,11 @@
-import { HandlerInput, RequestHandler } from 'ask-sdk-core';
+import { HandlerInput } from 'ask-sdk-core';
 import { Response } from 'ask-sdk-model';
 
-export const HelpIntentHandler: RequestHandler = {
-  canHandle(handlerInput: HandlerInput): boolean {
-    return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-      && handlerInput.requestEnvelope.request.intent.name === 'AMAZON.HelpIntent';
-  },
+import { IntentHandler } from '../framework';
+
+export class HelpIntentHandler extends IntentHandler {
+  get intentNames(): string[] { return ['HelpIntentHandler']; }
+
   handle(handlerInput: HandlerInput): Response {
     const speechText = 'You can say hello to me!';
     return handlerInput.responseBuilder
@@ -14,4 +14,4 @@ export const HelpIntentHandler: RequestHandler = {
       .withSimpleCard('Hello World', speechText)
       .getResponse();
   }
-};
+}

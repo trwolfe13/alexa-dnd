@@ -8,11 +8,12 @@ export const handler =
   Alexa.SkillBuilders
     .custom()
     .addRequestHandlers(
-      Requests.LaunchRequestHandler,
-      Intents.HelloWorldIntentHandler,
-      Intents.HelpIntentHandler,
-      Intents.CancelAndStopIntentHandler,
-      Requests.SessionEndedRequestHandler
+      new Requests.LaunchRequestHandler(),
+      new Intents.HelloWorldIntentHandler(),
+      new Intents.HelpIntentHandler(),
+      new Intents.CancelAndStopIntentHandler(),
+      new Intents.ReferenceIntentHandler(),
+      new Requests.SessionEndedRequestHandler()
     )
     .addErrorHandlers(
       Errors.DefaultErrorHandler

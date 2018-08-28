@@ -3,11 +3,11 @@ import { Response } from 'ask-sdk-model';
 
 import { IntentHandler } from '../framework';
 
-export class CancelAndStopIntentHandler extends IntentHandler {
-  get intentNames(): string[] { return ['AMAZON.CancelIntent', 'AMAZON.StopIntent']; }
+export class ReferenceIntentHandler extends IntentHandler {
+  get intentNames(): string[] { return ['ReferenceIntentHandler']; }
 
   handle(handlerInput: HandlerInput): Response {
-    const speechText = 'Goodbye!';
+    const speechText = 'Hello World!';
     return handlerInput.responseBuilder
       .speak(speechText)
       .withSimpleCard('Hello World', speechText)
