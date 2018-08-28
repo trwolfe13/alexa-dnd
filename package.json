@@ -1,0 +1,25 @@
+{
+  "name": "alexa-dnd",
+  "version": "1.0.0",
+  "description": "An Alexa skill to act as a D&D 5e Reference",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trwolfe13/alexa-dnd.git"
+  },
+  "keywords": [
+    "alexa"
+  ],
+  "author": "Thomas R. Wolfe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trwolfe13/alexa-dnd/issues"
+  },
+  "homepage": "https://github.com/trwolfe13/alexa-dnd#readme",
+  "dependencies": {
+    "ask-sdk": "^2.0.7"
+  }
+}
