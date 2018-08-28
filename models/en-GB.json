@@ -1,0 +1,59 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "five e reference",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ReferenceIntent",
+          "slots": [
+            {
+              "name": "Item",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "what page can I find {Item}",
+            "what page can I find the {Item}",
+            "what page can I find the {Item} on",
+
+            "on what page can I find {Item}",
+            "on what page can I find the {Item}",
+
+            "where can I find {Item}",
+            "where can I find the {Item}",
+
+            "where I can find {Item}",
+            "where I can find the {Item}",
+
+            "what page is {Item}",
+            "what page is {Item} on",
+
+            "what book is {Item}",
+            "what book is {Item} in"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
