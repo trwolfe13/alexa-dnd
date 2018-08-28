@@ -21,7 +21,8 @@ module.exports = {
   entry: './index.ts',
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'index.js'
+    filename: 'index.js',
+    libraryTarget: 'commonjs'
   },
   module: {
     rules: [
