@@ -1,0 +1,22 @@
+{
+  "1": { "experience": 0, "proficiency": 2 },
+  "2": { "experience": 300, "proficiency": 2 },
+  "3": { "experience": 900, "proficiency": 2 },
+  "4": { "experience": 2700, "proficiency": 2 },
+  "5": { "experience": 6500, "proficiency": 3 },
+  "6": { "experience": 14000, "proficiency": 3 },
+  "7": { "experience": 23000, "proficiency": 3 },
+  "8": { "experience": 34000, "proficiency": 3 },
+  "9": { "experience": 48000, "proficiency": 4 },
+  "10": { "experience": 64000, "proficiency": 4 },
+  "11": { "experience": 85000, "proficiency": 4 },
+  "12": { "experience": 100000, "proficiency": 4 },
+  "13": { "experience": 120000, "proficiency": 5 },
+  "14": { "experience": 140000, "proficiency": 5 },
+  "15": { "experience": 165000, "proficiency": 5 },
+  "16": { "experience": 195000, "proficiency": 5 },
+  "17": { "experience": 225000, "proficiency": 6 },
+  "18": { "experience": 265000, "proficiency": 6 },
+  "19": { "experience": 305000, "proficiency": 6 },
+  "20": { "experience": 355000, "proficiency": 6 }
+}

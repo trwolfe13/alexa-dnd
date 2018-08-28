@@ -1,0 +1,5 @@
+{
+  "half": "A creature under half cover gets a plus 2 bonus to AC and Dexterity saving throws",
+  "three quarters": "A creature under three quarters cover gets a plus 5 bonus to AC and Dexterity saving throws",
+  "full": "A creature under total cover cannot be targeted directly by attacks or spells, although area of effect spells and abilities are still effective."
+}
