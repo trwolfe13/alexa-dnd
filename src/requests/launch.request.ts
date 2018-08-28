@@ -1,8 +1,11 @@
-const LaunchRequestHandler = {
-  canHandle(handlerInput) {
+import { HandlerInput, RequestHandler } from 'ask-sdk-core';
+import { Response } from 'ask-sdk-model';
+
+export const LaunchRequestHandler: RequestHandler = {
+  canHandle(handlerInput: HandlerInput): boolean {
     return handlerInput.requestEnvelope.request.type === 'LaunchRequest';
   },
-  handle(handlerInput) {
+  handle(handlerInput: HandlerInput): Response {
     const speechText = 'Welcome to the Alexa Skills Kit, you can say hello!';
 
     return handlerInput.responseBuilder
@@ -12,5 +15,3 @@ const LaunchRequestHandler = {
       .getResponse();
   }
 };
-
-module.exports = LaunchRequestHandler;
