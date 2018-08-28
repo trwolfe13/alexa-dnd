@@ -64,3 +64,4 @@ typings/
 asl-config.json
 
 *.zip
+dist
