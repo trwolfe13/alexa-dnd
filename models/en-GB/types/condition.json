@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Condition",
+    "values": [
+      {
+        "name": {
+          "value": "Unconscious"
+        }
+      },
+      {
+        "name": {
+          "value": "Stunned"
+        }
+      },
+      {
+        "name": {
+          "value": "Restrained"
+        }
+      },
+      {
+        "name": {
+          "value": "Prone",
+          "synonyms": [
+            "knocked prone"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "Poisoned"
+        }
+      },
+      {
+        "name": {
+          "value": "Petrified"
+        }
+      },
+      {
+        "name": {
+          "value": "Paralyzed"
+        }
+      },
+      {
+        "name": {
+          "value": "Invisible"
+        }
+      },
+      {
+        "name": {
+          "value": "Incapacitated"
+        }
+      },
+      {
+        "name": {
+          "value": "Grappled",
+          "synonyms": [
+            "Grapple"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "Frightened",
+          "synonyms": [
+            "Scared",
+            "Scare",
+            "Fright"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "Exhausted",
+          "synonyms": [
+            "Fatigued",
+            "Fatigue",
+            "Exhaustion"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "Deafened",
+          "synonyms": [
+            "Deaf"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "Charmed",
+          "synonyms": [
+            "Charm"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "Blinded",
+          "synonyms": [
+            "Blind"
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Weapon",
+    "values": [
+      {
+        "name": {
+          "value": "Net"
+        }
+      },
+      {
+        "name": {
+          "value": "Longbow"
+        }
+      },
+      {
+        "name": {
+          "value": "Heavy Crossbow"
+        }
+      },
+      {
+        "name": {
+          "value": "Hand Crossbow"
+        }
+      },
+      {
+        "name": {
+          "value": "Whip"
+        }
+      },
+      {
+        "name": {
+          "value": "Warhammer"
+        }
+      },
+      {
+        "name": {
+          "value": "War Pick"
+        }
+      },
+      {
+        "name": {
+          "value": "Trident"
+        }
+      },
+      {
+        "name": {
+          "value": "Shortsword"
+        }
+      },
+      {
+        "name": {
+          "value": "Scimitar"
+        }
+      },
+      {
+        "name": {
+          "value": "Rapier"
+        }
+      },
+      {
+        "name": {
+          "value": "Pike"
+        }
+      },
+      {
+        "name": {
+          "value": "Morningstar"
+        }
+      },
+      {
+        "name": {
+          "value": "Maul"
+        }
+      },
+      {
+        "name": {
+          "value": "Longsword"
+        }
+      },
+      {
+        "name": {
+          "value": "Lance"
+        }
+      },
+      {
+        "name": {
+          "value": "Halberd"
+        }
+      },
+      {
+        "name": {
+          "value": "Greatsword"
+        }
+      },
+      {
+        "name": {
+          "value": "Greataxe"
+        }
+      },
+      {
+        "name": {
+          "value": "Glaive"
+        }
+      },
+      {
+        "name": {
+          "value": "Flail"
+        }
+      },
+      {
+        "name": {
+          "value": "Battleaxe"
+        }
+      },
+      {
+        "name": {
+          "value": "Sling"
+        }
+      },
+      {
+        "name": {
+          "value": "Shortbow"
+        }
+      },
+      {
+        "name": {
+          "value": "Dart"
+        }
+      },
+      {
+        "name": {
+          "value": "Light Crossbow"
+        }
+      },
+      {
+        "name": {
+          "value": "Unarmed Strike"
+        }
+      },
+      {
+        "name": {
+          "value": "Spear"
+        }
+      },
+      {
+        "name": {
+          "value": "Sickle"
+        }
+      },
+      {
+        "name": {
+          "value": "Quarterstaff"
+        }
+      },
+      {
+        "name": {
+          "value": "Mace"
+        }
+      },
+      {
+        "name": {
+          "value": "Light Hammer"
+        }
+      },
+      {
+        "name": {
+          "value": "Hand Axe"
+        }
+      },
+      {
+        "name": {
+          "value": "Great Club"
+        }
+      },
+      {
+        "name": {
+          "value": "Dagger"
+        }
+      },
+      {
+        "name": {
+          "value": "Club"
+        }
+      }
+    ]
+  }
+]

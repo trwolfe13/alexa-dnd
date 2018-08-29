@@ -1,0 +1,9 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "d and d",
+      "intents": [],
+      "types": []
+    }
+  }
+}
