@@ -10,10 +10,12 @@ These are the intents that are available or in-progress.
 
 ### Conditions (Completed)
 
-With this you can ask questions like the following: 
-
 * "What does the invisible condition mean?"
 * "What is the 5th level of exhaustion?"
 * "What are the stages of exhaustion?"
 
-### Items (In Progress)
+### Levels
+
+* What's the proficiency bonus at level 10?
+* How much XP does it take to get from level 10 to 20?
+* How many experience points does it take to get to level 5?
