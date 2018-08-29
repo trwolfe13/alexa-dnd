@@ -20,6 +20,11 @@ These are the intents that are available or in-progress.
 * "How much XP does it take to get from level 10 to 20?"
 * "How many experience points does it take to get to level 5?"
 
+### Magic Schools
+
+* "What are the schools of magic?"
+* "What does illusion magic do?"
+
 ### Wild Magic
 
 * "Give me a wild magic surge!"
