@@ -14,7 +14,7 @@ Works for spells, creatures, items, classes, subclasses, races, subraces, abilit
 
 ### Materials
 * Q: "What materials do I need for Revivify?"
-* A: "To cast Revivfy, you need a diamond worth 1000gp."
+* A: "To cast Revivify, you need a diamond worth 1000gp."
 
 ### Range
 * Q: "What is the range of Burning Hands?"
