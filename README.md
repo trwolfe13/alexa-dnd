@@ -16,6 +16,10 @@ These are the intents that are available or in-progress.
 
 ### Levels
 
-* What's the proficiency bonus at level 10?
-* How much XP does it take to get from level 10 to 20?
-* How many experience points does it take to get to level 5?
+* "What's the proficiency bonus at level 10?"
+* "How much XP does it take to get from level 10 to 20?"
+* "How many experience points does it take to get to level 5?"
+
+### Wild Magic
+
+* "Give me a wild magic surge!"
