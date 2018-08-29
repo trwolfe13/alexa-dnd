@@ -7,8 +7,13 @@ const loadPartials = (dir, region, type) => {
   const partials = [];
   const partialsDir = path.join(dir, region, type);
   fs.readdirSync(partialsDir).filter(hasExt('json')).forEach(file => {
-    const fileJson = JSON.parse(fs.readFileSync(path.join(partialsDir, file)));
-    partials.push(...fileJson);
+    const fileName = path.join(partialsDir, file);
+    try {
+      const fileJson = JSON.parse(fs.readFileSync(fileName));
+      partials.push(...fileJson);
+    } catch (ex) {
+      throw new Error(`Unable to parse file '${fileName}'. ${ex.message}`);
+    }
   });
   return partials;
 };
@@ -19,7 +24,7 @@ const mkdirIfNotExist = dir => {
   dirs.forEach(subDir => {
     rel = path.join(rel, subDir);
     fs.existsSync(rel) || fs.mkdirSync(rel);
-  });  
+  });
 }
 
 module.exports = {

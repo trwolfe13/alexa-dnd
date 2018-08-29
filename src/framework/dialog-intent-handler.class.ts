@@ -1,6 +1,7 @@
 import { HandlerInput } from 'ask-sdk-core';
 import { Intent, IntentRequest, Response } from 'ask-sdk-model';
-import { IntentHandler } from 'framework';
+
+import { IntentHandler } from './intent-handler.class';
 
 export abstract class DialogIntentHandler extends IntentHandler {
   handle(handlerInput: HandlerInput): Response {

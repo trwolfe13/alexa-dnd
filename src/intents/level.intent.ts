@@ -15,7 +15,7 @@ export class LevelIntentHandler extends IntentHandler {
   }
 
   absoluteExperience(handlerInput: HandlerInput, intent: Intent): Response {
-    const level = Number(intent.slots.Level.value);
+    const level = Number(intent.slots.level.value);
 
     if (level < 1 || level > 20) {
       return handlerInput.responseBuilder
@@ -30,8 +30,8 @@ export class LevelIntentHandler extends IntentHandler {
   }
 
   relativeExperience(handlerInput: HandlerInput, intent: Intent): Response {
-    const lowerLevel = Number(intent.slots.LowerLevel.value);
-    const upperLevel = Number(intent.slots.UpperLevel.value);
+    const lowerLevel = Number(intent.slots.lowerLevel.value);
+    const upperLevel = Number(intent.slots.upperLevel.value);
 
     if (lowerLevel < 1 || lowerLevel > 20 || upperLevel < 1 || upperLevel > 20) {
       return handlerInput.responseBuilder
@@ -61,7 +61,7 @@ export class LevelIntentHandler extends IntentHandler {
   }
 
   proficiencyBonus(handlerInput: HandlerInput, intent: Intent): Response {
-    const level = Number(intent.slots.Level.value);
+    const level = Number(intent.slots.level.value);
 
     if (level < 1 || level > 20) {
       return handlerInput.responseBuilder

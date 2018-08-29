@@ -1,0 +1,27 @@
+[
+  {
+    "name": "XP",
+    "values": [
+      {
+        "name": {
+          "value": "experience"
+        }
+      },
+      {
+        "name": {
+          "value": "experience points"
+        }
+      },
+      {
+        "name": {
+          "value": "xp"
+        }
+      },
+      {
+        "name": {
+          "value": "xp points"
+        }
+      }
+    ]
+  }
+]

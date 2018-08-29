@@ -21,8 +21,8 @@ export class MagicSchoolsIntentHandler extends IntentHandler {
   }
 
   magicSchool(handlerInput: HandlerInput, intent: Intent): Response {
-    const schoolSlot = intent.slots.School;
-    const school = schoolSlot.resolutions.resolutionsPerAuthority[0].values[0].value.name;
+    const schoolSlot = intent.slots.school;
+  const school = schoolSlot.resolutions.resolutionsPerAuthority[0].values[0].value.name;
 
     if (!MagicSchools[school.toLowerCase()]) {
       return handlerInput.responseBuilder

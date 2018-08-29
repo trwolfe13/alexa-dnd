@@ -1,0 +1,47 @@
+[
+  {
+    "name": "CharacterLiftIntent",
+    "slots": [
+      {
+        "name": "strengthPhrase",
+        "type": "StrengthPhrase"
+      },
+      {
+        "name": "pronoun",
+        "type": "Pronoun"
+      },
+      {
+        "name": "pronounHas",
+        "type": "PronounHas"
+      },
+      {
+        "name": "pronounIs",
+        "type": "PronounIs"
+      },
+      {
+        "name": "pronounPossessive",
+        "type": "PronounPossessive"
+      },
+      {
+        "name": "howMany",
+        "type": "HowMany"
+      },
+      {
+        "name": "strength",
+        "type": "AMAZON.NUMBER",
+        "samples": [
+          "{strength}",
+          "{pronounHas} {strengthPhrase} {strength}",
+          "{pronounIs} {strength}",
+          "{pronounPossessive} {strengthPhrase} {strength}"
+        ]
+      }
+    ],
+    "samples": [
+      "{howMany} can {pronoun} lift",
+      "{howMany} can {pronoun} lift with {strengthPhrase} {strength}",
+      "what can {pronoun} lift",
+      "what can {pronoun} lift with {strengthPhrase} {strength}"
+    ]
+  }
+]

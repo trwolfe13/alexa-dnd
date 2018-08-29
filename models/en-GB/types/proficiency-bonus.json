@@ -1,0 +1,17 @@
+[
+  {
+    "name": "ProficiencyBonus",
+    "values": [
+      {
+        "name": {
+          "value": "proficiency"
+        }
+      },
+      {
+        "name": {
+          "value": "proficiency bonus"
+        }
+      }
+    ]
+  }
+]
