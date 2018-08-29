@@ -4,7 +4,7 @@
   "description": "An Alexa skill to act as a D&D 5e Reference",
   "main": "src/index.js",
   "scripts": {
-    "local": "alexa-skill-local",
+    "local": "npm run build && alexa-skill-local -f dist/index.js",
     "clean": "rimraf ./dist && rimraf ./coverage",
     "build": "npm run clean && npm run build:models && npm run build:lambda",
     "build:models": "node build/models.js",

@@ -13,6 +13,7 @@ export const handler =
       new Intents.CancelAndStopIntentHandler(),
       new Intents.ConditionIntentHandler(),
       new Intents.LevelIntentHandler(),
+      new Intents.WildMagicIntentHandler(),
       new Requests.SessionEndedRequestHandler()
     )
     .addErrorHandlers(
