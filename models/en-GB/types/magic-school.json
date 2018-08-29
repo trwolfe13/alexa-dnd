@@ -1,0 +1,47 @@
+[
+  {
+    "name": "MagicSchool",
+    "values": [
+      {
+        "name": {
+          "value": "Abjuration"
+        }
+      },
+      {
+        "name": {
+          "value": "Conjuration"
+        }
+      },
+      {
+        "name": {
+          "value": "Divination"
+        }
+      },
+      {
+        "name": {
+          "value": "Enchantment"
+        }
+      },
+      {
+        "name": {
+          "value": "Evocation"
+        }
+      },
+      {
+        "name": {
+          "value": "Illusion"
+        }
+      },
+      {
+        "name": {
+          "value": "Necromancy"
+        }
+      },
+      {
+        "name": {
+          "value": "Transmutation"
+        }
+      }
+    ]
+  }
+]

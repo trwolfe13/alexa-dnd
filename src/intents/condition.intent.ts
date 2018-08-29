@@ -1,6 +1,7 @@
 import { HandlerInput } from 'ask-sdk-core';
 import { Intent, IntentRequest, Response } from 'ask-sdk-model';
 
+import * as Utils from '../utils';
 import { IntentHandler, IntentMap } from '../framework';
 import * as Conditions from '../data/conditions.json';
 import * as Exhaustion from '../data/exhaustion.json';
@@ -16,40 +17,25 @@ export class ConditionIntentHandler extends IntentHandler {
   }
 
   conditionList(handlerInput: HandlerInput): Response {
-    let speech = 'The conditions are: ';
     const conditions = Object.keys(Conditions).sort();
-    for (let x = 0; x < conditions.length; x++) {
-      const c = conditions[x];
-      if (x === 0) {
-        speech += c;
-      } else if (x < conditions.length - 1) {
-        speech += ', ' + c;
-      } else if (x === conditions.length - 1) {
-        speech += ' and ' + c + '.';
-      }
-    }
-
     return handlerInput.responseBuilder
-      .speak(speech)
+      .speak('The conditions are: ' + Utils.spokenConcat(conditions))
       .getResponse();
   }
 
   conditionDetail(handlerInput: HandlerInput, intent: Intent): Response {
     const conditionSlot = intent.slots.Condition;
-    let condition;
-    if (conditionSlot && conditionSlot.value) {
-      condition = conditionSlot.resolutions.resolutionsPerAuthority[0].values[0].value.name.toLowerCase();
-    }
+    const condition = conditionSlot.resolutions.resolutionsPerAuthority[0].values[0].value.name;
 
-    if (!Conditions[condition]) {
+    if (!Conditions[condition.toLowerCase()]) {
       return handlerInput.responseBuilder
         .speak('Sorry, I don\'t know what that condition means.')
         .getResponse();
     }
 
     return handlerInput.responseBuilder
-      .speak(Conditions[condition])
-      .withSimpleCard(condition, Conditions[condition])
+      .speak(Conditions[condition.toLowerCase()])
+      .withSimpleCard(condition, Conditions[condition.toLowerCase()])
       .getResponse();
   }
 
