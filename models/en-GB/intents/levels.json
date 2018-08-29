@@ -4,7 +4,7 @@
     "slots": [
       {
         "name": "Level",
-        "type": "AMAZON.Number"
+        "type": "AMAZON.NUMBER"
       }
     ],
     "samples": [
@@ -51,11 +51,11 @@
     "slots": [
       {
         "name": "UpperLevel",
-        "type": "AMAZON.Number"
+        "type": "AMAZON.NUMBER"
       },
       {
         "name": "LowerLevel",
-        "type": "AMAZON.Number"
+        "type": "AMAZON.NUMBER"
       }
     ],
     "samples": [
@@ -79,6 +79,10 @@
       "How much experience does it take to hit level {UpperLevel} from {LowerLevel}",
       "How much experience does it take to hit {UpperLevel} from level {LowerLevel}",
       "How much experience does it take to hit level {UpperLevel} from level {LowerLevel}",
+      "How much XP does it take to get from {LowerLevel} to {UpperLevel}",
+      "How much XP does it take to get from level {LowerLevel} to {UpperLevel}",
+      "How much XP does it take to get from {LowerLevel} to level {UpperLevel}",
+      "How much XP does it take to get from level {LowerLevel} to level {UpperLevel}",
       "How much XP does it take to get to {UpperLevel} from {LowerLevel}",
       "How much XP does it take to get to level {UpperLevel} from {LowerLevel}",
       "How much XP does it take to get to {UpperLevel} from level {LowerLevel}",
@@ -110,7 +114,7 @@
     "slots": [
       {
         "name": "Level",
-        "type": "AMAZON.Number"
+        "type": "AMAZON.NUMBER"
       }
     ],
     "samples": [
@@ -131,5 +135,5 @@
       "What's your proficiency at {Level}",
       "What is your proficiency at {Level}"
     ]
-  },
+  }
 ]

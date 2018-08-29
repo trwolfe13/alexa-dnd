@@ -13,10 +13,19 @@ const loadPartials = (dir, region, type) => {
   return partials;
 };
 
+const mkdirIfNotExist = dir => {
+  const dirs = dir.split(/(\/|\\)/);
+  let rel = '';
+  dirs.forEach(subDir => {
+    rel = path.join(rel, subDir);
+    fs.existsSync(rel) || fs.mkdirSync(rel);
+  });  
+}
+
 module.exports = {
   hasExt,
+  mkdirIfNotExist,
   isDirectory: source => fs.lstatSync(source.path).isDirectory(),
-  mkdirIfNotExist: dir => fs.existsSync(dir) || fs.mkdirSync(dir),
   region: root => dir => ({ name: dir, path: path.join(root, dir) }),
   loadIntents: (dir, region) => loadPartials(dir, region, 'intents'),
   loadTypes: (dir, region) => loadPartials(dir, region, 'types')

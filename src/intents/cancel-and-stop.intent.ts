@@ -1,12 +1,17 @@
 import { HandlerInput } from 'ask-sdk-core';
 import { Response } from 'ask-sdk-model';
 
-import { IntentHandler } from '../framework';
+import { IntentHandler, IntentMap } from '../framework';
 
 export class CancelAndStopIntentHandler extends IntentHandler {
-  get intentNames(): string[] { return ['AMAZON.CancelIntent', 'AMAZON.StopIntent']; }
+  get intents(): IntentMap {
+    return {
+      'AMAZON.CancelIntent': this.cancel,
+      'AMAZON.StopIntent': this.cancel,
+    };
+  }
 
-  handle(handlerInput: HandlerInput): Response {
+  cancel(handlerInput: HandlerInput): Response {
     const speechText = 'Goodbye!';
     return handlerInput.responseBuilder
       .speak(speechText)

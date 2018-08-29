@@ -1,12 +1,16 @@
 import { HandlerInput } from 'ask-sdk-core';
 import { Response } from 'ask-sdk-model';
 
-import { IntentHandler } from '../framework';
+import { IntentHandler, IntentMap } from '../framework';
 
 export class HelpIntentHandler extends IntentHandler {
-  get intentNames(): string[] { return ['HelpIntent']; }
+  get intents(): IntentMap {
+    return {
+      'HelpIntent': this.help
+    };
+  }
 
-  handle(handlerInput: HandlerInput): Response {
+  help(handlerInput: HandlerInput): Response {
     // TODO: Add extra things.
     const speechText = 'You can say hello to me!';
     return handlerInput.responseBuilder
