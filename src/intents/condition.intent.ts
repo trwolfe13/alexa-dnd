@@ -5,24 +5,14 @@ import { IntentHandler, IntentMap } from '../framework';
 import * as Conditions from '../data/conditions.json';
 import * as Exhaustion from '../data/exhaustion.json';
 
-const CONDITION = 'ConditionIntent';
-const LIST = 'ConditionListIntent';
-const EXHAUSTION = 'ConditionExhaustionIntent';
-const EXHAUSTION_LEVEL = 'ConditionExhaustionLevelIntent';
-
 export class ConditionIntentHandler extends IntentHandler {
-  get intentNames(): string[] { return [CONDITION, LIST, EXHAUSTION, EXHAUSTION_LEVEL]; }
-
-  map: IntentMap = {
-    [CONDITION]: this.conditionDetail,
-    [LIST]: this.conditionList,
-    [EXHAUSTION]: this.exhaustion,
-    [EXHAUSTION_LEVEL]: this.exhaustionLevel
-  };
-
-  handle(handlerInput: HandlerInput): Response {
-    const intent = (<IntentRequest>handlerInput.requestEnvelope.request).intent;
-    return this.map[intent.name](handlerInput, intent);
+  get intents(): IntentMap {
+    return {
+      ConditionIntent: this.conditionDetail,
+      ConditionListIntent: this.conditionList,
+      ConditionExhaustionIntent: this.exhaustion,
+      ConditionExhaustionLevelIntent: this.exhaustionLevel
+    };
   }
 
   conditionList(handlerInput: HandlerInput): Response {

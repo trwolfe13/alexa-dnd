@@ -1,13 +1,18 @@
 import { HandlerInput } from 'ask-sdk-core';
-import { Response } from 'ask-sdk-model';
+import { IntentRequest, Response } from 'ask-sdk-model';
+
+import { IntentMap } from './intent-map.interface';
 
 export abstract class IntentHandler {
-  abstract get intentNames(): string[];
+  abstract get intents(): IntentMap;
 
   canHandle(handlerInput: HandlerInput): boolean {
     return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-      && this.intentNames.includes(handlerInput.requestEnvelope.request.intent.name);
+      && Object.keys(this.intents).includes(handlerInput.requestEnvelope.request.intent.name);
   }
 
-  abstract handle(handlerInput: HandlerInput): Response;
+  handle(handlerInput: HandlerInput): Response {
+    const intent = (<IntentRequest>handlerInput.requestEnvelope.request).intent;
+    return this.intents[intent.name](handlerInput, intent);
+  }
 }
