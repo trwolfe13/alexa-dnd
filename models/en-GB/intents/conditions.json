@@ -1,0 +1,55 @@
+[
+  {
+    "name": "ConditionListIntent",
+    "slots": [],
+    "samples": [
+      "Name the conditions",
+      "List the conditions",
+      "What conditions are there",
+      "What are the conditions",
+      "What is the list of conditions"
+    ]
+  },
+  {
+    "name": "ConditionExhaustionIntent",
+    "slots": [],
+    "samples": [
+      "Name the stages of exhaustion",
+      "Name the levels of exhaustion",
+      "What are the stages of exhaustion",
+      "What are the levels of exhaustion",
+      "List the stages of exhaustion",
+      "List the levels of exhaustion"
+    ]
+  },
+  {
+    "name": "ConditionExhaustionLevelIntent",
+    "slots": [
+      {
+        "name": "Position",
+        "type": "Position"
+      }
+    ],
+    "samples": [
+      "What is the {Position} stage of exhaustion",
+      "What is the {Position} level of exhaustion"
+    ]
+  },
+  {
+    "name": "ConditionIntent",
+    "slots": [
+      {
+        "name": "Condition",
+        "type": "Condition"
+      }
+    ],
+    "samples": [
+      "How does {Condition} work",
+      "What does it mean when you're {Condition}",
+      "What happens when you're {Condition}",
+      "What does the {Condition} condition mean",
+      "What does the {Condition} condition do",
+      "What does {Condition} mean"
+    ]
+  }
+]
