@@ -34,7 +34,7 @@ export class CharacterAbilitiesIntentHandler extends DialogIntentHandler {
   characterJumpVerb(handlerInput: HandlerInput, intent: Intent): Response {
     const strength = Number(intent.slots.strength.value);
 
-    const verbSlot = intent.slots.verb;
+    const verbSlot = intent.slots.jumpType;
     const verb = verbSlot.resolutions.resolutionsPerAuthority[0].values[0].value.name;
 
     let speech = 'I don\'t know how far you can jump.';
