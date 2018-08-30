@@ -1,0 +1,42 @@
+[
+  {
+    "name": "CastFor",
+    "values": [
+      {
+        "name": {
+          "value": "to cast"
+        }
+      },
+      {
+        "name": {
+          "value": "cast"
+        }
+      },
+      {
+        "name": {
+          "value": "for"
+        }
+      },
+      {
+        "name": {
+          "value": "casting"
+        }
+      },
+      {
+        "name": {
+          "value": "when casting"
+        }
+      },
+      {
+        "name": {
+          "value": "whilst casting"
+        }
+      },
+      {
+        "name": {
+          "value": "while casting"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "IsAre",
+    "values": [
+      {
+        "name": {
+          "value": "is"
+        }
+      },
+      {
+        "name": {
+          "value": "are"
+        }
+      }
+    ]
+  }
+]

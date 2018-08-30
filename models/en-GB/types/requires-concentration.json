@@ -1,0 +1,62 @@
+[
+  {
+    "name": "RequiresConcentration",
+    "values": [
+      {
+        "name": {
+          "value": "concentration"
+        }
+      },
+      {
+        "name": {
+          "value": "a concentration"
+        }
+      },
+      {
+        "name": {
+          "value": "a concentration spell"
+        }
+      },
+      {
+        "name": {
+          "value": "is concentration"
+        }
+      },
+      {
+        "name": {
+          "value": "is a concentration spell"
+        }
+      },
+      {
+        "name": {
+          "value": "requires concentration"
+        }
+      },
+      {
+        "name": {
+          "value": "require concentration"
+        }
+      },
+      {
+        "name": {
+          "value": "need concentration"
+        }
+      },
+      {
+        "name": {
+          "value": "needs concentration"
+        }
+      },
+      {
+        "name": {
+          "value": "need to concentrate on"
+        }
+      },
+      {
+        "name": {
+          "value": "needs concentrating on"
+        }
+      }
+    ]
+  }
+]

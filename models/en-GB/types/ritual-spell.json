@@ -1,0 +1,27 @@
+[
+  {
+    "name": "RitualSpell",
+    "values": [
+      {
+        "name": {
+          "value": "a ritual"
+        }
+      },
+      {
+        "name": {
+          "value": "a ritual spell"
+        }
+      },
+      {
+        "name": {
+          "value": "ritual"
+        }
+      },
+      {
+        "name": {
+          "value": "ritual spell"
+        }
+      }
+    ]
+  }
+]

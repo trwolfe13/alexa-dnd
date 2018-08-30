@@ -66,16 +66,25 @@
       {
         "name": "whatHappens",
         "type": "WhatHappens"
+      },
+      {
+        "name": "doWork",
+        "type": "DoWork"
+      },
+      {
+        "name": "whatHow",
+        "type": "whatHow"
+      },
+      {
+        "name": "do",
+        "type": "Do"
       }
     ],
     "samples": [
-      "How does {condition} work",
+      "{whatHow} {do} {condition} {doWork}",
       "{whatHappens} {pronounIs} {condition}",
       "{whatHappens} {pronounHas} {condition}",
-      "What does the {condition} condition mean",
-      "What does the {condition} condition do",
-      "What does {condition} mean",
-      "What does {condition} do"
+      "{whatHow} {do} the {condition} condition {doWork}"
     ]
   }
 ]
