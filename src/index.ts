@@ -15,6 +15,7 @@ export const handler =
       new Intents.ConditionIntentHandler(),
       new Intents.LevelIntentHandler(),
       new Intents.MagicSchoolsIntentHandler(),
+      new Intents.SpellsIntentHandler(),
       new Intents.WildMagicIntentHandler(),
       new Requests.SessionEndedRequestHandler()
     )
