@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CharacterStrengthVerbIntent",
+    "confirmationRequired": false,
+    "prompts": {},
+    "slots": [
+      {
+        "name": "strength",
+        "type": "AMAZON.NUMBER",
+        "confirmationRequired": false,
+        "elicitationRequired": true,
+        "prompts": {
+          "elicitation": "Elicitation.Abilities.StrengthScore"
+        }
+      }
+    ]
+  },
+  {
+    "name": "CharacterJumpVerbIntent",
+    "confirmationRequired": false,
+    "prompts": {},
+    "slots": [
+      {
+        "name": "strength",
+        "type": "AMAZON.NUMBER",
+        "confirmationRequired": false,
+        "elicitationRequired": true,
+        "prompts": {
+          "elicitation": "Elicitation.Abilities.StrengthScore"
+        }
+      }
+    ]
+  },
+  {
+    "name": "CharacterBreathIntent",
+    "confirmationRequired": false,
+    "prompts": {},
+    "slots": [
+      {
+        "name": "constitution",
+        "type": "AMAZON.NUMBER",
+        "confirmationRequired": false,
+        "elicitationRequired": true,
+        "prompts": {
+          "elicitation": "Elicitation.Abilities.ConstitutionScore"
+        }
+      }
+    ]
+  }
+]

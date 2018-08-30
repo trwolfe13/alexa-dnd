@@ -4,42 +4,66 @@
     "values": [
       {
         "name": {
-          "value": "Abjuration"
+          "value": "Abjuration",
+          "synonyms": [
+            "abjuration magic"
+          ]
         }
       },
       {
         "name": {
-          "value": "Conjuration"
+          "value": "Conjuration",
+          "synonyms": [
+            "conjuration magic"
+          ]
         }
       },
       {
         "name": {
-          "value": "Divination"
+          "value": "Divination",
+          "synonyms": [
+            "divination magic"
+          ]
         }
       },
       {
         "name": {
-          "value": "Enchantment"
+          "value": "Enchantment",
+          "synonyms": [
+            "enchantment magic"
+          ]
         }
       },
       {
         "name": {
-          "value": "Evocation"
+          "value": "Evocation",
+          "synonyms": [
+            "evocation magic"
+          ]
         }
       },
       {
         "name": {
-          "value": "Illusion"
+          "value": "Illusion",
+          "synonyms": [
+            "illusion magic"
+          ]
         }
       },
       {
         "name": {
-          "value": "Necromancy"
+          "value": "Necromancy",
+          "synonyms": [
+            "necromancy magic"
+          ]
         }
       },
       {
         "name": {
-          "value": "Transmutation"
+          "value": "Transmutation",
+          "synonyms": [
+            "transmutation magic"
+          ]
         }
       }
     ]

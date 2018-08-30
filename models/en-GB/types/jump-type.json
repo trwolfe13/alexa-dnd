@@ -1,0 +1,25 @@
+[
+  {
+    "name": "JumpType",
+    "values": [
+      {
+        "name": {
+          "value": "far",
+          "synonyms": [
+            "distance",
+            "long"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "high",
+          "synonyms": [
+            "height",
+            "tall"
+          ]
+        }
+      }
+    ]
+  }
+]

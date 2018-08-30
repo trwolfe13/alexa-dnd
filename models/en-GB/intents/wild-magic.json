@@ -1,20 +1,21 @@
 [
   {
     "name": "WildMagicIntent",
-    "slots": [],
+    "slots": [
+      {
+        "name": "wildMagic",
+        "type": "WildMagic"
+      },
+      {
+        "name": "pronoun",
+        "type": "Pronoun"
+      }
+    ],
     "samples": [
-      "For wild magic",
-      "For a wild magic surge",
-      "For a wild magic effect",
-      "Give me wild magic",
-      "Give me a wild magic surge",
-      "Give me a wild magic effect",
-      "To give me wild magic",
-      "To give me a wild magic surge",
-      "To give me a wild magic effect",
-      "Wild magic",
-      "Wild magic surge",
-      "Wild magic effect"
+      "For {wildMagic}",
+      "Give {pronoun} {wildMagic}",
+      "To give {pronoun} {wildMagic}",
+      "{wildMagic}"
     ]
   }
 ]

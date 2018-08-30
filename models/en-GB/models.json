@@ -4,6 +4,10 @@
       "invocationName": "d and d",
       "intents": [],
       "types": []
-    }
+    },
+    "dialog": {
+      "intents": []
+    },
+    "prompts": []
   }
 }

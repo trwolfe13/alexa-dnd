@@ -1,55 +1,81 @@
 [
   {
     "name": "ConditionListIntent",
-    "slots": [],
+    "slots": [
+      {
+        "name": "nameThe",
+        "type": "NameThe"
+      }
+    ],
     "samples": [
-      "Name the conditions",
-      "List the conditions",
-      "What conditions are there",
-      "What are the conditions",
-      "What is the list of conditions"
+      "{nameThe} conditions",
+      "What conditions are there"
     ]
   },
   {
     "name": "ConditionExhaustionIntent",
-    "slots": [],
+    "slots": [
+      {
+        "name": "nameThe",
+        "type": "NameThe"
+      },
+      {
+        "name": "exhaustionLevels",
+        "type": "ExhaustionLevels"
+      }
+    ],
     "samples": [
-      "Name the stages of exhaustion",
-      "Name the levels of exhaustion",
-      "What are the stages of exhaustion",
-      "What are the levels of exhaustion",
-      "List the stages of exhaustion",
-      "List the levels of exhaustion"
+      "{nameThe} {exhaustionLevels} of exhaustion"
     ]
   },
   {
     "name": "ConditionExhaustionLevelIntent",
     "slots": [
       {
-        "name": "Position",
+        "name": "nameThe",
+        "type": "NameThe"
+      },
+      {
+        "name": "position",
         "type": "Position"
+      },
+      {
+        "name": "exhaustionLevels",
+        "type": "ExhaustionLevels"
       }
     ],
     "samples": [
-      "What is the {Position} stage of exhaustion",
-      "What is the {Position} level of exhaustion"
+      "{nameThe} {position} {exhaustionLevels} of exhaustion"
     ]
   },
   {
     "name": "ConditionIntent",
     "slots": [
       {
-        "name": "Condition",
+        "name": "condition",
         "type": "Condition"
+      },
+      {
+        "name": "pronounIs",
+        "type": "PronounIs"
+      },
+      {
+        "name": "pronounHas",
+        "type": "PronounHas"
+      },
+      {
+        "name": "whatHappens",
+        "type": "WhatHappens"
       }
     ],
     "samples": [
-      "How does {Condition} work",
-      "What does it mean when you're {Condition}",
-      "What happens when you're {Condition}",
-      "What does the {Condition} condition mean",
-      "What does the {Condition} condition do",
-      "What does {Condition} mean"
+      "How does {condition} work",
+      "{whatHappens} {pronounIs} {condition}",
+      "{whatHappens} {pronounHas} {condition}",
+      "What does the {condition} condition mean",
+      "What does the {condition} condition do",
+      "What does {condition} mean",
+      "What does {condition} do"
     ]
   }
 ]

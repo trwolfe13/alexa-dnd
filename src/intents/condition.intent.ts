@@ -24,8 +24,7 @@ export class ConditionIntentHandler extends IntentHandler {
   }
 
   conditionDetail(handlerInput: HandlerInput, intent: Intent): Response {
-    const conditionSlot = intent.slots.Condition;
-    const condition = conditionSlot.resolutions.resolutionsPerAuthority[0].values[0].value.name;
+    const condition = Utils.slotValue(intent.slots.condition);
 
     if (!Conditions[condition.toLowerCase()]) {
       return handlerInput.responseBuilder
@@ -52,12 +51,8 @@ export class ConditionIntentHandler extends IntentHandler {
   }
 
   exhaustionLevel(handlerInput: HandlerInput, intent: Intent): Response {
-    const positionSlot = intent.slots.Position;
-    let position, positionName;
-    if (positionSlot && positionSlot.value) {
-      positionName = positionSlot.value.toLowerCase();
-      position = Number(positionSlot.resolutions.resolutionsPerAuthority[0].values[0].value.id);
-    }
+    const positionName = intent.slots.position.value.toLowerCase();
+    const position = Number(Utils.slotId(intent.slots.condition));
 
     const levels = <any[]><any>Exhaustion;
     const level = levels.find(l => l.level === position);

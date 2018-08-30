@@ -1,0 +1,53 @@
+[
+  {
+    "name": "StrengthVerb",
+    "values": [
+      {
+        "name": {
+          "value": "push",
+          "synonyms": [
+            "shove",
+            "propel",
+            "ram"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "drag",
+          "synonyms": [
+            "yank",
+            "yard",
+            "haul",
+            "pull",
+            "tow"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "lift",
+          "synonyms": [
+            "raise",
+            "hoist",
+            "support",
+            "sustain",
+            "level"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "carry",
+          "synonyms": [
+            "lug",
+            "transport",
+            "support",
+            "sustain",
+            "hold"
+          ]
+        }
+      }
+    ]
+  }
+]

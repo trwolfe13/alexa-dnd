@@ -1,0 +1,52 @@
+[
+  {
+    "name": "PronounPossessive",
+    "values": [
+      {
+        "name": {
+          "value": "my"
+        }
+      },
+      {
+        "name": {
+          "value": "its"
+        }
+      },
+      {
+        "name": {
+          "value": "your"
+        }
+      },
+      {
+        "name": {
+          "value": "their"
+        }
+      },
+      {
+        "name": {
+          "value": "his"
+        }
+      },
+      {
+        "name": {
+          "value": "her"
+        }
+      },
+      {
+        "name": {
+          "value": "our"
+        }
+      },
+      {
+        "name": {
+          "value": "my character's"
+        }
+      },
+      {
+        "name": {
+          "value": "my avatar's"
+        }
+      }
+    ]
+  }
+]

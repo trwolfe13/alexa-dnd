@@ -1,0 +1,27 @@
+[
+  {
+    "name": "ExhaustionLevels",
+    "values": [
+      {
+        "name": {
+          "value": "level"
+        }
+      },
+      {
+        "name": {
+          "value": "levels"
+        }
+      },
+      {
+        "name": {
+          "value": "stage"
+        }
+      },
+      {
+        "name": {
+          "value": "stages"
+        }
+      }
+    ]
+  }
+]

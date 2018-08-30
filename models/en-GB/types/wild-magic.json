@@ -1,0 +1,32 @@
+[
+  {
+    "name": "WildMagic",
+    "values": [
+      {
+        "name": {
+          "value": "wild magic"
+        }
+      },
+      {
+        "name": {
+          "value": "wild magic surge"
+        }
+      },
+      {
+        "name": {
+          "value": "wild magic effect"
+        }
+      },
+      {
+        "name": {
+          "value": "a wild magic surge"
+        }
+      },
+      {
+        "name": {
+          "value": "a wild magic effect"
+        }
+      }
+    ]
+  }
+]

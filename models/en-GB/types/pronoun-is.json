@@ -1,0 +1,52 @@
+[
+  {
+    "name": "PronounIs",
+    "values": [
+      {
+        "name": {
+          "value": "i am"
+        }
+      },
+      {
+        "name": {
+          "value": "it is"
+        }
+      },
+      {
+        "name": {
+          "value": "you are"
+        }
+      },
+      {
+        "name": {
+          "value": "they are"
+        }
+      },
+      {
+        "name": {
+          "value": "he is"
+        }
+      },
+      {
+        "name": {
+          "value": "she is"
+        }
+      },
+      {
+        "name": {
+          "value": "we are"
+        }
+      },
+      {
+        "name": {
+          "value": "my character is"
+        }
+      },
+      {
+        "name": {
+          "value": "my avatar is"
+        }
+      }
+    ]
+  }
+]

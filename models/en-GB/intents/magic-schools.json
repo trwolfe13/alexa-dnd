@@ -1,47 +1,40 @@
 [
   {
     "name": "MagicSchoolsListIntent",
-    "slots": [],
+    "slots": [
+      {
+        "name": "magicSchools",
+        "type": "MagicSchoolPhrase"
+      },
+      {
+        "name": "nameThe",
+        "type": "NameThe"
+      }
+    ],
     "samples": [
-      "about magic schools",
-      "about the magic types",
-      "about the schools of magic",
-      "about the types of magic",
-      "list the magic schools",
-      "list the magic types",
-      "list the schools of magic",
-      "list the types of magic",
-      "name the magic schools",
-      "name the magic types",
-      "name the schools of magic",
-      "name the types of magic",
-      "what are the magic schools",
-      "what are the magic types",
-      "what are the schools of magic",
-      "what are the types of magic",
-      "what the magic schools are",
-      "what the magic types are",
-      "what the schools of magic are",
-      "what the types of magic are"
+      "about {magicSchools}",
+      "about the {magicSchools}",
+      "{nameThe} {magicSchools}",
+      "what the {magicSchools} are"
     ]
   },
   {
     "name": "MagicSchoolIntent",
     "slots": [
       {
-        "name": "School",
+        "name": "school",
         "type": "MagicSchool"
+      },
+      {
+        "name": "whatIs",
+        "type": "WhatIs"
       }
     ],
     "samples": [
-      "tell me about {School}",
-      "tell me about {School} magic",
-      "what is {School}",
-      "what is {School} for",
-      "what is {School} magic",
-      "what is {School} magic for",
-      "what does {School} do",
-      "what does {School} magic do"
+      "tell me about {school}",
+      "{whatIs} {school}",
+      "{whatIs} {school} for",
+      "what does {school} do"
     ]
   }
 ]

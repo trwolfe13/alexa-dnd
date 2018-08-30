@@ -3,153 +3,96 @@
     "name": "LevelsAbsoluteExperienceIntent",
     "slots": [
       {
-        "name": "Level",
+        "name": "level",
         "type": "AMAZON.NUMBER"
+      },
+      {
+        "name": "howMany",
+        "type": "HowMany"
+      },
+      {
+        "name": "xp",
+        "type": "XP"
+      },
+      {
+        "name": "getTo",
+        "type": "GetTo"
+      },
+      {
+        "name": "doYouNeed",
+        "type": "DoYouNeed"
       }
     ],
     "samples": [
-      "How many experience points does it take to get to {Level}",
-      "How many experience points does it take to get to level {Level}",
-      "How many experience points does it take to reach {Level}",
-      "How many experience points does it take to reach level {Level}",
-      "How many experience points does it take to hit {Level}",
-      "How many experience points does it take to hit level {Level}",
-      "How much experience does it take to get to {Level}",
-      "How much experience does it take to get to level {Level}",
-      "How much experience does it take to reach {Level}",
-      "How much experience does it take to reach level {Level}",
-      "How much experience does it take to hit {Level}",
-      "How much experience does it take to hit level {Level}",
-      "How much XP does it take to get to {Level}",
-      "How much XP does it take to get to level {Level}",
-      "How much XP does it take to reach {Level}",
-      "How much XP does it take to reach level {Level}",
-      "How much XP does it take to hit {Level}",
-      "How much XP does it take to hit level {Level}",
-      "How many experience points do you need to get to {Level}",
-      "How many experience points do you need to get to level {Level}",
-      "How many experience points do you need to reach {Level}",
-      "How many experience points do you need to reach level {Level}",
-      "How many experience points do you need to hit {Level}",
-      "How many experience points do you need to hit level {Level}",
-      "How much experience do you need to get to {Level}",
-      "How much experience do you need to get to level {Level}",
-      "How much experience do you need to reach {Level}",
-      "How much experience do you need to reach level {Level}",
-      "How much experience do you need to hit {Level}",
-      "How much experience do you need to hit level {Level}",
-      "How much XP do you need to get to {Level}",
-      "How much XP do you need to get to level {Level}",
-      "How much XP do you need to reach {Level}",
-      "How much XP do you need to reach level {Level}",
-      "How much XP do you need to hit {Level}",
-      "How much XP do you need to hit level {Level}"
+      "{howMany} {xp} {doYouNeed} to {getTo} {level}",
+      "{howMany} {xp} {doYouNeed} to {getTo} level {level}"
     ]
   },
   {
     "name": "LevelsRelativeExperienceIntent",
     "slots": [
       {
-        "name": "UpperLevel",
+        "name": "howMany",
+        "type": "HowMany"
+      },
+      {
+        "name": "xp",
+        "type": "XP"
+      },
+      {
+        "name": "doYouNeed",
+        "type": "DoYouNeed"
+      },
+      {
+        "name": "getTo",
+        "type": "GetTo"
+      },
+      {
+        "name": "upperLevel",
         "type": "AMAZON.NUMBER"
       },
       {
-        "name": "LowerLevel",
+        "name": "lowerLevel",
         "type": "AMAZON.NUMBER"
       }
     ],
     "samples": [
-      "How many experience points does it take to get from {LowerLevel} to {UpperLevel}",
-      "How many experience points does it take to get from level {LowerLevel} to {UpperLevel}",
-      "How many experience points does it take to get from {LowerLevel} to level {UpperLevel}",
-      "How many experience points does it take to get from level {LowerLevel} to level {UpperLevel}",
-      "How many experience points does it take to get to {UpperLevel} from {LowerLevel}",
-      "How many experience points does it take to get to {UpperLevel} from level {LowerLevel}",
-      "How many experience points does it take to get to level {LowerLevel} from {LowerLevel}",
-      "How many experience points does it take to get to level {LowerLevel} from level {LowerLevel}",
-      "How many experience points does it take to hit {UpperLevel} from {LowerLevel}",
-      "How many experience points does it take to hit {UpperLevel} from level {LowerLevel}",
-      "How many experience points does it take to hit level {UpperLevel} from {LowerLevel}",
-      "How many experience points does it take to hit level {UpperLevel} from level {LowerLevel}",
-      "How much experience does it take to get to {UpperLevel} from {LowerLevel}",
-      "How much experience does it take to get to level {UpperLevel} from {LowerLevel}",
-      "How much experience does it take to get to  {UpperLevel} from level {LowerLevel}",
-      "How much experience does it take to get to level {UpperLevel} from level {LowerLevel}",
-      "How much experience does it take to hit {UpperLevel} from {LowerLevel}",
-      "How much experience does it take to hit level {UpperLevel} from {LowerLevel}",
-      "How much experience does it take to hit {UpperLevel} from level {LowerLevel}",
-      "How much experience does it take to hit level {UpperLevel} from level {LowerLevel}",
-      "How much XP does it take to get from {LowerLevel} to {UpperLevel}",
-      "How much XP does it take to get from level {LowerLevel} to {UpperLevel}",
-      "How much XP does it take to get from {LowerLevel} to level {UpperLevel}",
-      "How much XP does it take to get from level {LowerLevel} to level {UpperLevel}",
-      "How much XP does it take to get to {UpperLevel} from {LowerLevel}",
-      "How much XP does it take to get to level {UpperLevel} from {LowerLevel}",
-      "How much XP does it take to get to {UpperLevel} from level {LowerLevel}",
-      "How much XP does it take to get to level {UpperLevel} from level {LowerLevel}",
-      "How much XP does it take to hit {UpperLevel} from {LowerLevel}",
-      "How much XP does it take to hit level {UpperLevel} from {LowerLevel}",
-      "How much XP does it take to hit {UpperLevel} from level {LowerLevel}",
-      "How much XP does it take to hit level {UpperLevel} from level {LowerLevel}",
-      "How many experience points do you need to get from {LowerLevel} to {UpperLevel}",
-      "How many experience points do you need to get from {LowerLevel} to level {UpperLevel}",
-      "How many experience points do you need to get from level {LowerLevel} to {UpperLevel}",
-      "How many experience points do you need to get from level {LowerLevel} to level {UpperLevel}",
-      "How many experience points do you need to hit {UpperLevel} from {LowerLevel}",
-      "How many experience points do you need to hit level {UpperLevel} from {LowerLevel}",
-      "How many experience points do you need to hit {UpperLevel} from level {LowerLevel}",
-      "How many experience points do you need to hit level {UpperLevel} from level {LowerLevel}",
-      "How much experience do you need to get from {LowerLevel} to {UpperLevel}",
-      "How much experience do you need to get from {LowerLevel} to level {UpperLevel}",
-      "How much experience do you need to get from level {LowerLevel} to {UpperLevel}",
-      "How much experience do you need to get from level {LowerLevel} to level {UpperLevel}",
-      "How much XP do you need to get from {LowerLevel} to {UpperLevel}",
-      "How much XP do you need to get from {LowerLevel} to level {UpperLevel}",
-      "How much XP do you need to get from level {LowerLevel} to {UpperLevel}",
-      "How much XP do you need to get from level {LowerLevel} to level {UpperLevel}"
+      "{howMany} {xp} {doYouNeed} to {getTo} {upperLevel} from {lowerLevel}",
+      "{howMany} {xp} {doYouNeed} to {getTo} level {upperLevel} from {lowerLevel}",
+      "{howMany} {xp} {doYouNeed} to {getTo} {upperLevel} from level {lowerLevel}",
+      "{howMany} {xp} {doYouNeed} to {getTo} level {upperLevel} from level {lowerLevel}",
+      "{howMany} {xp} {doYouNeed} to get from {lowerLevel} to {upperLevel}"
     ]
   },
   {
     "name": "LevelsProficiencyIntent",
     "slots": [
       {
-        "name": "Level",
+        "name": "proficiency",
+        "type": "ProficiencyBonus"
+      },
+      {
+        "name": "level",
         "type": "AMAZON.NUMBER"
+      },
+      {
+        "name": "pronounPossessive",
+        "type": "PronounPossessive"
+      },
+      {
+        "name": "whatIs",
+        "type": "WhatIs"
       }
     ],
-    "samples": [
-      "To tell me your proficiency at {Level}",
-      "To tell me your proficiency at level {Level}",
-      "To tell me your proficiency bonus at {Level}",
-      "To tell me your proficiency bonus at level {Level}",
-      "To tell me the proficiency at {Level}",
-      "To tell me the proficiency at level {Level}",
-      "To tell me the proficiency bonus at {Level}",
-      "To tell me the proficiency bonus at level {Level}",
-      "Tell me your proficiency at {Level}",
-      "Tell me your proficiency at level {Level}",
-      "Tell me your proficiency bonus at {Level}",
-      "Tell me your proficiency bonus at level {Level}",
-      "Tell me the proficiency at {Level}",
-      "Tell me the proficiency at level {Level}",
-      "Tell me the proficiency bonus at {Level}",
-      "Tell me the proficiency bonus at level {Level}",
-      "What's the proficiency bonus at level {Level}",
-      "What is the proficiency bonus at level {Level}",
-      "What's the proficiency at level {Level}",
-      "What is the proficiency at level {Level}",
-      "What's the proficiency bonus at {Level}",
-      "What is the proficiency bonus at {Level}",
-      "What's the proficiency at {Level}",
-      "What is the proficiency at {Level}",
-      "What's your proficiency bonus at level {Level}",
-      "What is your proficiency bonus at level {Level}",
-      "What's your proficiency at level {Level}",
-      "What is your proficiency at level {Level}",
-      "What's your proficiency bonus at {Level}",
-      "What is your proficiency bonus at {Level}",
-      "What's your proficiency at {Level}",
-      "What is your proficiency at {Level}"
+    "samples": [   
+      "to tell me the {proficiency} at level {level}",
+      "to tell me {pronounPossessive} {proficiency} at level {level}",
+
+      "tell me the {proficiency} at level {level}",
+      "tell me {pronounPossessive} {proficiency} at level {level}",
+
+      "{whatIs} the {proficiency} at level {level}",
+      "{whatIs} {pronounPossessive} {proficiency} at level {level}"
     ]
   }
 ]

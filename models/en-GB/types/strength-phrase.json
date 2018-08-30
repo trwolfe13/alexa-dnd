@@ -1,0 +1,32 @@
+[
+  {
+    "name": "StrengthPhrase",
+    "values": [
+      {
+        "name": {
+          "value": "strength"
+        }
+      },
+      {
+        "name": {
+          "value": "a strength of"
+        }
+      },
+      {
+        "name": {
+          "value": "a strength score of"
+        }
+      },
+      {
+        "name": {
+          "value": "strength score is"
+        }
+      },
+      {
+        "name": {
+          "value": "strength is"
+        }
+      }
+    ]
+  }
+]
