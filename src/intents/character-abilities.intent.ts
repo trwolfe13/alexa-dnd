@@ -2,6 +2,7 @@ import { HandlerInput } from 'ask-sdk-core';
 import { Intent, Response } from 'ask-sdk-model';
 
 import { DialogIntentHandler, IntentMap } from '../framework';
+import * as Utils from '../utils';
 
 export class CharacterAbilitiesIntentHandler extends DialogIntentHandler {
   get intents(): IntentMap {
@@ -14,16 +15,15 @@ export class CharacterAbilitiesIntentHandler extends DialogIntentHandler {
 
   characterStrengthVerb(handlerInput: HandlerInput, intent: Intent): Response {
     const strength = Number(intent.slots.strength.value);
+    const verb = Utils.slotValue(intent.slots.verb);
+    const pronoun = Utils.invertPronoun(Utils.slotValue(intent.slots.pronoun));
 
-    const verbSlot = intent.slots.verb;
-    const verb = verbSlot.resolutions.resolutionsPerAuthority[0].values[0].value.name;
-
-    let speech = `I don\'t know how much you can ${verb}.`;
+    let speech = `I don\'t know how much ${pronoun} can ${verb}.`;
     switch (verb) {
-      case 'push': speech = `You can push up to ${strength * 30} pounds.`; break;
-      case 'drag': speech = `You can drag up to ${strength * 30} pounds.`; break;
-      case 'lift': speech = `You can lift up to ${strength * 30} pounds.`; break;
-      case 'carry': speech = `You can carry up to ${strength * 15} pounds.`; break;
+      case 'push': speech = `${pronoun} can push up to ${strength * 30} pounds.`; break;
+      case 'drag': speech = `${pronoun} can drag up to ${strength * 30} pounds.`; break;
+      case 'lift': speech = `${pronoun} can lift up to ${strength * 30} pounds.`; break;
+      case 'carry': speech = `${pronoun} can carry up to ${strength * 15} pounds.`; break;
     }
 
     return handlerInput.responseBuilder
@@ -34,21 +34,21 @@ export class CharacterAbilitiesIntentHandler extends DialogIntentHandler {
   characterJumpVerb(handlerInput: HandlerInput, intent: Intent): Response {
     const strength = Number(intent.slots.strength.value);
 
-    const verbSlot = intent.slots.jumpType;
-    const verb = verbSlot.resolutions.resolutionsPerAuthority[0].values[0].value.name;
+    const type = Utils.slotValue(intent.slots.jumpType);
+    const pronoun = Utils.invertPronoun(Utils.slotValue(intent.slots.pronoun));
 
-    let speech = 'I don\'t know how far you can jump.';
-    switch (verb) {
+    let speech = `I don\'t know how far ${pronoun} can jump.`;
+    switch (type) {
       case 'far': {
         const standingLong = Math.floor(strength / 2);
-        speech = `You can jump ${standingLong} feet from standing or ${strength} feet with a run-up.`;
+        speech = `${pronoun} can jump ${standingLong} feet from standing or ${strength} feet with a run-up.`;
         break;
       }
       case 'high': {
         const strengthMod = Math.floor((strength - 10) / 2);
         const runningHigh = Math.max(0, strengthMod + 3);
         const standingHigh = Math.floor(runningHigh / 2);
-        speech = `You can jump ${standingHigh} feet high from standing or ${runningHigh} feet high with a run-up.`;
+        speech = `${pronoun} can jump ${standingHigh} feet high from standing or ${runningHigh} feet high with a run-up.`;
         break;
       }
     }
