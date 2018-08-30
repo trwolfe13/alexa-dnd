@@ -21,9 +21,7 @@ export class MagicSchoolsIntentHandler extends IntentHandler {
   }
 
   magicSchool(handlerInput: HandlerInput, intent: Intent): Response {
-    const schoolSlot = intent.slots.school;
-  const school = schoolSlot.resolutions.resolutionsPerAuthority[0].values[0].value.name;
-
+    const school = Utils.slotValue(intent.slots.school);
     if (!MagicSchools[school.toLowerCase()]) {
       return handlerInput.responseBuilder
         .speak('Sorry, I don\'t know about that school of magic.')
