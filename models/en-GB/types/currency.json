@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Currency",
+    "values": [
+      {
+        "name": {
+          "value": "copper",
+          "synonyms": [
+            "copper pieces",
+            "c p"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "silver",
+          "synonyms": [
+            "silver pieces",
+            "s p"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "electrum",
+          "synonyms": [
+            "electrum pieces",
+            "e p"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "gold",
+          "synonyms": [
+            "gold pieces",
+            "g p"
+          ]
+        }
+      },
+      {
+        "name": {
+          "value": "platinum",
+          "synonyms": [
+            "platinum pieces",
+            "p p"
+          ]
+        }
+      }
+    ]
+  }
+]
