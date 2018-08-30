@@ -9,7 +9,9 @@ export class SpellsIntentHandler extends IntentHandler {
   get intents(): IntentMap {
     return {
       SpellMaterialsIntent: this.spellMaterials,
+      SpellDescriptionIntent: this.spellDescription,
       SpellConcentrationIntent: this.spellConcentration,
+      SpellRitualIntent: this.spellRitual,
     };
   }
 
@@ -34,6 +36,25 @@ export class SpellsIntentHandler extends IntentHandler {
 
     return handlerInput.responseBuilder
     .speak(spell.concentration ? 'Yes.' : 'No.')
+    .getResponse();
+  }
+
+  spellRitual(handlerInput: HandlerInput, intent: Intent): Response {
+    const name = Utils.slotValue(intent.slots.spell);
+    const spell = (<any[]><any>Spells).find(s => s.name === name);
+
+    return handlerInput.responseBuilder
+    .speak(spell.ritual ? 'Yes.' : 'No.')
+    .getResponse();
+  }
+
+  spellDescription(handlerInput: HandlerInput, intent: Intent): Response {
+    const name = Utils.slotValue(intent.slots.spell);
+    const spell = (<any[]><any>Spells).find(s => s.name === name);
+
+    return handlerInput.responseBuilder
+    .speak(spell.description)
+    .withSimpleCard(name, spell.description)
     .getResponse();
   }
 }

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "RitualSpell",
+    "values": [
+      {
+        "name": {
+          "value": "as a ritual"
+        }
+      },
+      {
+        "name": {
+          "value": "cast as a ritual"
+        }
+      },
+      {
+        "name": {
+          "value": "cast ritually"
+        }
+      },
+      {
+        "name": {
+          "value": "ritually cast"
+        }
+      },
+      {
+        "name": {
+          "value": "as a ritual spell"
+        }
+      },
+      {
+        "name": {
+          "value": "ritually"
+        }
+      }
+    ]
+  }
+]

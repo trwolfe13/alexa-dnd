@@ -13,21 +13,22 @@
       {
         "name": "pronoun",
         "type": "Pronoun"
+      },
+      {
+        "name": "need",
+        "type": "Need"
+      },
+      {
+        "name": "castFor",
+        "type": "CastFor"
       }
     ],
     "samples": [
-      "what materials are needed to cast {spell}",
-      "what materials are needed for {spell}",
-      "what materials {do} {pronoun} need to cast {spell}",
-      "what materials {do} {pronoun} need for {spell}",
-      "what materials {pronoun} need to cast {spell}",
-      "what materials {pronoun} need for {spell}",
-      "what materials {pronoun} needs to cast {spell}",
-      "what materials {pronoun} needs for {spell}",
-      "what {do} {pronoun} need to cast {spell}",
-      "what {do} {pronoun} need for {spell}",
-      "what {pronoun} needs to cast {spell}",
-      "what {pronoun} needs for {spell}"
+      "what materials {need} {castFor} {spell}",
+      "what materials {do} {pronoun} {need} {castFor} {spell}",
+      "what materials {pronoun} {need} {castFor} {spell}",
+      "what {do} {pronoun} {need} {castFor} {spell}",
+      "what {pronoun} {need} {castFor} {spell}"
     ]
   },
   {
@@ -47,13 +48,74 @@
       }
     ],
     "samples": [
-      "do {pronoun} need to concentration on {spell}",
-      "do {pronoun} need to concentration on the {spell} spell",
-      "does {pronoun} need to concentration on {spell}",
-      "does {pronoun} need to concentration on the {spell} spell ",
-      "does {spell} require concentration",
-      "is {spell} concentration",
-      "is {spell} a concentration spell"
+      "{do} {pronoun} {concentration} {spell}",
+      "{do} {pronoun} {concentration} {spell} spell",
+      "{do} {spell} {concentration}",
+      "if {spell} {concentration}",
+      "is {spell} {concentration}"
+    ]
+  },
+  {
+    "name": "SpellRitualIntent",
+    "slots": [
+      {
+        "name": "spell",
+        "type": "Spell"
+      },
+      {
+        "name": "whatHow",
+        "type": "WhatHow"
+      },
+      {
+        "name": "do",
+        "type": "Do"
+      },
+      {
+        "name": "doWork",
+        "type": "DoWork"
+      },
+      {
+        "name": "ritual",
+        "type": "Ritual"
+      },
+      {
+        "name": "ritualSpell",
+        "type": "RitualSpell"
+      },
+      {
+        "name": "isAre",
+        "type": "IsAre"
+      }
+    ],
+    "samples": [
+      "{whatHow} {do} {spell} {doWork}",
+      "can {spell} be {ritualSpell}",
+      "can {pronoun} cast {spell} {ritualSpell}",
+      "{isAre} {spell} {ritual}"
+    ]
+  },
+  {
+    "name": "SpellDescriptionIntent",
+    "slots": [
+      {
+        "name": "spell",
+        "type": "Spell"
+      },
+      {
+        "name": "whatHow",
+        "type": "WhatHow"
+      },
+      {
+        "name": "do",
+        "type": "Do"
+      },
+      {
+        "name": "doWork",
+        "type": "DoWork"
+      }
+    ],
+    "samples": [
+      "{whatHow} {do} {spell} {doWork}"
     ]
   }
 ]
