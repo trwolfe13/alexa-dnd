@@ -11,6 +11,7 @@ export const handler =
       new Requests.LaunchRequestHandler(),
       new Intents.HelpIntentHandler(),
       new Intents.CancelAndStopIntentHandler(),
+      new Intents.CharacterAbilitiesIntentHandler(),
       new Intents.ConditionIntentHandler(),
       new Intents.LevelIntentHandler(),
       new Intents.MagicSchoolsIntentHandler(),

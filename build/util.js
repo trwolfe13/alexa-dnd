@@ -33,5 +33,7 @@ module.exports = {
   isDirectory: source => fs.lstatSync(source.path).isDirectory(),
   region: root => dir => ({ name: dir, path: path.join(root, dir) }),
   loadIntents: (dir, region) => loadPartials(dir, region, 'intents'),
-  loadTypes: (dir, region) => loadPartials(dir, region, 'types')
+  loadTypes: (dir, region) => loadPartials(dir, region, 'types'),
+  loadDialogIntents: (dir, region) => loadPartials(dir, region, 'dialog/intents'),
+  loadDialogPrompts: (dir, region) => loadPartials(dir, region, 'dialog/prompts')
 };

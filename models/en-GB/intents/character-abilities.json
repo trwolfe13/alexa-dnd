@@ -1,6 +1,6 @@
 [
   {
-    "name": "CharacterLiftIntent",
+    "name": "CharacterStrengthVerbIntent",
     "slots": [
       {
         "name": "strengthPhrase",
@@ -27,6 +27,10 @@
         "type": "HowMany"
       },
       {
+        "name": "verb",
+        "type": "StrengthVerb"
+      },
+      {
         "name": "strength",
         "type": "AMAZON.NUMBER",
         "samples": [
@@ -38,10 +42,121 @@
       }
     ],
     "samples": [
-      "{howMany} can {pronoun} lift",
-      "{howMany} can {pronoun} lift with {strengthPhrase} {strength}",
-      "what can {pronoun} lift",
-      "what can {pronoun} lift with {strengthPhrase} {strength}"
+      "{howMany} can {pronoun} {verb}",
+      "{howMany} can {pronoun} {verb} with {strength} strength",
+      "{howMany} can {pronoun} {verb} with {strengthPhrase} {strength}",
+      "what can {pronoun} {verb}",
+      "what can {pronoun} {verb} with {strength} strength",
+      "what can {pronoun} {verb} with {strengthPhrase} {strength}"
+    ]
+  },
+  {
+    "name": "CharacterJumpVerbIntent",
+    "slots": [
+      {
+        "name": "strengthPhrase",
+        "type": "StrengthPhrase"
+      },
+      {
+        "name": "jumpType",
+        "type": "JumpType"
+      },
+      {
+        "name": "pronoun",
+        "type": "Pronoun"
+      },
+      {
+        "name": "pronounHas",
+        "type": "PronounHas"
+      },
+      {
+        "name": "pronounIs",
+        "type": "PronounIs"
+      },
+      {
+        "name": "pronounPossessive",
+        "type": "PronounPossessive"
+      },
+      {
+        "name": "whatIs",
+        "type": "WhatIs"
+      },
+      {
+        "name": "whatHow",
+        "type": "WhatHow"
+      },
+      {
+        "name": "strength",
+        "type": "AMAZON.NUMBER",
+        "samples": [
+          "{strength}",
+          "{pronounHas} {strengthPhrase} {strength}",
+          "{pronounIs} {strength}",
+          "{pronounPossessive} {strengthPhrase} {strength}"
+        ]
+      }
+    ],
+    "samples": [
+      "{whatHow} {jumpType} can {pronoun} jump",
+      "{whatHow} {jumpType} can {pronoun} jump with {strength} strength",
+      "{whatHow} {jumpType} can {pronoun} jump with {strengthPhrase} {strength}",
+      "{whatIs} {pronounPossessive} jump {jumpType}",
+      "{whatIs} {pronounPossessive} jump {jumpType} with {strength} strength",
+      "{whatIs} {pronounPossessive} jump {jumpType} with {strengthPhrase} {strength}"
+    ]
+  },
+  {
+    "name": "CharacterBreathIntent",
+    "slots": [
+      {
+        "name": "constitutionPhrase",
+        "type": "ConstitutionPhrase"
+      },
+      {
+        "name": "pronoun",
+        "type": "Pronoun"
+      },
+      {
+        "name": "pronounHas",
+        "type": "PronounHas"
+      },
+      {
+        "name": "pronounIs",
+        "type": "PronounIs"
+      },
+      {
+        "name": "pronounPossessive",
+        "type": "PronounPossessive"
+      },
+      {
+        "name": "air",
+        "type": "Air"
+      },
+      {
+        "name": "survive",
+        "type": "Survive"
+      },
+      {
+        "name": "goWithout",
+        "type": "GoWithout"
+      },
+      {
+        "name": "constitution",
+        "type": "AMAZON.NUMBER",
+        "samples": [
+          "{constitution}",
+          "{pronounHas} {constitutionPhrase} {constitution}",
+          "{pronounIs} {constitution}",
+          "{pronounPossessive} {constitutionPhrase} {constitution}"
+        ]
+      }
+    ],
+    "samples": [
+      "how long can {pronoun} hold {pronounPossessive} breath",
+      "how long can {pronoun} {survive} underwater",
+      "how long can {pronoun} {survive} underwater without {air}",
+      "how long can {pronoun} {survive} without {air}",
+      "how long can {pronoun} {goWithout} {air}"
     ]
   }
 ]

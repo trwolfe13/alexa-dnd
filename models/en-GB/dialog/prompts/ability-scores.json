@@ -1,0 +1,36 @@
+[
+  {
+    "id": "Elicitation.Abilities.StrengthScore",
+    "variations": [
+      {
+        "type": "PlainText",
+        "value": "what is your strength?"
+      },
+      {
+        "type": "PlainText",
+        "value": "what is your strength score?"
+      },
+      {
+        "type": "PlainText",
+        "value": "what is your character's strength score?"
+      }
+    ]
+  },
+  {
+    "id": "Elicitation.Abilities.ConstitutionScore",
+    "variations": [
+      {
+        "type": "PlainText",
+        "value": "what is your constitution?"
+      },
+      {
+        "type": "PlainText",
+        "value": "what is your constitution score?"
+      },
+      {
+        "type": "PlainText",
+        "value": "what is your character's constitution score?"
+      }
+    ]
+  }
+]

@@ -8,6 +8,14 @@ Based on the following tutorial: https://medium.com/coinmonks/how-to-develop-an-
 
 These are the intents that are available or in-progress.
 
+### Character Abilities
+
+* "How far can I jump?"
+* "How high can my character jump with a strength score of 10?"
+* "How much can my character lift?"
+* "How much can you drag with 10 strength?"
+* "How long can I hold my breath?"
+
 ### Conditions (Completed)
 
 * "What does the invisible condition mean?"
