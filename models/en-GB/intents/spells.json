@@ -91,7 +91,7 @@
       "{whatHow} {do} {spell} {doWork}",
       "can {spell} be {ritualSpell}",
       "can {pronoun} cast {spell} {ritualSpell}",
-      "{isAre} {spell} {ritual}"
+      "{isAre} {spell} {ritualSpell}"
     ]
   },
   {
