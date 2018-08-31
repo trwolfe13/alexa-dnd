@@ -11,6 +11,7 @@ export class ReferenceIntentHandler extends IntentHandler {
     return {
       ReferenceFindSpellIntent: this.findSpell,
       ReferenceFindClassIntent: this.findClass,
+      ReferenceFindSubclassIntent: this.findSubclass,
     };
   }
 
@@ -36,6 +37,20 @@ export class ReferenceIntentHandler extends IntentHandler {
     const name = Utils.slotValue(intent.slots.class);
     const c = (<any[]><any>Classes).find(cc => c.name === name);
     const speech = this.getSpeech('class', c);
+    return handlerInput.responseBuilder
+      .speak(speech)
+      .withSimpleCard(name, speech)
+      .getResponse();
+  }
+
+  findSubclass(handlerInput: HandlerInput, intent: Intent): Response {
+    const className = Utils.slotValue(intent.slots.class);
+    const subclassName = Utils.slotValue(intent.slots.subclass);
+
+    const c = (<any[]><any>Classes).find(cc => c.name === className);
+    const subclass = c.subclasses.find(sc => sc.name === subclassName);
+    const speech = this.getSpeech(`${className} archetype`, subclass);
+
     return handlerInput.responseBuilder
       .speak(speech)
       .withSimpleCard(name, speech)

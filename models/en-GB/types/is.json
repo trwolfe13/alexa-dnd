@@ -1,6 +1,6 @@
 [
   {
-    "name": "IsAre",
+    "name": "Is",
     "values": [
       {
         "name": {
@@ -9,7 +9,17 @@
       },
       {
         "name": {
+          "value": "is the"
+        }
+      },
+      {
+        "name": {
           "value": "are"
+        }
+      },
+      {
+        "name": {
+          "value": "are the"
         }
       }
     ]

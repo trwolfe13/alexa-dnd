@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Archetype",
+    "values": [
+      {
+        "name": {
+          "value": "class"
+        }
+      },
+      {
+        "name": {
+          "value": "subclass"
+        }
+      },
+      {
+        "name": {
+          "value": "archetype"
+        }
+      },
+      {
+        "name": {
+          "value": "subtype"
+        }
+      },
+      {
+        "name": {
+          "value": "variant"
+        }
+      },
+      {
+        "name": {
+          "value": "circle"
+        }
+      },
+      {
+        "name": {
+          "value": "path"
+        }
+      },
+      {
+        "name": {
+          "value": "specialist"
+        }
+      },
+      {
+        "name": {
+          "value": "college"
+        }
+      },
+      {
+        "name": {
+          "value": "domain"
+        }
+      },
+      {
+        "name": {
+          "value": "way"
+        }
+      },
+      {
+        "name": {
+          "value": "oath"
+        }
+      },
+      {
+        "name": {
+          "value": "conclave"
+        }
+      },
+      {
+        "name": {
+          "value": "bloodline"
+        }
+      },
+      {
+        "name": {
+          "value": "patron"
+        }
+      },
+      {
+        "name": {
+          "value": "school"
+        }
+      }
+    ]
+  }
+]

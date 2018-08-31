@@ -166,7 +166,30 @@
   },
   {
     "name": "Druid",
-    "subclasses": [],
+    "subclasses": [
+      {
+        "name": "Land",
+        "synonyms": [
+          "land circle",
+          "circle of the land"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 68
+        }
+      },
+      {
+        "name": "Moon",
+        "synonyms": [
+          "moon circle",
+          "circle of the moon"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 69
+        }
+      }
+    ],
     "reference": {
       "book": "Player's Handbook",
       "page": 64
@@ -174,7 +197,29 @@
   },
   {
     "name": "Fighter",
-    "subclasses": [],
+    "subclasses": [
+      {
+        "name": "Champion",
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 72
+        }
+      },
+      {
+        "name": "Battle Master",
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 73
+        }
+      },
+      {
+        "name": "Eldritch Knight",
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 74
+        }
+      }
+    ],
     "reference": {
       "book": "Player's Handbook",
       "page": 70
@@ -182,7 +227,39 @@
   },
   {
     "name": "Monk",
-    "subclasses": [],
+    "subclasses": [
+      {
+        "name": "Open Hand",
+        "synonyms": [
+          "way of the open hand"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 78
+        }
+      },
+      {
+        "name": "Shadow",
+        "synonyms": [
+          "way of shadow",
+          "way of the shadow"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 80
+        }
+      },
+      {
+        "name": "Four Elements",
+        "synonyms": [
+          "way of the four elements"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 80
+        }
+      }
+    ],
     "reference": {
       "book": "Player's Handbook",
       "page": 76
@@ -190,7 +267,39 @@
   },
   {
     "name": "Paladin",
-    "subclasses": [],
+    "subclasses": [
+      {
+        "name": "Devotion",
+        "synonyms": [
+          "oath of devotion"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 85
+        }
+      },
+      {
+        "name": "Ancients",
+        "synonyms": [
+          "oath of the ancients",
+          "oath of ancients"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 86
+        }
+      },
+      {
+        "name": "Vengeance",
+        "synonyms": [
+          "oath of vengeance"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 87
+        }
+      }
+    ],
     "reference": {
       "book": "Player's Handbook",
       "page": 82
@@ -198,7 +307,22 @@
   },
   {
     "name": "Ranger",
-    "subclasses": [],
+    "subclasses": [
+      {
+        "name": "Hunter",
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 93
+        }
+      },
+      {
+        "name": "Beast Master",
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 93
+        }
+      }
+    ],
     "reference": {
       "book": "Player's Handbook",
       "page": 89
@@ -206,7 +330,29 @@
   },
   {
     "name": "Rogue",
-    "subclasses": [],
+    "subclasses": [
+      {
+        "name": "Thief",
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 97
+        }
+      },
+      {
+        "name": "Assassin",
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 97
+        }
+      },
+      {
+        "name": "Arcane Trickster",
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 97
+        }
+      }
+    ],
     "reference": {
       "book": "Player's Handbook",
       "page": 94
@@ -214,7 +360,23 @@
   },
   {
     "name": "Sorcerer",
-    "subclasses": [],
+    "subclasses": [
+      {
+        "name": "Draconic",
+        "synonyms": ["draconic origin", "draconic bloodline", "draconic bloodline origin"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 102
+        }
+      },
+      {
+        "name": "Wild Magic",
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 103
+        }
+      }
+    ],
     "reference": {
       "book": "Player's Handbook",
       "page": 99
@@ -222,7 +384,32 @@
   },
   {
     "name": "Warlock",
-    "subclasses": [],
+    "subclasses": [
+      {
+        "name": "Archfey",
+        "synonyms": ["the archfey", "the archfey patron", "archfey patron", "of the archfey"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 108
+        }
+      },
+      {
+        "name": "Fiend",
+        "synonyms": ["the fiend", "the fiend patron", "fiend patron", "of the fiend"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 109
+        }
+      },
+      {
+        "name": "Great Old One",
+        "synonyms": ["the great old one", "the great old one patron", "great old one patron", "of the great old one"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 109
+        }
+      }
+    ],
     "reference": {
       "book": "Player's Handbook",
       "page": 105
@@ -230,7 +417,72 @@
   },
   {
     "name": "Wizard",
-    "subclasses": [],
+    "subclasses": [
+      {
+        "name": "Abjuration",
+        "synonyms": ["school of abjuration", "abjuration school"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 115
+        }
+      },
+      {
+        "name": "Conjuration",
+        "synonyms": ["school of conjuration", "conjuration school"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 116
+        }
+      },
+      {
+        "name": "Divination",
+        "synonyms": ["school of divination", "divination school"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 116
+        }
+      },
+      {
+        "name": "Enchantment",
+        "synonyms": ["school of enchantment", "enchantment school"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 117
+        }
+      },
+      {
+        "name": "Evocation",
+        "synonyms": ["school of evocation", "evocation school"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 117
+        }
+      },
+      {
+        "name": "Illusion",
+        "synonyms": ["school of illusion", "illusion school"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 118
+        }
+      },
+      {
+        "name": "Necromancy",
+        "synonyms": ["school of necromancy", "necromancy school"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 118
+        }
+      },
+      {
+        "name": "Transmutation",
+        "synonyms": ["school of transmutation", "transmutation school"],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 119
+        }
+      }
+    ],
     "reference": {
       "book": "Player's Handbook",
       "page": 112

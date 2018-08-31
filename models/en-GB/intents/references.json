@@ -3,14 +3,6 @@
     "name": "ReferenceFindSpellIntent",
     "slots": [
       {
-        "name": "pronoun",
-        "type": "Pronoun"
-      },
-      {
-        "name": "find",
-        "type": "Find"
-      },
-      {
         "name": "spell",
         "type": "Spell"
       },
@@ -21,33 +13,33 @@
       {
         "name": "pageBook",
         "type": "PageBook"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      },
+      {
+        "name": "where",
+        "type": "Where"
+      },
+      {
+        "name": "what",
+        "type": "What"
       }
     ],
     "samples": [
-      "where can {pronoun} {find} {spell}",
-      "where can {pronoun} {find} the {spell} spell",
-      "where is {spell}",
-      "where is the {spell} spell",
-      "where {spell} is",
-      "where the {spell} spell is",
-      "{find} {spell}",
-      "{find} the {spell} spell",
-      "what {pageBook} is {spell}",
-      "what {pageBook} is {spell} {onIn}",
-      "what {pageBook} is the {spell} spell {onIn}"
+      "{where} {spell}",
+      "{where} {spell} {is}",
+      "{where} {spell} spell",
+      "{where} {spell} spell {is}",
+      "{what} {pageBook} {is} {spell}",
+      "{what} {pageBook} {is} {spell} {onIn}",
+      "{what} {pageBook} {is} {spell} spell {onIn}"
     ]
   },
   {
     "name": "ReferenceFindClassIntent",
     "slots": [
-      {
-        "name": "pronoun",
-        "type": "Pronoun"
-      },
-      {
-        "name": "find",
-        "type": "Find"
-      },
       {
         "name": "class",
         "type": "Class"
@@ -57,28 +49,81 @@
         "type": "OnIn"
       },
       {
+        "name": "where",
+        "type": "Where"
+      },
+      {
         "name": "pageBook",
         "type": "PageBook"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      },
+      {
+        "name": "is",
+        "type": "Is"
       }
     ],
     "samples": [
-      "where can {pronoun} {find} {class}",
-      "where can {pronoun} {find} the {class}",
-      "where can {pronoun} {find} the {class} class",
-      "where is {class}",
-      "where is the {class}",
-      "where is the {class} class",
-      "where {class} is",
-      "where the {class} is",
-      "where the {class} class is",
-      "{find} {class}",
-      "{find} the {class}",
-      "{find} the {class} class",
-      "what {pageBook} is {class}",
-      "what {pageBook} is the {class}",
-      "what {pageBook} is {class} {onIn}",
-      "what {pageBook} is the {class} {onIn}",
-      "what {pageBook} is the {class} class {onIn}"
+      "{where} {class}",
+      "{where} {class} class",
+      "{where} {class} {is}",
+      "{where} {class} class {is}",
+      "{what} {pageBook} {is} {class}",
+      "{what} {pageBook} {is} {class} {onIn}",
+      "{what} {pageBook} {is} {class} class {onIn}"
+    ]
+  },
+  {
+    "name": "ReferenceFindSubclassIntent",
+    "slots": [
+      {
+        "name": "is",
+        "type": "Is"
+      },
+      {
+        "name": "class",
+        "type": "Class"
+      },
+      {
+        "name": "subclass",
+        "type": "Subclass"
+      },
+      {
+        "name": "archetype",
+        "type": "Archetype"
+      },
+      {
+        "name": "onIn",
+        "type": "OnIn"
+      },
+      {
+        "name": "pageBook",
+        "type": "PageBook"
+      },
+      {
+        "name": "where",
+        "type": "Where"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      }
+    ],
+    "samples": [
+      "{where} {subclass}",
+      "{where} {subclass} {class}",
+      "{where} {subclass} {class} {archetype}",
+      "{where} {subclass} {is}",
+      "{where} {subclass} {class} {is}",
+      "{where} {subclass} {class} {archetype} {is}",
+      "{what} {pageBook} {is} {subclass}",
+      "{what} {pageBook} {is} {subclass} {class}",
+      "{what} {pageBook} {is} {subclass} {class} {archetype}",
+      "{what} {pageBook} {is} {subclass} {onIn}",
+      "{what} {pageBook} {is} {subclass} {class} {onIn}",
+      "{what} {pageBook} {is} {subclass} {class} {archetype} {onIn}"
     ]
   }
 ]

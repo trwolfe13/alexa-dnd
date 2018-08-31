@@ -1,7 +1,6 @@
 import { Slot, slu } from 'ask-sdk-model';
 
 function slot(s: Slot): slu.entityresolution.Value {
-  console.log('Slot: ', s);
   if (!s.resolutions) { return undefined; }
   const res = s.resolutions.resolutionsPerAuthority;
   if (res.length < 1) { return undefined; }
