@@ -23,8 +23,8 @@
       }
     ],
     "reference": {
-      "book": "Unearthed Arcana: Artificer Article",
-      "page": 1
+      "book": "UA",
+      "page": 0
     }
   },
   {
@@ -283,6 +283,16 @@
         "reference": {
           "book": "SCG",
           "page": 125
+        }
+      },
+      {
+        "name": "Order",
+        "synonyms": [
+          "order domain"
+        ],
+        "reference": {
+          "book": "UA",
+          "page": 0
         }
       }
     ],

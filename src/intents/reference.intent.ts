@@ -10,7 +10,11 @@ import * as Utils from '../utils';
 function getSpeech(noun: string, obj: any): string {
   if (obj.reference) {
     const book = Books[obj.reference.book];
-    return `You can find the ${noun} ${obj.name} in ${book} on page ${obj.reference.page}`;
+    let speech = `You can find the ${noun} ${obj.name} in ${book}`;
+    if (obj.reference.page) {
+      speech += ` on page ${obj.reference.page}`;
+    }
+    return speech;
   } else {
     return `I don't know where you can find the ${noun} ${obj.name}.`;
   }
@@ -52,7 +56,10 @@ export class ReferenceIntentHandler extends IntentHandler {
     const c = (<any[]><any>Classes).find(cc => cc.name === className);
     const sc = c.subclasses.find(scc => scc.name === subclassName);
     const book = Books[sc.reference.book];
-    const speech = `You can find the ${sc.name} ${c.name} ${c.subclassNoun.singular} in ${book} on page ${sc.reference.page}`;
+    let speech = `You can find the ${sc.name} ${c.name} ${c.subclassNoun.singular} in ${book}`;
+    if (sc.reference.page) {
+      speech += ` on page ${sc.reference.page}`;
+    }
 
     return handlerInput.responseBuilder
       .speak(speech)
