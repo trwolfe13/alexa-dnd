@@ -14,8 +14,8 @@ export class CurrencyIntentHandler extends IntentHandler {
 
   currencyConversion(handlerInput: HandlerInput, intent: Intent): Response {
     const value = Number(Utils.slotValue(intent.slots.value));
-    const from = Utils.slotValue(intent.slots.value);
-    const to = Utils.slotValue(intent.slots.value);
+    const from = Utils.slotValue(intent.slots.from);
+    const to = Utils.slotValue(intent.slots.to);
 
     let speech = '';
     if (to) {

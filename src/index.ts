@@ -13,6 +13,7 @@ export const handler =
       new Intents.CancelAndStopIntentHandler(),
       new Intents.CharacterAbilitiesIntentHandler(),
       new Intents.ConditionIntentHandler(),
+      new Intents.CurrencyIntentHandler(),
       new Intents.LevelIntentHandler(),
       new Intents.MagicSchoolsIntentHandler(),
       new Intents.SpellsIntentHandler(),
