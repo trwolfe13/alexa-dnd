@@ -45,6 +45,10 @@
       {
         "name": "pronoun",
         "type": "Pronoun"
+      },
+      {
+        "name": "concentration",
+        "type": "RequiresConcentration"
       }
     ],
     "samples": [
@@ -63,20 +67,8 @@
         "type": "Spell"
       },
       {
-        "name": "whatHow",
-        "type": "WhatHow"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "doWork",
-        "type": "DoWork"
-      },
-      {
-        "name": "ritual",
-        "type": "Ritual"
+        "name": "ritually",
+        "type": "Ritually"
       },
       {
         "name": "ritualSpell",
@@ -85,12 +77,15 @@
       {
         "name": "isAre",
         "type": "IsAre"
+      },
+      {
+        "name": "pronoun",
+        "type": "Pronoun"
       }
     ],
     "samples": [
-      "{whatHow} {do} {spell} {doWork}",
-      "can {spell} be {ritualSpell}",
-      "can {pronoun} cast {spell} {ritualSpell}",
+      "can {spell} be {ritually}",
+      "can {pronoun} cast {spell} {ritually}",
       "{isAre} {spell} {ritualSpell}"
     ]
   },
