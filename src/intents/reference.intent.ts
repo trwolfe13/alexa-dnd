@@ -1,14 +1,16 @@
 import { HandlerInput } from 'ask-sdk-core';
 import { Intent, Response } from 'ask-sdk-model';
 
-import * as Spells from '../data/spells.json';
+import * as Books from '../data/books.json';
 import * as Classes from '../data/classes.json';
+import * as Spells from '../data/spells.json';
 import { IntentHandler, IntentMap } from '../framework';
 import * as Utils from '../utils';
 
 function getSpeech(noun: string, obj: any): string {
   if (obj.reference) {
-    return `You can find the ${noun} ${obj.name} in the ${obj.reference.book} on page ${obj.reference.page}`;
+    const book = Books[obj.reference.book];
+    return `You can find the ${noun} ${obj.name} in ${book} on page ${obj.reference.page}`;
   } else {
     return `I don't know where you can find the ${noun} ${obj.name}.`;
   }
@@ -49,7 +51,8 @@ export class ReferenceIntentHandler extends IntentHandler {
 
     const c = (<any[]><any>Classes).find(cc => cc.name === className);
     const sc = c.subclasses.find(scc => scc.name === subclassName);
-    const speech = `You can find the ${sc.name} ${c.name} ${c.subclassNoun} in the ${sc.reference.book} on page ${sc.reference.page}`;
+    const book = Books[sc.reference.book];
+    const speech = `You can find the ${sc.name} ${c.name} ${c.subclassNoun} in ${book} on page ${sc.reference.page}`;
 
     return handlerInput.responseBuilder
       .speak(speech)

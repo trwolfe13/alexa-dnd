@@ -34,7 +34,7 @@
           "beserker path"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 49
         }
       },
@@ -48,13 +48,49 @@
           "totem warrior path"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 50
+        }
+      },
+      {
+        "name": "Ancestral Guardian",
+        "synonyms": [
+          "path of the ancestral guardian",
+          "path of the guardian",
+          "guardian"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 9
+        }
+      },
+      {
+        "name": "Storm Herald",
+        "synonyms": [
+          "path of the storm herald",
+          "path of the herald",
+          "path of the storm",
+          "storm",
+          "herald"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 10
+        }
+      },
+      {
+        "name": "Zealot",
+        "synonyms": [
+          "path of the zealot"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 11
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 46
     }
   },
@@ -68,7 +104,7 @@
           "college of lore"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 54
         }
       },
@@ -78,13 +114,43 @@
           "college of valor"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 55
+        }
+      },
+      {
+        "name": "Glamour",
+        "synonyms": [
+          "college of glamour"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 14
+        }
+      },
+      {
+        "name": "Swords",
+        "synonyms": [
+          "college of swords"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 15
+        }
+      },
+      {
+        "name": "Whispers",
+        "synonyms": [
+          "college of whispers"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 16
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 51
     }
   },
@@ -98,7 +164,7 @@
           "knowledge domain"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 59
         }
       },
@@ -108,7 +174,7 @@
           "life domain"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 60
         }
       },
@@ -118,7 +184,7 @@
           "light domain"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 60
         }
       },
@@ -128,7 +194,7 @@
           "nature domain"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 61
         }
       },
@@ -138,7 +204,7 @@
           "tempest domain"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 62
         }
       },
@@ -148,7 +214,7 @@
           "trickery domain"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 62
         }
       },
@@ -158,13 +224,33 @@
           "war domain"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 66
+        }
+      },
+      {
+        "name": "Forge",
+        "synonyms": [
+          "forge domain"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 18
+        }
+      },
+      {
+        "name": "Grave",
+        "synonyms": [
+          "grave domain"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 19
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 56
     }
   },
@@ -179,7 +265,7 @@
           "circle of the land"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 68
         }
       },
@@ -190,13 +276,37 @@
           "circle of the moon"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 69
+        }
+      },
+      {
+        "name": "Dreams",
+        "synonyms": [
+          "dreams circle",
+          "dream circle",
+          "dream",
+          "circle of the dream",
+          "circle of dreams"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 22
+        }
+      },
+      {
+        "name": "Shepherd",
+        "synonyms": [
+          "circle of the shepherd"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 23
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 64
     }
   },
@@ -207,27 +317,48 @@
       {
         "name": "Champion",
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 72
         }
       },
       {
         "name": "Battle Master",
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 73
         }
       },
       {
         "name": "Eldritch Knight",
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 74
+        }
+      },
+      {
+        "name": "Arcane Archer",
+        "reference": {
+          "book": "XGE",
+          "page": 28
+        }
+      },
+      {
+        "name": "Cavalier",
+        "reference": {
+          "book": "XGE",
+          "page": 30
+        }
+      },
+      {
+        "name": "Samurai",
+        "reference": {
+          "book": "XGE",
+          "page": 31
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 70
     }
   },
@@ -241,7 +372,7 @@
           "way of the open hand"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 78
         }
       },
@@ -252,7 +383,7 @@
           "way of the shadow"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 80
         }
       },
@@ -262,13 +393,44 @@
           "way of the four elements"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 80
+        }
+      },
+      {
+        "name": "Drunken Master",
+        "synonyms": [
+          "way of the drunken master"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 33
+        }
+      },
+      {
+        "name": "Kensei",
+        "synonyms": [
+          "way of the kensei"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 34
+        }
+      },
+      {
+        "name": "Sun Soul",
+        "synonyms": [
+          "way of the sun soul",
+          "way of the sun"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 35
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 76
     }
   },
@@ -282,7 +444,7 @@
           "oath of devotion"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 85
         }
       },
@@ -293,7 +455,7 @@
           "oath of ancients"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 86
         }
       },
@@ -303,13 +465,33 @@
           "oath of vengeance"
         ],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 87
+        }
+      },
+      {
+        "name": "Conquest",
+        "synonyms": [
+          "oath of conquest"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 37
+        }
+      },
+      {
+        "name": "Redemption",
+        "synonyms": [
+          "oath of redemption"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 38
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 82
     }
   },
@@ -320,20 +502,41 @@
       {
         "name": "Hunter",
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 93
         }
       },
       {
         "name": "Beast Master",
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 93
+        }
+      },
+      {
+        "name": "Gloom Stalker",
+        "reference": {
+          "book": "XGE",
+          "page": 41
+        }
+      },
+      {
+        "name": "Horizon Walker",
+        "reference": {
+          "book": "XGE",
+          "page": 42
+        }
+      },
+      {
+        "name": "Monster Slayer",
+        "reference": {
+          "book": "XGE",
+          "page": 43
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 89
     }
   },
@@ -344,27 +547,56 @@
       {
         "name": "Thief",
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 97
         }
       },
       {
         "name": "Assassin",
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 97
         }
       },
       {
         "name": "Arcane Trickster",
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 97
+        }
+      },
+      {
+        "name": "Inquisitive",
+        "synonyms": ["inquisitor"],
+        "reference": {
+          "book": "XGE",
+          "page": 45
+        }
+      },
+      {
+        "name": "Mastermind",
+        "reference": {
+          "book": "XGE",
+          "page": 46
+        }
+      },
+      {
+        "name": "Scout",
+        "reference": {
+          "book": "XGE",
+          "page": 47
+        }
+      },
+      {
+        "name": "Swashbuckler",
+        "reference": {
+          "book": "XGE",
+          "page": 47
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 94
     }
   },
@@ -376,20 +608,44 @@
         "name": "Draconic",
         "synonyms": ["draconic origin", "draconic bloodline", "draconic bloodline origin"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 102
         }
       },
       {
         "name": "Wild Magic",
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 103
+        }
+      },
+      {
+        "name": "Divine Soul",
+        "synonyms": ["divine"],
+        "reference": {
+          "book": "XGE",
+          "page": 50
+        }
+      },
+      {
+        "name": "Shadow",
+        "synonyms": ["shadow magic"],
+        "reference": {
+          "book": "XGE",
+          "page": 50
+        }
+      },
+      {
+        "name": "Storm",
+        "synonyms": ["storm sorcery"],
+        "reference": {
+          "book": "XGE",
+          "page": 51
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 99
     }
   },
@@ -401,7 +657,7 @@
         "name": "Archfey",
         "synonyms": ["the archfey", "the archfey patron", "archfey patron", "of the archfey"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 108
         }
       },
@@ -409,7 +665,7 @@
         "name": "Fiend",
         "synonyms": ["the fiend", "the fiend patron", "fiend patron", "of the fiend"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 109
         }
       },
@@ -417,13 +673,29 @@
         "name": "Great Old One",
         "synonyms": ["the great old one", "the great old one patron", "great old one patron", "of the great old one"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 109
+        }
+      },
+      {
+        "name": "Celestial",
+        "synonyms": ["the celestial", "celestial patron", "the celestial patron", "of the celestial"],
+        "reference": {
+          "book": "XGE",
+          "page": 54
+        }
+      },
+      {
+        "name": "Hexblade",
+        "synonyms": ["the hexblade", "hexblade patron", "the hexblade patron", "of the hexblade"],
+        "reference": {
+          "book": "XGE",
+          "page": 55
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 105
     }
   },
@@ -435,7 +707,7 @@
         "name": "Abjuration",
         "synonyms": ["school of abjuration", "abjuration school"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 115
         }
       },
@@ -443,7 +715,7 @@
         "name": "Conjuration",
         "synonyms": ["school of conjuration", "conjuration school"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 116
         }
       },
@@ -451,7 +723,7 @@
         "name": "Divination",
         "synonyms": ["school of divination", "divination school"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 116
         }
       },
@@ -459,7 +731,7 @@
         "name": "Enchantment",
         "synonyms": ["school of enchantment", "enchantment school"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 117
         }
       },
@@ -467,7 +739,7 @@
         "name": "Evocation",
         "synonyms": ["school of evocation", "evocation school"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 117
         }
       },
@@ -475,7 +747,7 @@
         "name": "Illusion",
         "synonyms": ["school of illusion", "illusion school"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 118
         }
       },
@@ -483,7 +755,7 @@
         "name": "Necromancy",
         "synonyms": ["school of necromancy", "necromancy school"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 118
         }
       },
@@ -491,13 +763,21 @@
         "name": "Transmutation",
         "synonyms": ["school of transmutation", "transmutation school"],
         "reference": {
-          "book": "Player's Handbook",
+          "book": "PHB",
           "page": 119
+        }
+      },
+      {
+        "name": "War",
+        "synonyms": ["war magic", "school of war", "war school", "school of war magic", "war magic school"],
+        "reference": {
+          "book": "XGE",
+          "page": 59
         }
       }
     ],
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 112
     }
   }
