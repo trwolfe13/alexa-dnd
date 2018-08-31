@@ -74,6 +74,17 @@ function checkAllSlotsAreUsed(models) {
   });
 }
 
+function checkAllSlotsAreUnique(models) {
+  models.interactionModel.languageModel.intents.filter(i => i.slots).forEach(intent => {
+    const slots = intent.slots.map(s => s.name);
+    slots.forEach(slot => {
+      if (slots.filter(s => s === slot).length > 1) {
+        throw new Error(`The intent ${intent.name} declares the slot ${slot} multiple times."`);
+      }
+    });
+  });
+}
+
 function checkAllTypesAreUsed(models) {
   const types = models.interactionModel.languageModel.types.map(t => t.name);
   const usedTypes = [];
@@ -94,6 +105,7 @@ function validateModels(models) {
   checkAllSlotTypesExist(models)
   checkAllSlotsDeclared(models);
   checkAllSlotsAreUsed(models);
+  checkAllSlotsAreUnique(models);
   checkAllTypesAreUsed(models);
 }
 

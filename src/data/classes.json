@@ -1,7 +1,11 @@
 [
   {
     "name": "Artificer",
-    "subclassNoun": "Specialist",
+    "synonyms": [
+      "artificers",
+      "the artificer"
+    ],
+    "subclassNoun": { "singular": "Specialist", "plural": "Specialists" },
     "subclasses": [
       {
         "name": "Alchemist",
@@ -25,7 +29,11 @@
   },
   {
     "name": "Barbarian",
-    "subclassNoun": "Path",
+    "synonyms": [
+      "barbarians",
+      "the barbarian"
+    ],
+    "subclassNoun": { "singular": "Path", "plural": "Paths" },
     "subclasses": [
       {
         "name": "Beserker",
@@ -96,7 +104,11 @@
   },
   {
     "name": "Bard",
-    "subclassNoun": "College",
+    "synonyms": [
+      "bards",
+      "the bard"
+    ],
+    "subclassNoun": { "singular": "College", "plural": "Colleges" },
     "subclasses": [
       {
         "name": "Lore",
@@ -156,7 +168,11 @@
   },
   {
     "name": "Cleric",
-    "subclassNoun": "Domain",
+    "synonyms": [
+      "clerics",
+      "the cleric"
+    ],
+    "subclassNoun": { "singular": "Domain", "plural": "Domains" },
     "subclasses": [
       {
         "name": "Knowledge",
@@ -256,7 +272,11 @@
   },
   {
     "name": "Druid",
-    "subclassNoun": "Circle",
+    "synonyms": [
+      "druids",
+      "the druid"
+    ],
+    "subclassNoun": { "singular": "Circle", "plural": "Circles" },
     "subclasses": [
       {
         "name": "Land",
@@ -312,7 +332,11 @@
   },
   {
     "name": "Fighter",
-    "subclassNoun": "Archetype",
+    "synonyms": [
+      "fighter",
+      "the fighter"
+    ],
+    "subclassNoun": { "singular": "Archetype", "plural": "Archetypes" },
     "subclasses": [
       {
         "name": "Champion",
@@ -364,7 +388,11 @@
   },
   {
     "name": "Monk",
-    "subclassNoun": "Tradition",
+    "synonyms": [
+      "monks",
+      "the monk"
+    ],
+    "subclassNoun": { "singular": "Tradition", "plural": "Traditions" },
     "subclasses": [
       {
         "name": "Open Hand",
@@ -436,7 +464,11 @@
   },
   {
     "name": "Paladin",
-    "subclassNoun": "Oath",
+    "synonyms": [
+      "paladins",
+      "the paladin"
+    ],
+    "subclassNoun": { "singular": "Oath", "plural": "Oaths" },
     "subclasses": [
       {
         "name": "Devotion",
@@ -497,7 +529,11 @@
   },
   {
     "name": "Ranger",
-    "subclassNoun": "Archetype",
+    "synonyms": [
+      "rangers",
+      "the ranger"
+    ],
+    "subclassNoun": { "singular": "Archetype", "plural": "Archetypes" },
     "subclasses": [
       {
         "name": "Hunter",
@@ -542,7 +578,11 @@
   },
   {
     "name": "Rogue",
-    "subclassNoun": "Archetype",
+    "synonyms": [
+      "rogues",
+      "the rogue"
+    ],
+    "subclassNoun": { "singular": "Archetype", "plural": "Archetypes" },
     "subclasses": [
       {
         "name": "Thief",
@@ -567,7 +607,9 @@
       },
       {
         "name": "Inquisitive",
-        "synonyms": ["inquisitor"],
+        "synonyms": [
+          "inquisitor"
+        ],
         "reference": {
           "book": "XGE",
           "page": 45
@@ -602,11 +644,19 @@
   },
   {
     "name": "Sorcerer",
-    "subclassNoun": "Origin",
+    "synonyms": [
+      "sorcerers",
+      "the sorcerer"
+    ],
+    "subclassNoun": { "singular": "Origin", "plural": "Origins" },
     "subclasses": [
       {
         "name": "Draconic",
-        "synonyms": ["draconic origin", "draconic bloodline", "draconic bloodline origin"],
+        "synonyms": [
+          "draconic origin",
+          "draconic bloodline",
+          "draconic bloodline origin"
+        ],
         "reference": {
           "book": "PHB",
           "page": 102
@@ -621,7 +671,9 @@
       },
       {
         "name": "Divine Soul",
-        "synonyms": ["divine"],
+        "synonyms": [
+          "divine"
+        ],
         "reference": {
           "book": "XGE",
           "page": 50
@@ -629,7 +681,9 @@
       },
       {
         "name": "Shadow",
-        "synonyms": ["shadow magic"],
+        "synonyms": [
+          "shadow magic"
+        ],
         "reference": {
           "book": "XGE",
           "page": 50
@@ -637,7 +691,9 @@
       },
       {
         "name": "Storm",
-        "synonyms": ["storm sorcery"],
+        "synonyms": [
+          "storm sorcery"
+        ],
         "reference": {
           "book": "XGE",
           "page": 51
@@ -651,11 +707,20 @@
   },
   {
     "name": "Warlock",
-    "subclassNoun": "Patron",
+    "synonyms": [
+      "warlocks",
+      "the warlock"
+    ],
+    "subclassNoun": { "singular": "Patron", "plural": "Patrons" },
     "subclasses": [
       {
         "name": "Archfey",
-        "synonyms": ["the archfey", "the archfey patron", "archfey patron", "of the archfey"],
+        "synonyms": [
+          "the archfey",
+          "the archfey patron",
+          "archfey patron",
+          "of the archfey"
+        ],
         "reference": {
           "book": "PHB",
           "page": 108
@@ -663,7 +728,12 @@
       },
       {
         "name": "Fiend",
-        "synonyms": ["the fiend", "the fiend patron", "fiend patron", "of the fiend"],
+        "synonyms": [
+          "the fiend",
+          "the fiend patron",
+          "fiend patron",
+          "of the fiend"
+        ],
         "reference": {
           "book": "PHB",
           "page": 109
@@ -671,7 +741,12 @@
       },
       {
         "name": "Great Old One",
-        "synonyms": ["the great old one", "the great old one patron", "great old one patron", "of the great old one"],
+        "synonyms": [
+          "the great old one",
+          "the great old one patron",
+          "great old one patron",
+          "of the great old one"
+        ],
         "reference": {
           "book": "PHB",
           "page": 109
@@ -679,7 +754,12 @@
       },
       {
         "name": "Celestial",
-        "synonyms": ["the celestial", "celestial patron", "the celestial patron", "of the celestial"],
+        "synonyms": [
+          "the celestial",
+          "celestial patron",
+          "the celestial patron",
+          "of the celestial"
+        ],
         "reference": {
           "book": "XGE",
           "page": 54
@@ -687,7 +767,12 @@
       },
       {
         "name": "Hexblade",
-        "synonyms": ["the hexblade", "hexblade patron", "the hexblade patron", "of the hexblade"],
+        "synonyms": [
+          "the hexblade",
+          "hexblade patron",
+          "the hexblade patron",
+          "of the hexblade"
+        ],
         "reference": {
           "book": "XGE",
           "page": 55
@@ -701,11 +786,18 @@
   },
   {
     "name": "Wizard",
-    "subclassNoun": "School",
+    "synonyms": [
+      "wizards",
+      "the wizard"
+    ],
+    "subclassNoun": { "singular": "School", "plural": "Schools" },
     "subclasses": [
       {
         "name": "Abjuration",
-        "synonyms": ["school of abjuration", "abjuration school"],
+        "synonyms": [
+          "school of abjuration",
+          "abjuration school"
+        ],
         "reference": {
           "book": "PHB",
           "page": 115
@@ -713,7 +805,10 @@
       },
       {
         "name": "Conjuration",
-        "synonyms": ["school of conjuration", "conjuration school"],
+        "synonyms": [
+          "school of conjuration",
+          "conjuration school"
+        ],
         "reference": {
           "book": "PHB",
           "page": 116
@@ -721,7 +816,10 @@
       },
       {
         "name": "Divination",
-        "synonyms": ["school of divination", "divination school"],
+        "synonyms": [
+          "school of divination",
+          "divination school"
+        ],
         "reference": {
           "book": "PHB",
           "page": 116
@@ -729,7 +827,10 @@
       },
       {
         "name": "Enchantment",
-        "synonyms": ["school of enchantment", "enchantment school"],
+        "synonyms": [
+          "school of enchantment",
+          "enchantment school"
+        ],
         "reference": {
           "book": "PHB",
           "page": 117
@@ -737,7 +838,10 @@
       },
       {
         "name": "Evocation",
-        "synonyms": ["school of evocation", "evocation school"],
+        "synonyms": [
+          "school of evocation",
+          "evocation school"
+        ],
         "reference": {
           "book": "PHB",
           "page": 117
@@ -745,7 +849,10 @@
       },
       {
         "name": "Illusion",
-        "synonyms": ["school of illusion", "illusion school"],
+        "synonyms": [
+          "school of illusion",
+          "illusion school"
+        ],
         "reference": {
           "book": "PHB",
           "page": 118
@@ -753,7 +860,10 @@
       },
       {
         "name": "Necromancy",
-        "synonyms": ["school of necromancy", "necromancy school"],
+        "synonyms": [
+          "school of necromancy",
+          "necromancy school"
+        ],
         "reference": {
           "book": "PHB",
           "page": 118
@@ -761,7 +871,10 @@
       },
       {
         "name": "Transmutation",
-        "synonyms": ["school of transmutation", "transmutation school"],
+        "synonyms": [
+          "school of transmutation",
+          "transmutation school"
+        ],
         "reference": {
           "book": "PHB",
           "page": 119
@@ -769,7 +882,13 @@
       },
       {
         "name": "War",
-        "synonyms": ["war magic", "school of war", "war school", "school of war magic", "war magic school"],
+        "synonyms": [
+          "war magic",
+          "school of war",
+          "war school",
+          "school of war magic",
+          "war magic school"
+        ],
         "reference": {
           "book": "XGE",
           "page": 59

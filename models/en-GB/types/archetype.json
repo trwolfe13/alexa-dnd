@@ -4,82 +4,98 @@
     "values": [
       {
         "name": {
-          "value": "class"
+          "value": "class",
+          "synonyms": ["classes"]
         }
       },
       {
         "name": {
-          "value": "subclass"
+          "value": "subclass",
+          "synonyms": ["subclasses"]
         }
       },
       {
         "name": {
-          "value": "archetype"
+          "value": "archetype",
+          "synonyms": ["archetypes"]
         }
       },
       {
         "name": {
-          "value": "subtype"
+          "value": "subtype",
+          "synonyms": ["subtypes"]
         }
       },
       {
         "name": {
-          "value": "variant"
+          "value": "variant",
+          "synonyms": ["variants"]
         }
       },
       {
         "name": {
-          "value": "circle"
+          "value": "circle",
+          "synonyms": ["circles"]
         }
       },
       {
         "name": {
-          "value": "path"
+          "value": "path",
+          "synonyms": ["paths"]
         }
       },
       {
         "name": {
-          "value": "specialist"
+          "value": "specialist",
+          "synonyms": ["specialism", "specialisms", "specialists"]
         }
       },
       {
         "name": {
-          "value": "college"
+          "value": "college",
+          "synonyms": ["colleges"]
         }
       },
       {
         "name": {
-          "value": "domain"
+          "value": "domain",
+          "synonyms": ["domains"]
         }
       },
       {
         "name": {
-          "value": "way"
+          "value": "way",
+          "synonyms": ["tradition", "traditions", "monastic traditions"]
         }
       },
       {
         "name": {
-          "value": "oath"
+          "value": "oath",
+          "synonyms": ["oathes"]
         }
       },
       {
         "name": {
-          "value": "conclave"
+          "value": "conclave",
+          "synonyms": ["conclaves"]
         }
       },
       {
         "name": {
-          "value": "bloodline"
+          "value": "origin",
+          "synonyms": ["origins", "bloodlines", "bloodline"]
         }
       },
       {
         "name": {
-          "value": "patron"
+          "value": "patron",
+          "synonyms": ["patrons"]
         }
       },
       {
         "name": {
-          "value": "school"
+          "value": "school",
+          "synonyms": ["schools"]
         }
       }
     ]

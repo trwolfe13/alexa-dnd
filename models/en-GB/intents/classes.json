@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ClassListIntent",
+    "slots": [
+      {
+        "name": "nameThe",
+        "type": "NameThe"
+      }
+    ],
+    "samples": [
+      "{nameThe} classes",
+      "{nameThe} classes are there"
+    ]
+  },
+  
+  {
+    "name": "SubclassListIntent",
+    "slots": [
+      {
+        "name": "nameThe",
+        "type": "NameThe"
+      },
+      {
+        "name": "do",
+        "type": "Do"
+      },
+      {
+        "name": "class",
+        "type": "Class"
+      },
+      {
+        "name": "archetype",
+        "type": "Archetype"
+      }
+    ],
+    "samples": [
+      "{nameThe} {class} {archetype}",
+      "{nameThe} {class} {archetype} are there",
+      "{nameThe} {archetype} {do} {class} have"
+    ]
+  }
+]

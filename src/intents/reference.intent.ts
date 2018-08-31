@@ -37,7 +37,7 @@ export class ReferenceIntentHandler extends IntentHandler {
 
   findClass(handlerInput: HandlerInput, intent: Intent): Response {
     const name = Utils.slotValue(intent.slots.class);
-    const c = (<any[]><any>Classes).find(cc => c.name === name);
+    const c = (<any[]><any>Classes).find(cc => cc.name === name);
     const speech = getSpeech('class', c);
     return handlerInput.responseBuilder
       .speak(speech)
@@ -52,7 +52,7 @@ export class ReferenceIntentHandler extends IntentHandler {
     const c = (<any[]><any>Classes).find(cc => cc.name === className);
     const sc = c.subclasses.find(scc => scc.name === subclassName);
     const book = Books[sc.reference.book];
-    const speech = `You can find the ${sc.name} ${c.name} ${c.subclassNoun} in ${book} on page ${sc.reference.page}`;
+    const speech = `You can find the ${sc.name} ${c.name} ${c.subclassNoun.singular} in ${book} on page ${sc.reference.page}`;
 
     return handlerInput.responseBuilder
       .speak(speech)

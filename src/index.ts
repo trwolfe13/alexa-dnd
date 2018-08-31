@@ -12,6 +12,7 @@ export const handler =
       new Intents.HelpIntentHandler(),
       new Intents.CancelAndStopIntentHandler(),
       new Intents.CharacterAbilitiesIntentHandler(),
+      new Intents.ClassesIntentHandler(),
       new Intents.ConditionIntentHandler(),
       new Intents.CurrencyIntentHandler(),
       new Intents.LevelIntentHandler(),

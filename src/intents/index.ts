@@ -1,5 +1,6 @@
 export * from './cancel-and-stop.intent';
 export * from './character-abilities.intent';
+export * from './classes.intent';
 export * from './condition.intent';
 export * from './currency.intent';
 export * from './help.intent';
