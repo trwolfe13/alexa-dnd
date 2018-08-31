@@ -27,6 +27,8 @@ regions.forEach(region => {
 
   // Create dynamic types.
   models.interactionModel.languageModel.types.push(types.createSpell(config.data));
+  models.interactionModel.languageModel.types.push(types.createClass(config.data));
+  models.interactionModel.languageModel.types.push(types.createSubclass(config.data));
 
   validateModels(models);
 

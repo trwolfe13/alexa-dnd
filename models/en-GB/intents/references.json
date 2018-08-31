@@ -36,5 +36,49 @@
       "what {pageBook} is {spell} {onIn}",
       "what {pageBook} is the {spell} spell {onIn}"
     ]
+  },
+  {
+    "name": "ReferenceFindClassIntent",
+    "slots": [
+      {
+        "name": "pronoun",
+        "type": "Pronoun"
+      },
+      {
+        "name": "find",
+        "type": "Find"
+      },
+      {
+        "name": "class",
+        "type": "Class"
+      },
+      {
+        "name": "onIn",
+        "type": "OnIn"
+      },
+      {
+        "name": "pageBook",
+        "type": "PageBook"
+      }
+    ],
+    "samples": [
+      "where can {pronoun} {find} {class}",
+      "where can {pronoun} {find} the {class}",
+      "where can {pronoun} {find} the {class} class",
+      "where is {class}",
+      "where is the {class}",
+      "where is the {class} class",
+      "where {class} is",
+      "where the {class} is",
+      "where the {class} class is",
+      "{find} {class}",
+      "{find} the {class}",
+      "{find} the {class} class",
+      "what {pageBook} is {class}",
+      "what {pageBook} is the {class}",
+      "what {pageBook} is {class} {onIn}",
+      "what {pageBook} is the {class} {onIn}",
+      "what {pageBook} is the {class} class {onIn}"
+    ]
   }
 ]

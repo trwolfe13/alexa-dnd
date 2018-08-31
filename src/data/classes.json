@@ -1,0 +1,239 @@
+[
+  {
+    "name": "Artificer",
+    "subclasses": [
+      {
+        "name": "Alchemist",
+        "reference": {
+          "book": "Unearthed Arcana: Artificer Article",
+          "page": 5
+        }
+      },
+      {
+        "name": "Gunsmith",
+        "reference": {
+          "book": "Unearthed Arcana: Artificer Article",
+          "page": 6
+        }
+      }
+    ],
+    "reference": {
+      "book": "Unearthed Arcana: Artificer Article",
+      "page": 1
+    }
+  },
+  {
+    "name": "Barbarian",
+    "subclasses": [
+      {
+        "name": "Beserker",
+        "synonyms": [
+          "path of the beserker",
+          "beserker path"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 49
+        }
+      },
+      {
+        "name": "Totem Warrior",
+        "synonyms": [
+          "totem",
+          "path of the totem",
+          "path of the totem warrior",
+          "totem path",
+          "totem warrior path"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 50
+        }
+      }
+    ],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 46
+    }
+  },
+  {
+    "name": "Bard",
+    "subclasses": [
+      {
+        "name": "Lore",
+        "synonyms": [
+          "college of lore"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 54
+        }
+      },
+      {
+        "name": "Valor",
+        "synonyms": [
+          "college of valor"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 55
+        }
+      }
+    ],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 51
+    }
+  },
+  {
+    "name": "Cleric",
+    "subclasses": [
+      {
+        "name": "Knowledge",
+        "synonyms": [
+          "knowledge domain"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 59
+        }
+      },
+      {
+        "name": "Life",
+        "synonyms": [
+          "life domain"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 60
+        }
+      },
+      {
+        "name": "Light",
+        "synonyms": [
+          "light domain"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 60
+        }
+      },
+      {
+        "name": "Nature",
+        "synonyms": [
+          "nature domain"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 61
+        }
+      },
+      {
+        "name": "Tempest",
+        "synonyms": [
+          "tempest domain"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 62
+        }
+      },
+      {
+        "name": "Trickery",
+        "synonyms": [
+          "trickery domain"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 62
+        }
+      },
+      {
+        "name": "War",
+        "synonyms": [
+          "war domain"
+        ],
+        "reference": {
+          "book": "Player's Handbook",
+          "page": 66
+        }
+      }
+    ],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 56
+    }
+  },
+  {
+    "name": "Druid",
+    "subclasses": [],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 64
+    }
+  },
+  {
+    "name": "Fighter",
+    "subclasses": [],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 70
+    }
+  },
+  {
+    "name": "Monk",
+    "subclasses": [],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 76
+    }
+  },
+  {
+    "name": "Paladin",
+    "subclasses": [],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 82
+    }
+  },
+  {
+    "name": "Ranger",
+    "subclasses": [],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 89
+    }
+  },
+  {
+    "name": "Rogue",
+    "subclasses": [],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 94
+    }
+  },
+  {
+    "name": "Sorcerer",
+    "subclasses": [],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 99
+    }
+  },
+  {
+    "name": "Warlock",
+    "subclasses": [],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 105
+    }
+  },
+  {
+    "name": "Wizard",
+    "subclasses": [],
+    "reference": {
+      "book": "Player's Handbook",
+      "page": 112
+    }
+  }
+]
