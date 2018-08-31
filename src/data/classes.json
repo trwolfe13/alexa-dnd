@@ -95,6 +95,17 @@
           "book": "XGE",
           "page": 11
         }
+      },
+      {
+        "name": "Battlerager",
+        "synonyms": [
+          "path of the battle rager",
+          "battle rager"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 121
+        }
       }
     ],
     "reference": {
@@ -263,6 +274,16 @@
           "book": "XGE",
           "page": 19
         }
+      },
+      {
+        "name": "Arcana",
+        "synonyms": [
+          "arcana domain"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 125
+        }
       }
     ],
     "reference": {
@@ -379,6 +400,14 @@
           "book": "XGE",
           "page": 31
         }
+      },
+      {
+        "name": "Purple Dragon Knight",
+        "synonyms": ["dragon knight"],
+        "reference": {
+          "book": "SCG",
+          "page": 128
+        }
       }
     ],
     "reference": {
@@ -455,6 +484,14 @@
           "book": "XGE",
           "page": 35
         }
+      },
+      {
+        "name": "Long Death",
+        "synonyms": ["way of death", "way of the long death"],
+        "reference": {
+          "book": "SCG",
+          "page": 130
+        }
       }
     ],
     "reference": {
@@ -519,6 +556,16 @@
         "reference": {
           "book": "PHB",
           "page": 38
+        }
+      },
+      {
+        "name": "Crown",
+        "synonyms": [
+          "oath of crown"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 132
         }
       }
     ],
@@ -777,6 +824,19 @@
           "book": "XGE",
           "page": 55
         }
+      },
+      {
+        "name": "Undying",
+        "synonyms": [
+          "the undying",
+          "undying patron",
+          "the undying patron",
+          "of the undying"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 139
+        }
       }
     ],
     "reference": {
@@ -892,6 +952,18 @@
         "reference": {
           "book": "XGE",
           "page": 59
+        }
+      },
+      {
+        "name": "Bladesinging",
+        "synonyms": [
+          "blade singing",
+          "school of blade singing",
+          "blade singing school"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 142
         }
       }
     ],
