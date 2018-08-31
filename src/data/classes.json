@@ -1,6 +1,7 @@
 [
   {
     "name": "Artificer",
+    "subclassNoun": "Specialist",
     "subclasses": [
       {
         "name": "Alchemist",
@@ -24,6 +25,7 @@
   },
   {
     "name": "Barbarian",
+    "subclassNoun": "Path",
     "subclasses": [
       {
         "name": "Beserker",
@@ -58,6 +60,7 @@
   },
   {
     "name": "Bard",
+    "subclassNoun": "College",
     "subclasses": [
       {
         "name": "Lore",
@@ -87,6 +90,7 @@
   },
   {
     "name": "Cleric",
+    "subclassNoun": "Domain",
     "subclasses": [
       {
         "name": "Knowledge",
@@ -166,6 +170,7 @@
   },
   {
     "name": "Druid",
+    "subclassNoun": "Circle",
     "subclasses": [
       {
         "name": "Land",
@@ -197,6 +202,7 @@
   },
   {
     "name": "Fighter",
+    "subclassNoun": "Archetype",
     "subclasses": [
       {
         "name": "Champion",
@@ -227,6 +233,7 @@
   },
   {
     "name": "Monk",
+    "subclassNoun": "Tradition",
     "subclasses": [
       {
         "name": "Open Hand",
@@ -267,6 +274,7 @@
   },
   {
     "name": "Paladin",
+    "subclassNoun": "Oath",
     "subclasses": [
       {
         "name": "Devotion",
@@ -307,6 +315,7 @@
   },
   {
     "name": "Ranger",
+    "subclassNoun": "Archetype",
     "subclasses": [
       {
         "name": "Hunter",
@@ -330,6 +339,7 @@
   },
   {
     "name": "Rogue",
+    "subclassNoun": "Archetype",
     "subclasses": [
       {
         "name": "Thief",
@@ -360,6 +370,7 @@
   },
   {
     "name": "Sorcerer",
+    "subclassNoun": "Origin",
     "subclasses": [
       {
         "name": "Draconic",
@@ -384,6 +395,7 @@
   },
   {
     "name": "Warlock",
+    "subclassNoun": "Patron",
     "subclasses": [
       {
         "name": "Archfey",
@@ -417,6 +429,7 @@
   },
   {
     "name": "Wizard",
+    "subclassNoun": "School",
     "subclasses": [
       {
         "name": "Abjuration",
