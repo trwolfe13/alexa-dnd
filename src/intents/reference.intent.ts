@@ -18,7 +18,7 @@ export class ReferenceIntentHandler extends IntentHandler {
 
     let speech = `I don't know where you can find ${name}.`;
     if (spell.reference) {
-      speech = `You can find ${name} in ${spell.reference.book} on page ${spell.reference.page}`;
+      speech = `You can find the ${name} spell in the ${spell.reference.book} on page ${spell.reference.page}`;
     }
 
     return handlerInput.responseBuilder
