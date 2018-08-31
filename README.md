@@ -25,7 +25,7 @@ These are the intents that are available or in-progress.
 ### Currencies
 
 * "What is 50ep in gold pieces?"
-* "Convert 135ep"
+* "Convert 135 electrum"
 
 ### Levels
 
