@@ -5,5 +5,6 @@ export * from './currency.intent';
 export * from './help.intent';
 export * from './level.intent';
 export * from './magic-schools.intent';
+export * from './reference.intent';
 export * from './spells.intent';
 export * from './wild-magic.intent';
