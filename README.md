@@ -16,11 +16,16 @@ These are the intents that are available or in-progress.
 * "How much can you drag with 10 strength?"
 * "How long can I hold my breath?"
 
-### Conditions (Completed)
+### Conditions
 
 * "What does the invisible condition mean?"
 * "What is the 5th level of exhaustion?"
 * "What are the stages of exhaustion?"
+
+### Currencies
+
+* "What is 50ep in gold pieces?"
+* "Convert 135 electrum"
 
 ### Levels
 
@@ -32,6 +37,13 @@ These are the intents that are available or in-progress.
 
 * "What are the schools of magic?"
 * "What does illusion magic do?"
+
+### Spells
+
+* "What materials do I need to cast Fireball?"
+* "Is Mage Hand a concentration spell?"
+* "Can I cast Locate Creature as a ritual spell?"
+* "What does maelstrom do?"
 
 ### Wild Magic
 

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "CurrencyConversionIntent",
+    "slots": [
+      {
+        "name": "value",
+        "type": "AMAZON.NUMBER"
+      },
+      {
+        "name": "from",
+        "type": "Currency"
+      },
+      {
+        "name": "to",
+        "type": "Currency"
+      },
+      {
+        "name": "howMany",
+        "type": "HowMany"
+      }
+    ],
+    "samples": [
+      "convert {value} from {from} to {to}",
+      "convert {value} {from} to {to}",
+      "what {value} {from} is in {to}",
+      "what is {value} {from} in {to}",
+      "{howMany} is {value} {from} in {to}",
+      "{howMany} {to} is {value} {from}",
+      "{howMany} is {value} {from}",
+      "what is {value} {from}",
+      "convert {value} {from}"
+    ]
+  }
+]

@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const util = require('./util');
 const types = require('./types');
+const validateModels = require('./models.validation');
 
 // Config
 
@@ -14,7 +15,6 @@ const config = {
 // Build
 
 const regions = fs.readdirSync(config.input).map(util.region(config.input)).filter(util.isDirectory);
-
 util.mkdirIfNotExist(config.output);
 regions.forEach(region => {
   const models = JSON.parse(fs.readFileSync(path.join(region.path, 'models.json')));
@@ -27,6 +27,8 @@ regions.forEach(region => {
 
   // Create dynamic types.
   models.interactionModel.languageModel.types.push(types.createSpell(config.data));
+
+  validateModels(models);
 
   const modelsDir = path.join(config.output, region.name);
   const modelsPath = path.join(modelsDir, 'models.json');
