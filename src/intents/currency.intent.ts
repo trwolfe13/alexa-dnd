@@ -3,6 +3,7 @@ import { Intent, Response } from 'ask-sdk-model';
 
 import * as Currencies from '../data/currencies.json';
 import { IntentHandler, IntentMap } from '../framework';
+import { Currency } from '../models';
 import * as Utils from '../utils';
 
 export class CurrencyIntentHandler extends IntentHandler {
@@ -22,7 +23,12 @@ export class CurrencyIntentHandler extends IntentHandler {
       const exchangeRate = Currencies[from][to];
       speech = `${value * exchangeRate} ${to} pieces`;
     } else {
-      // TODO: Get this part working
+      const amount: Currency = { [from]: value };
+      const result = Utils.convertCurrency(amount);
+
+      console.log('Result:', result);
+      speech = Utils.speakCurrency(result);
+      console.log('Speech:', speech);
     }
 
     return handlerInput.responseBuilder
