@@ -663,7 +663,7 @@
     "tags": [
       "teleportation"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 214
@@ -805,7 +805,7 @@
       "buff",
       "warding"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 215
@@ -845,7 +845,7 @@
       "control",
       "warding"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 215
@@ -958,7 +958,7 @@
       "healing",
       "warding"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 216
@@ -997,7 +997,7 @@
       "buff",
       "warding"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 216
@@ -1036,7 +1036,7 @@
     "tags": [
       "healing"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 216
@@ -1148,7 +1148,7 @@
       "control",
       "banishment"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 216
@@ -1335,7 +1335,7 @@
     "tags": [
       "detection"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 217
@@ -1410,7 +1410,7 @@
       "damage",
       "control"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 218
@@ -1520,7 +1520,7 @@
       "combat",
       "warding"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 218
@@ -1636,7 +1636,7 @@
       "damage",
       "control"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 219
@@ -1828,7 +1828,7 @@
       "control",
       "combat"
     ],
-    "source": "SCG"
+    "source": "Sword Coast Adventurer's Guide"
   },
   {
     "name": "Branding Smite",
@@ -1861,7 +1861,7 @@
       "damage",
       "control"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 219
@@ -2328,7 +2328,7 @@
     "tags": [
       "damage"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 221
@@ -2408,7 +2408,7 @@
       "buff",
       "warding"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 221
@@ -2525,7 +2525,7 @@
     "tags": [
       "damage"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 222
@@ -2758,7 +2758,7 @@
       "social",
       "debuff"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 224
@@ -2990,7 +2990,7 @@
     "tags": [
       "damage"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 225
@@ -3172,7 +3172,7 @@
     "tags": [
       "damage"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 226
@@ -3539,7 +3539,7 @@
       "damage",
       "control"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 228
@@ -3837,7 +3837,7 @@
       "control",
       "compulsion"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook"
   },
   {
     "name": "Crown Of Stars",
@@ -3906,7 +3906,7 @@
       "damage",
       "buff"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 230
@@ -4334,7 +4334,7 @@
       "damage",
       "control"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 231
@@ -4727,7 +4727,7 @@
       "damage",
       "control"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 234
@@ -5000,7 +5000,7 @@
     "source": "Xanathar's Guide to Everything"
   },
   {
-    "name": "Drawmijs Instant Summons",
+    "name": "Drawmij's Intant Summons",
     "level": 6,
     "school": "conjuration",
     "casting": {
@@ -5029,7 +5029,11 @@
       "teleportation",
       "detection"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 235
+    }
   },
   {
     "name": "Dream",
@@ -5384,7 +5388,7 @@
       "damage",
       "buff"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 237
@@ -5564,7 +5568,7 @@
       "damage",
       "control"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 237
@@ -5755,7 +5759,7 @@
       "damage",
       "control"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 238
@@ -6173,7 +6177,7 @@
       "debuff",
       "deception"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 240
@@ -6997,7 +7001,11 @@
       "buff",
       "movement"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 244
+    }
   },
   {
     "name": "Freezing Sphere",
@@ -7070,7 +7078,7 @@
       "social",
       "deception"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 244
@@ -7484,7 +7492,7 @@
     "tags": [
       "control"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 246
@@ -7637,7 +7645,7 @@
       "damage",
       "combat"
     ],
-    "source": "SCG"
+    "source": "Sword Coast Adventurer's Guide"
   },
   {
     "name": "Guardian Of Faith",
@@ -7674,7 +7682,11 @@
       "summoning",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 246
+    }
   },
   {
     "name": "Guardian Of Nature",
@@ -7918,7 +7930,7 @@
     "tags": [
       "damage"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 249
@@ -8296,7 +8308,11 @@
       "buff",
       "social"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 250
+    }
   },
   {
     "name": "Heroism",
@@ -8365,7 +8381,7 @@
       "damage",
       "debuff"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 251
@@ -8597,7 +8613,7 @@
       "damage",
       "control"
     ],
-    "source": "PHB",
+    "source": "Player's Handbook",
     "reference": {
       "book": "PHB",
       "page": 251
@@ -8972,7 +8988,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 253
+    }
   },
   {
     "name": "Infernal Calling",
@@ -9073,7 +9093,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 253
+    }
   },
   {
     "name": "Insect Plague",
@@ -9116,7 +9140,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 254
+    }
   },
   {
     "name": "Instant Summons",
@@ -9335,7 +9363,11 @@
     "tags": [
       "buff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 254
+    }
   },
   {
     "name": "Invulnerability",
@@ -9400,7 +9432,11 @@
     "tags": [
       "movement"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 254
+    }
   },
   {
     "name": "Knock",
@@ -9433,7 +9469,11 @@
     "tags": [
       "utility"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 254
+    }
   },
   {
     "name": "Legend Lore",
@@ -9468,10 +9508,14 @@
     "tags": [
       "utility"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 254
+    }
   },
   {
-    "name": "Leomunds Secret Chest",
+    "name": "Leomund's Secret Chest",
     "level": 4,
     "school": "conjuration",
     "casting": {
@@ -9500,10 +9544,14 @@
     "tags": [
       "utility"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 254
+    }
   },
   {
-    "name": "Leomunds Tiny Hut",
+    "name": "Leomund's Tiny Hut",
     "level": 3,
     "school": "evocation",
     "casting": {
@@ -9535,7 +9583,11 @@
     "tags": [
       "utility"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 255
+    }
   },
   {
     "name": "Lesser Restoration",
@@ -9573,7 +9625,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 255
+    }
   },
   {
     "name": "Levitate",
@@ -9675,7 +9731,11 @@
       "creation",
       "utility"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 255
+    }
   },
   {
     "name": "Lightning Arrow",
@@ -9706,7 +9766,11 @@
     "tags": [
       "damage"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 255
+    }
   },
   {
     "name": "Lightning Bolt",
@@ -9742,7 +9806,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 255
+    }
   },
   {
     "name": "Lightning Lure",
@@ -9779,7 +9847,7 @@
       "control",
       "combat"
     ],
-    "source": "SCG"
+    "source": "Sword Coast Adventurer's Guide"
   },
   {
     "name": "Locate Animals Or Plants",
@@ -9849,7 +9917,11 @@
     "tags": [
       "detection"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 256
+    }
   },
   {
     "name": "Locate Object",
@@ -9885,7 +9957,11 @@
     "tags": [
       "detection"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 256
+    }
   },
   {
     "name": "Longstrider",
@@ -9920,7 +9996,11 @@
       "buff",
       "movement"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 256
+    }
   },
   {
     "name": "Maddening Darkness",
@@ -10021,7 +10101,11 @@
       "buff",
       "warding"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 256
+    }
   },
   {
     "name": "Mage Hand",
@@ -10055,7 +10139,11 @@
     "tags": [
       "utility"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 256
+    }
   },
   {
     "name": "Magic Circle",
@@ -10094,7 +10182,11 @@
       "control",
       "debuff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 256
+    }
   },
   {
     "name": "Magic Jar",
@@ -10125,7 +10217,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 257
+    }
   },
   {
     "name": "Magic Missile",
@@ -10158,7 +10254,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 257
+    }
   },
   {
     "name": "Magic Mouth",
@@ -10190,7 +10290,11 @@
     "tags": [
       "communication"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 257
+    }
   },
   {
     "name": "Magic Stone",
@@ -10257,7 +10361,11 @@
     "tags": [
       "buff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 257
+    }
   },
   {
     "name": "Magnificent Mansion",
@@ -10329,7 +10437,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 258
+    }
   },
   {
     "name": "Mass Cure Wounds",
@@ -10366,7 +10478,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 258
+    }
   },
   {
     "name": "Mass Heal",
@@ -10397,7 +10513,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 258
+    }
   },
   {
     "name": "Mass Healing Word",
@@ -10428,7 +10548,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 258
+    }
   },
   {
     "name": "Mass Polymorph",
@@ -10497,7 +10621,11 @@
       "control",
       "social"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 258
+    }
   },
   {
     "name": "Maximilians Earthen Grasp",
@@ -10565,7 +10693,11 @@
       "control",
       "banishment"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 258
+    }
   },
   {
     "name": "Meld Into Stone",
@@ -10598,10 +10730,14 @@
     "tags": [
       "movement"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 259
+    }
   },
   {
-    "name": "Melfs Acid Arrow",
+    "name": "Melf's Acid Arrow",
     "level": 2,
     "school": "evocation",
     "casting": {
@@ -10630,7 +10766,11 @@
     "tags": [
       "damage"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 259
+    }
   },
   {
     "name": "Melfs Minute Meteors",
@@ -10697,7 +10837,11 @@
     "tags": [
       "utility"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 259
+    }
   },
   {
     "name": "Mental Prison",
@@ -10765,7 +10909,11 @@
       "communication",
       "social"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 259
+    }
   },
   {
     "name": "Meteor Swarm",
@@ -10797,7 +10945,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 259
+    }
   },
   {
     "name": "Mighty Fortress",
@@ -10860,7 +11012,11 @@
     "tags": [
       "buff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 259
+    }
   },
   {
     "name": "Mind Spike",
@@ -10931,7 +11087,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 260
+    }
   },
   {
     "name": "Mirage Arcane",
@@ -10967,7 +11127,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 260
+    }
   },
   {
     "name": "Mirror Image",
@@ -11003,7 +11167,11 @@
       "deception",
       "warding"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 260
+    }
   },
   {
     "name": "Mislead",
@@ -11035,7 +11203,11 @@
     "tags": [
       "deception"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 260
+    }
   },
   {
     "name": "Misty Step",
@@ -11071,7 +11243,11 @@
     "tags": [
       "teleportation"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 260
+    }
   },
   {
     "name": "Modify Memory",
@@ -11104,7 +11280,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 261
+    }
   },
   {
     "name": "Mold Earth",
@@ -11176,10 +11356,14 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 261
+    }
   },
   {
-    "name": "Mordenkainens Faithful Hound",
+    "name": "Mordenkainen's Faithful Hound",
     "level": 4,
     "school": "conjuration",
     "casting": {
@@ -11208,10 +11392,14 @@
       "damage",
       "warding"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 261
+    }
   },
   {
-    "name": "Mordenkainens Magnificent Mansion",
+    "name": "Mordenkainen's Magnificent Mansion",
     "level": 7,
     "school": "conjuration",
     "casting": {
@@ -11241,10 +11429,14 @@
       "utility",
       "exploration"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 261
+    }
   },
   {
-    "name": "Mordenkainens Private Sanctum",
+    "name": "Mordenkainen's Private Sanctum",
     "level": 4,
     "school": "abjuration",
     "casting": {
@@ -11273,10 +11465,14 @@
       "control",
       "warding"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 262
+    }
   },
   {
-    "name": "Mordenkainens Sword",
+    "name": "Mordenkainen's Sword",
     "level": 7,
     "school": "evocation",
     "casting": {
@@ -11305,7 +11501,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 262
+    }
   },
   {
     "name": "Move Earth",
@@ -11338,7 +11538,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 263
+    }
   },
   {
     "name": "Negative Energy Flood",
@@ -11405,7 +11609,11 @@
     "tags": [
       "deception"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 263
+    }
   },
   {
     "name": "Nystuls Magic Aura",
@@ -11436,10 +11644,10 @@
     "tags": [
       "deception"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook"
   },
   {
-    "name": "Otilukes Freezing Sphere",
+    "name": "Otiluke's Freezing Sphere",
     "level": 6,
     "school": "evocation",
     "casting": {
@@ -11471,10 +11679,14 @@
       "damage",
       "control"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 263
+    }
   },
   {
-    "name": "Otilukes Resilient Sphere",
+    "name": "Otiluke's Resilient Sphere",
     "level": 4,
     "school": "evocation",
     "casting": {
@@ -11504,7 +11716,11 @@
       "control",
       "warding"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 264
+    }
   },
   {
     "name": "Ottos Irresistible Dance",
@@ -11572,7 +11788,11 @@
       "buff",
       "exploration"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 264
+    }
   },
   {
     "name": "Passwall",
@@ -11604,7 +11824,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 264
+    }
   },
   {
     "name": "Phantasmal Force",
@@ -11644,7 +11868,11 @@
       "control",
       "deception"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 264
+    }
   },
   {
     "name": "Phantasmal Killer",
@@ -11677,7 +11905,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 265
+    }
   },
   {
     "name": "Phantom Steed",
@@ -11710,7 +11942,11 @@
     "tags": [
       "movement"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 265
+    }
   },
   {
     "name": "Planar Ally",
@@ -11741,7 +11977,11 @@
     "tags": [
       "summoning"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 265
+    }
   },
   {
     "name": "Planar Binding",
@@ -11776,7 +12016,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 265
+    }
   },
   {
     "name": "Plane Shift",
@@ -11812,7 +12056,11 @@
       "teleportation",
       "banishment"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 266
+    }
   },
   {
     "name": "Plant Growth",
@@ -11849,7 +12097,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 266
+    }
   },
   {
     "name": "Poison Spray",
@@ -11883,7 +12135,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 266
+    }
   },
   {
     "name": "Polymorph",
@@ -11919,7 +12175,11 @@
       "control",
       "shapechanging"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 266
+    }
   },
   {
     "name": "Power Word Heal",
@@ -11951,7 +12211,11 @@
       "healing",
       "buff"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 266
+    }
   },
   {
     "name": "Power Word Kill",
@@ -11986,7 +12250,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 267
+    }
   },
   {
     "name": "Power Word Pain",
@@ -12053,7 +12321,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 267
+    }
   },
   {
     "name": "Prayer Of Healing",
@@ -12084,7 +12356,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 267
+    }
   },
   {
     "name": "Prestidigitation",
@@ -12118,7 +12394,11 @@
     "tags": [
       "utility"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 267
+    }
   },
   {
     "name": "Primal Savagery",
@@ -12216,7 +12496,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 267
+    }
   },
   {
     "name": "Prismatic Wall",
@@ -12248,7 +12532,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 267
+    }
   },
   {
     "name": "Private Sanctum",
@@ -12313,7 +12601,11 @@
       "creation",
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 269
+    }
   },
   {
     "name": "Programmed Illusion",
@@ -12348,7 +12640,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 269
+    }
   },
   {
     "name": "Project Image",
@@ -12380,7 +12676,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 270
+    }
   },
   {
     "name": "Protection From Energy",
@@ -12420,7 +12720,11 @@
       "buff",
       "warding"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 270
+    }
   },
   {
     "name": "Protection From Evil And Good",
@@ -12457,7 +12761,11 @@
       "debuff",
       "warding"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 270
+    }
   },
   {
     "name": "Protection From Poison",
@@ -12492,7 +12800,11 @@
       "buff",
       "warding"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 270
+    }
   },
   {
     "name": "Psychic Scream",
@@ -12563,7 +12875,11 @@
     "tags": [
       "utility"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 270
+    }
   },
   {
     "name": "Pyrotechnics",
@@ -12635,10 +12951,14 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 270
+    }
   },
   {
-    "name": "Rarys Telepathic Bond",
+    "name": "Rary's Telepathic Bond",
     "level": 5,
     "school": "divination",
     "casting": {
@@ -12666,7 +12986,11 @@
     "tags": [
       "communication"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 270
+    }
   },
   {
     "name": "Ray Of Enfeeblement",
@@ -12701,7 +13025,11 @@
     "tags": [
       "debuff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 271
+    }
   },
   {
     "name": "Ray Of Frost",
@@ -12733,7 +13061,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 271
+    }
   },
   {
     "name": "Ray Of Sickness",
@@ -12768,7 +13100,11 @@
       "damage",
       "debuff"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 271
+    }
   },
   {
     "name": "Regenerate",
@@ -12801,7 +13137,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 271
+    }
   },
   {
     "name": "Reincarnate",
@@ -12832,7 +13172,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 271
+    }
   },
   {
     "name": "Remove Curse",
@@ -12866,7 +13210,11 @@
     "tags": [
       "buff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 271
+    }
   },
   {
     "name": "Resilient Sphere",
@@ -12933,7 +13281,11 @@
     "tags": [
       "buff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 272
+    }
   },
   {
     "name": "Resurrection",
@@ -12965,7 +13317,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 272
+    }
   },
   {
     "name": "Reverse Gravity",
@@ -13001,7 +13357,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 272
+    }
   },
   {
     "name": "Revivify",
@@ -13036,7 +13396,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 272
+    }
   },
   {
     "name": "Rope Trick",
@@ -13067,7 +13431,11 @@
     "tags": [
       "utility"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 272
+    }
   },
   {
     "name": "Sacred Flame",
@@ -13098,7 +13466,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 272
+    }
   },
   {
     "name": "Sanctuary",
@@ -13132,7 +13504,11 @@
       "buff",
       "warding"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 272
+    }
   },
   {
     "name": "Scatter",
@@ -13200,7 +13576,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 273
+    }
   },
   {
     "name": "Scrying",
@@ -13240,7 +13620,11 @@
     "tags": [
       "detection"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 273
+    }
   },
   {
     "name": "Searing Smite",
@@ -13272,7 +13656,11 @@
     "tags": [
       "damage"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 274
+    }
   },
   {
     "name": "Secret Chest",
@@ -13339,7 +13727,11 @@
     "tags": [
       "detection"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 274
+    }
   },
   {
     "name": "Seeming",
@@ -13373,7 +13765,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 274
+    }
   },
   {
     "name": "Sending",
@@ -13407,7 +13803,11 @@
     "tags": [
       "communication"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 274
+    }
   },
   {
     "name": "Sequester",
@@ -13438,7 +13838,11 @@
     "tags": [
       "deception"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 274
+    }
   },
   {
     "name": "Shadow Blade",
@@ -13573,7 +13977,11 @@
     "tags": [
       "shapechanging"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 274
+    }
   },
   {
     "name": "Shatter",
@@ -13611,7 +14019,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 275
+    }
   },
   {
     "name": "Shield Of Faith",
@@ -13645,7 +14057,11 @@
       "buff",
       "warding"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 275
+    }
   },
   {
     "name": "Shield",
@@ -13678,7 +14094,11 @@
     "tags": [
       "warding"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 275
+    }
   },
   {
     "name": "Shillelagh",
@@ -13710,7 +14130,11 @@
       "damage",
       "buff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 275
+    }
   },
   {
     "name": "Shocking Grasp",
@@ -13742,7 +14166,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 275
+    }
   },
   {
     "name": "Sickening Radiance",
@@ -13817,7 +14245,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 275
+    }
   },
   {
     "name": "Silent Image",
@@ -13853,7 +14285,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 276
+    }
   },
   {
     "name": "Simulacrum",
@@ -13885,7 +14321,11 @@
       "utility",
       "deception"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 276
+    }
   },
   {
     "name": "Skill Empowerment",
@@ -13991,7 +14431,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 276
+    }
   },
   {
     "name": "Sleet Storm",
@@ -14029,7 +14473,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 276
+    }
   },
   {
     "name": "Slow",
@@ -14066,7 +14514,11 @@
       "control",
       "debuff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 277
+    }
   },
   {
     "name": "Snare",
@@ -14199,7 +14651,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 277
+    }
   },
   {
     "name": "Speak With Animals",
@@ -14235,7 +14691,11 @@
       "communication",
       "social"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 277
+    }
   },
   {
     "name": "Speak With Dead",
@@ -14270,7 +14730,11 @@
       "communication",
       "social"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 277
+    }
   },
   {
     "name": "Speak With Plants",
@@ -14304,7 +14768,11 @@
       "communication",
       "social"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 277
+    }
   },
   {
     "name": "Spider Climb",
@@ -14341,7 +14809,11 @@
       "buff",
       "movement"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 277
+    }
   },
   {
     "name": "Spike Growth",
@@ -14380,7 +14852,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 277
+    }
   },
   {
     "name": "Spirit Guardians",
@@ -14414,7 +14890,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 278
+    }
   },
   {
     "name": "Spiritual Weapon",
@@ -14448,7 +14928,11 @@
     "tags": [
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 278
+    }
   },
   {
     "name": "Staggering Smite",
@@ -14481,7 +14965,11 @@
       "damage",
       "control"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 278
+    }
   },
   {
     "name": "Steel Wind Strike",
@@ -14554,7 +15042,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 278
+    }
   },
   {
     "name": "Stone Shape",
@@ -14589,7 +15081,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 278
+    }
   },
   {
     "name": "Stoneskin",
@@ -14628,7 +15124,11 @@
     "tags": [
       "buff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 278
+    }
   },
   {
     "name": "Storm Of Vengeance",
@@ -14735,7 +15235,11 @@
       "social",
       "charmed"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 279
+    }
   },
   {
     "name": "Summon Greater Demon",
@@ -14836,7 +15340,11 @@
       "damage",
       "debuff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 279
+    }
   },
   {
     "name": "Sunburst",
@@ -14873,7 +15381,11 @@
       "damage",
       "debuff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 279
+    }
   },
   {
     "name": "Swift Quiver",
@@ -14904,7 +15416,11 @@
     "tags": [
       "buff"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 279
+    }
   },
   {
     "name": "Sword Burst",
@@ -14941,7 +15457,7 @@
       "control",
       "combat"
     ],
-    "source": "SCG"
+    "source": "Sword Coast Adventurer's Guide"
   },
   {
     "name": "Symbol",
@@ -14978,7 +15494,11 @@
       "damage",
       "debuff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 280
+    }
   },
   {
     "name": "Synaptic Static",
@@ -15019,7 +15539,7 @@
     "source": "Xanathar's Guide to Everything"
   },
   {
-    "name": "Tashas Hideous Laughter",
+    "name": "Tasha's Hideous Laughter",
     "level": 1,
     "school": "enchantment",
     "casting": {
@@ -15049,7 +15569,11 @@
       "control",
       "debuff"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 280
+    }
   },
   {
     "name": "Telekinesis",
@@ -15083,7 +15607,11 @@
       "control",
       "movement"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 280
+    }
   },
   {
     "name": "Telepathic Bond",
@@ -15147,7 +15675,11 @@
     "tags": [
       "communication"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 281
+    }
   },
   {
     "name": "Teleport",
@@ -15180,7 +15712,11 @@
     "tags": [
       "teleportation"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 281
+    }
   },
   {
     "name": "Teleportation Circle",
@@ -15214,7 +15750,11 @@
     "tags": [
       "teleportation"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 282
+    }
   },
   {
     "name": "Temple Of The Gods",
@@ -15249,7 +15789,7 @@
     "source": "Xanathar's Guide to Everything"
   },
   {
-    "name": "Tensers Floating Disk",
+    "name": "Tenser's Floating Disk",
     "level": 1,
     "school": "conjuration",
     "casting": {
@@ -15278,7 +15818,11 @@
       "movement",
       "utility"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 282
+    }
   },
   {
     "name": "Tensers Transformation",
@@ -15341,7 +15885,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 282
+    }
   },
   {
     "name": "Thorn Whip",
@@ -15373,7 +15921,11 @@
       "damage",
       "control"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 282
+    }
   },
   {
     "name": "Thunder Step",
@@ -15474,7 +16026,7 @@
       "damage",
       "control"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook"
   },
   {
     "name": "Thunderwave",
@@ -15513,7 +16065,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 282
+    }
   },
   {
     "name": "Tidal Wave",
@@ -15579,7 +16135,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 283
+    }
   },
   {
     "name": "Tiny Hut",
@@ -15716,7 +16276,11 @@
       "communication",
       "social"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 283
+    }
   },
   {
     "name": "Transmute Rock",
@@ -15783,7 +16347,11 @@
     "tags": [
       "teleportation"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 283
+    }
   },
   {
     "name": "Tree Stride",
@@ -15819,7 +16387,11 @@
       "teleportation",
       "movement"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 283
+    }
   },
   {
     "name": "True Polymorph",
@@ -15854,7 +16426,11 @@
       "buff",
       "shapechanging"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 283
+    }
   },
   {
     "name": "True Resurrection",
@@ -15886,7 +16462,11 @@
     "tags": [
       "healing"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 284
+    }
   },
   {
     "name": "True Seeing",
@@ -15921,7 +16501,11 @@
     "tags": [
       "detection"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 284
+    }
   },
   {
     "name": "True Strike",
@@ -15955,7 +16539,11 @@
     "tags": [
       "foreknowledge"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 284
+    }
   },
   {
     "name": "Tsunami",
@@ -15987,7 +16575,11 @@
       "damage",
       "control"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 284
+    }
   },
   {
     "name": "Unseen Servant",
@@ -16020,7 +16612,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 284
+    }
   },
   {
     "name": "Vampiric Touch",
@@ -16055,7 +16651,11 @@
       "healing",
       "damage"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 285
+    }
   },
   {
     "name": "Vicious Mockery",
@@ -16087,7 +16687,11 @@
       "damage",
       "debuff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 285
+    }
   },
   {
     "name": "Vitriolic Sphere",
@@ -16160,7 +16764,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 285
+    }
   },
   {
     "name": "Wall Of Force",
@@ -16193,7 +16801,11 @@
       "control",
       "warding"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 285
+    }
   },
   {
     "name": "Wall Of Ice",
@@ -16225,7 +16837,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 285
+    }
   },
   {
     "name": "Wall Of Light",
@@ -16326,7 +16942,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 287
+    }
   },
   {
     "name": "Wall Of Thorns",
@@ -16358,7 +16978,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 287
+    }
   },
   {
     "name": "Wall Of Water",
@@ -16425,7 +17049,11 @@
       "buff",
       "warding"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 287
+    }
   },
   {
     "name": "Warding Wind",
@@ -16499,7 +17127,11 @@
     "tags": [
       "buff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 287
+    }
   },
   {
     "name": "Water Walk",
@@ -16535,7 +17167,11 @@
     "tags": [
       "movement"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 287
+    }
   },
   {
     "name": "Watery Sphere",
@@ -16607,7 +17243,11 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 287
+    }
   },
   {
     "name": "Weird",
@@ -16642,7 +17282,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 288
+    }
   },
   {
     "name": "Whirlwind",
@@ -16711,7 +17355,11 @@
       "buff",
       "movement"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 288
+    }
   },
   {
     "name": "Wind Wall",
@@ -16745,7 +17393,11 @@
       "damage",
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 288
+    }
   },
   {
     "name": "Wish",
@@ -16779,7 +17431,11 @@
       "healing",
       "buff"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 288
+    }
   },
   {
     "name": "Witch Bolt",
@@ -16812,7 +17468,11 @@
     "tags": [
       "damage"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 289
+    }
   },
   {
     "name": "Word Of Radiance",
@@ -16874,7 +17534,11 @@
     "tags": [
       "teleportation"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 289
+    }
   },
   {
     "name": "Wrath Of Nature",
@@ -16943,7 +17607,11 @@
       "damage",
       "control"
     ],
-    "source": "PHB"
+    "source": "Player's Handbook",
+    "reference": {
+      "book": "PHB",
+      "page": 289
+    }
   },
   {
     "name": "Zephyr Strike",
@@ -17014,6 +17682,10 @@
     "tags": [
       "control"
     ],
-    "source": "Basic Rules"
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 289
+    }
   }
 ]
