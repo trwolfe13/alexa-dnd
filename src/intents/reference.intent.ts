@@ -10,9 +10,9 @@ import * as Utils from '../utils';
 function getSpeech(noun: string, obj: any): string {
   if (obj.reference) {
     const book = Books[obj.reference.book];
-    let speech = `You can find the ${noun} ${obj.name} in ${book}`;
+    let speech = `You can find the ${noun} ${obj.name} in ${book}.`;
     if (obj.reference.page) {
-      speech += ` on page ${obj.reference.page}`;
+      speech += ` on page ${obj.reference.page}.`;
     }
     return speech;
   } else {

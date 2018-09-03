@@ -135,7 +135,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 211
     }
   },
@@ -207,7 +207,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 211
     }
   },
@@ -243,7 +243,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 211
     }
   },
@@ -279,7 +279,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 211
     }
   },
@@ -318,7 +318,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 212
     }
   },
@@ -356,7 +356,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 212
     }
   },
@@ -391,7 +391,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 212
     }
   },
@@ -430,7 +430,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 212
     }
   },
@@ -469,7 +469,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 213
     }
   },
@@ -510,7 +510,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 213
     }
   },
@@ -551,7 +551,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 213
     }
   },
@@ -591,7 +591,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 214
     }
   },
@@ -628,7 +628,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 214
     }
   },
@@ -663,9 +663,9 @@
     "tags": [
       "teleportation"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 214
     }
   },
@@ -735,7 +735,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 215
     }
   },
@@ -805,9 +805,9 @@
       "buff",
       "warding"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 215
     }
   },
@@ -845,9 +845,9 @@
       "control",
       "warding"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 215
     }
   },
@@ -884,7 +884,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 215
     }
   },
@@ -920,7 +920,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 215
     }
   },
@@ -958,9 +958,9 @@
       "healing",
       "warding"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 216
     }
   },
@@ -997,9 +997,9 @@
       "buff",
       "warding"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 216
     }
   },
@@ -1036,9 +1036,9 @@
     "tags": [
       "healing"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 216
     }
   },
@@ -1074,7 +1074,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 216
     }
   },
@@ -1112,7 +1112,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 216
     }
   },
@@ -1148,9 +1148,9 @@
       "control",
       "banishment"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 216
     }
   },
@@ -1192,7 +1192,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 217
     }
   },
@@ -1231,7 +1231,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 217
     }
   },
@@ -1268,7 +1268,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 217
     }
   },
@@ -1335,9 +1335,9 @@
     "tags": [
       "detection"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 217
     }
   },
@@ -1376,7 +1376,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 218
     }
   },
@@ -1410,9 +1410,9 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 218
     }
   },
@@ -1483,7 +1483,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 218
     }
   },
@@ -1520,9 +1520,9 @@
       "combat",
       "warding"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 218
     }
   },
@@ -1559,7 +1559,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 219
     }
   },
@@ -1602,7 +1602,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 219
     }
   },
@@ -1636,9 +1636,9 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 219
     }
   },
@@ -1679,7 +1679,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 219
     }
   },
@@ -1718,7 +1718,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 219
     }
   },
@@ -1757,7 +1757,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 219
     }
   },
@@ -1828,7 +1828,7 @@
       "control",
       "combat"
     ],
-    "source": "Sword Coast Adventurer's Guide"
+    "source": "SCG"
   },
   {
     "name": "Branding Smite",
@@ -1861,9 +1861,9 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 219
     }
   },
@@ -1904,7 +1904,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 220
     }
   },
@@ -1944,7 +1944,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 220
     }
   },
@@ -1982,7 +1982,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 221
     }
   },
@@ -2150,7 +2150,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 221
     }
   },
@@ -2257,7 +2257,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 221
     }
   },
@@ -2294,7 +2294,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 221
     }
   },
@@ -2328,9 +2328,9 @@
     "tags": [
       "damage"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 221
     }
   },
@@ -2370,7 +2370,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 221
     }
   },
@@ -2408,9 +2408,9 @@
       "buff",
       "warding"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 221
     }
   },
@@ -2451,7 +2451,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 222
     }
   },
@@ -2486,7 +2486,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 222
     }
   },
@@ -2525,9 +2525,9 @@
     "tags": [
       "damage"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 222
     }
   },
@@ -2570,7 +2570,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 222
     }
   },
@@ -2609,7 +2609,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 222
     }
   },
@@ -2649,7 +2649,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 223
     }
   },
@@ -2722,7 +2722,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 223
     }
   },
@@ -2758,9 +2758,9 @@
       "social",
       "debuff"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 224
     }
   },
@@ -2798,7 +2798,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 224
     }
   },
@@ -2833,7 +2833,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 224
     }
   },
@@ -2874,7 +2874,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 224
     }
   },
@@ -2918,7 +2918,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 224
     }
   },
@@ -2954,7 +2954,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 225
     }
   },
@@ -2990,9 +2990,9 @@
     "tags": [
       "damage"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 225
     }
   },
@@ -3027,7 +3027,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 225
     }
   },
@@ -3064,7 +3064,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 225
     }
   },
@@ -3100,7 +3100,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 226
     }
   },
@@ -3136,7 +3136,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 226
     }
   },
@@ -3172,9 +3172,9 @@
     "tags": [
       "damage"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 226
     }
   },
@@ -3210,7 +3210,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 226
     }
   },
@@ -3247,7 +3247,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 226
     }
   },
@@ -3285,7 +3285,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 227
     }
   },
@@ -3320,7 +3320,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 227
     }
   },
@@ -3356,7 +3356,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 227
     }
   },
@@ -3428,7 +3428,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 227
     }
   },
@@ -3469,7 +3469,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 228
     }
   },
@@ -3539,9 +3539,9 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 228
     }
   },
@@ -3579,7 +3579,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 228
     }
   },
@@ -3721,7 +3721,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 229
     }
   },
@@ -3759,7 +3759,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 229
     }
   },
@@ -3799,7 +3799,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 229
     }
   },
@@ -3837,7 +3837,7 @@
       "control",
       "compulsion"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Crown Of Stars",
@@ -3906,9 +3906,9 @@
       "damage",
       "buff"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 230
     }
   },
@@ -3949,7 +3949,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 230
     }
   },
@@ -3986,7 +3986,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 230
     }
   },
@@ -4061,7 +4061,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 230
     }
   },
@@ -4099,7 +4099,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 230
     }
   },
@@ -4180,7 +4180,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 230
     }
   },
@@ -4221,7 +4221,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 230
     }
   },
@@ -4260,7 +4260,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 230
     }
   },
@@ -4296,7 +4296,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 231
     }
   },
@@ -4334,9 +4334,9 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 231
     }
   },
@@ -4375,7 +4375,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 231
     }
   },
@@ -4420,7 +4420,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 231
     }
   },
@@ -4496,7 +4496,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 231
     }
   },
@@ -4536,7 +4536,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 233
     }
   },
@@ -4574,7 +4574,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 233
     }
   },
@@ -4611,7 +4611,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 233
     }
   },
@@ -4648,7 +4648,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 233
     }
   },
@@ -4692,7 +4692,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 234
     }
   },
@@ -4727,9 +4727,9 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 234
     }
   },
@@ -4766,7 +4766,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 234
     }
   },
@@ -4802,7 +4802,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 234
     }
   },
@@ -4839,7 +4839,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 234
     }
   },
@@ -4879,7 +4879,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 234
     }
   },
@@ -4917,7 +4917,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 235
     }
   },
@@ -4959,7 +4959,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 235
     }
   },
@@ -5029,7 +5029,7 @@
       "teleportation",
       "detection"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Dream",
@@ -5066,7 +5066,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 236
     }
   },
@@ -5134,7 +5134,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 236
     }
   },
@@ -5279,7 +5279,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 236
     }
   },
@@ -5314,7 +5314,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 237
     }
   },
@@ -5384,9 +5384,9 @@
       "damage",
       "buff"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 237
     }
   },
@@ -5493,7 +5493,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 237
     }
   },
@@ -5529,7 +5529,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 237
     }
   },
@@ -5564,9 +5564,9 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 237
     }
   },
@@ -5604,7 +5604,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 238
     }
   },
@@ -5640,7 +5640,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 238
     }
   },
@@ -5717,7 +5717,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 238
     }
   },
@@ -5755,9 +5755,9 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 238
     }
   },
@@ -5794,7 +5794,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 238
     }
   },
@@ -5832,7 +5832,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 238
     }
   },
@@ -5868,7 +5868,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 239
     }
   },
@@ -5909,7 +5909,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 239
     }
   },
@@ -5982,7 +5982,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 239
     }
   },
@@ -6058,7 +6058,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 239
     }
   },
@@ -6096,7 +6096,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 239
     }
   },
@@ -6134,7 +6134,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 239
     }
   },
@@ -6173,9 +6173,9 @@
       "debuff",
       "deception"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 240
     }
   },
@@ -6210,7 +6210,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 240
     }
   },
@@ -6276,7 +6276,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 240
     }
   },
@@ -6313,7 +6313,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 240
     }
   },
@@ -6350,7 +6350,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 241
     }
   },
@@ -6389,7 +6389,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 241
     }
   },
@@ -6425,7 +6425,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 242
     }
   },
@@ -6462,7 +6462,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 242
     }
   },
@@ -6499,7 +6499,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 242
     }
   },
@@ -6540,7 +6540,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 241
     }
   },
@@ -6610,7 +6610,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 242
     }
   },
@@ -6653,7 +6653,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 242
     }
   },
@@ -6727,7 +6727,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 243
     }
   },
@@ -6798,7 +6798,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 243
     }
   },
@@ -6875,7 +6875,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 243
     }
   },
@@ -6913,7 +6913,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 243
     }
   },
@@ -6953,7 +6953,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 244
     }
   },
@@ -7070,9 +7070,9 @@
       "social",
       "deception"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 244
     }
   },
@@ -7147,7 +7147,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 244
     }
   },
@@ -7185,7 +7185,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 244
     }
   },
@@ -7225,7 +7225,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 244
     }
   },
@@ -7263,7 +7263,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 245
     }
   },
@@ -7298,7 +7298,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 245
     }
   },
@@ -7334,7 +7334,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 245
     }
   },
@@ -7374,7 +7374,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 245
     }
   },
@@ -7413,7 +7413,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 245
     }
   },
@@ -7449,7 +7449,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 246
     }
   },
@@ -7484,9 +7484,9 @@
     "tags": [
       "control"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 246
     }
   },
@@ -7524,7 +7524,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 246
     }
   },
@@ -7563,7 +7563,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 246
     }
   },
@@ -7601,7 +7601,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 246
     }
   },
@@ -7637,7 +7637,7 @@
       "damage",
       "combat"
     ],
-    "source": "Sword Coast Adventurer's Guide"
+    "source": "SCG"
   },
   {
     "name": "Guardian Of Faith",
@@ -7777,7 +7777,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 248
     }
   },
@@ -7814,7 +7814,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 248
     }
   },
@@ -7852,7 +7852,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 248
     }
   },
@@ -7918,9 +7918,9 @@
     "tags": [
       "damage"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 249
     }
   },
@@ -7962,7 +7962,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 249
     }
   },
@@ -8004,7 +8004,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 249
     }
   },
@@ -8040,7 +8040,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 249
     }
   },
@@ -8078,7 +8078,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 250
     }
   },
@@ -8114,7 +8114,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 250
     }
   },
@@ -8186,7 +8186,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 250
     }
   },
@@ -8224,7 +8224,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 250
     }
   },
@@ -8260,7 +8260,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 250
     }
   },
@@ -8331,7 +8331,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 250
     }
   },
@@ -8365,9 +8365,9 @@
       "damage",
       "debuff"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 251
     }
   },
@@ -8444,7 +8444,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 251
     }
   },
@@ -8488,7 +8488,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 251
     }
   },
@@ -8527,7 +8527,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 251
     }
   },
@@ -8597,9 +8597,9 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook",
+    "source": "PHB",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 251
     }
   },
@@ -8636,7 +8636,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 251
     }
   },
@@ -8678,7 +8678,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 252
     }
   },
@@ -8758,7 +8758,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 252
     }
   },
@@ -8796,7 +8796,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 252
     }
   },
@@ -8865,7 +8865,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 252
     }
   },
@@ -8934,7 +8934,7 @@
     ],
     "source": "Basic Rules",
     "reference": {
-      "book": "Player's Handbook",
+      "book": "PHB",
       "page": 252
     }
   },
@@ -9500,7 +9500,7 @@
     "tags": [
       "utility"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Leomunds Tiny Hut",
@@ -9535,7 +9535,7 @@
     "tags": [
       "utility"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Lesser Restoration",
@@ -9706,7 +9706,7 @@
     "tags": [
       "damage"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Lightning Bolt",
@@ -9779,7 +9779,7 @@
       "control",
       "combat"
     ],
-    "source": "Sword Coast Adventurer's Guide"
+    "source": "SCG"
   },
   {
     "name": "Locate Animals Or Plants",
@@ -10630,7 +10630,7 @@
     "tags": [
       "damage"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Melfs Minute Meteors",
@@ -11208,7 +11208,7 @@
       "damage",
       "warding"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Mordenkainens Magnificent Mansion",
@@ -11241,7 +11241,7 @@
       "utility",
       "exploration"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Mordenkainens Private Sanctum",
@@ -11273,7 +11273,7 @@
       "control",
       "warding"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Mordenkainens Sword",
@@ -11436,7 +11436,7 @@
     "tags": [
       "deception"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Otilukes Freezing Sphere",
@@ -11471,7 +11471,7 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Otilukes Resilient Sphere",
@@ -11504,7 +11504,7 @@
       "control",
       "warding"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Ottos Irresistible Dance",
@@ -11644,7 +11644,7 @@
       "control",
       "deception"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Phantasmal Killer",
@@ -11951,7 +11951,7 @@
       "healing",
       "buff"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Power Word Kill",
@@ -12666,7 +12666,7 @@
     "tags": [
       "communication"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Ray Of Enfeeblement",
@@ -12768,7 +12768,7 @@
       "damage",
       "debuff"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Regenerate",
@@ -13272,7 +13272,7 @@
     "tags": [
       "damage"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Secret Chest",
@@ -14481,7 +14481,7 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Steel Wind Strike",
@@ -14904,7 +14904,7 @@
     "tags": [
       "buff"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Sword Burst",
@@ -14941,7 +14941,7 @@
       "control",
       "combat"
     ],
-    "source": "Sword Coast Adventurer's Guide"
+    "source": "SCG"
   },
   {
     "name": "Symbol",
@@ -15049,7 +15049,7 @@
       "control",
       "debuff"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Telekinesis",
@@ -15147,7 +15147,7 @@
     "tags": [
       "communication"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Teleport",
@@ -15278,7 +15278,7 @@
       "movement",
       "utility"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Tensers Transformation",
@@ -15373,7 +15373,7 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Thunder Step",
@@ -15474,7 +15474,7 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Thunderwave",
@@ -15987,7 +15987,7 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Unseen Servant",
@@ -16812,7 +16812,7 @@
     "tags": [
       "damage"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Word Of Radiance",
@@ -16943,7 +16943,7 @@
       "damage",
       "control"
     ],
-    "source": "Player's Handbook"
+    "source": "PHB"
   },
   {
     "name": "Zephyr Strike",
