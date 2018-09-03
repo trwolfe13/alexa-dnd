@@ -1,6 +1,6 @@
 [
   {
-    "name": "ReferenceFindSpellIntent",
+    "name": "ReferenceFindSpell",
     "slots": [
       {
         "name": "spell",
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "name": "ReferenceFindClassIntent",
+    "name": "ReferenceFindClass",
     "slots": [
       {
         "name": "class",
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "name": "ReferenceFindSubclassIntent",
+    "name": "ReferenceFindSubclass",
     "slots": [
       {
         "name": "is",
@@ -127,7 +127,7 @@
     ]
   },
   {
-    "name": "ReferenceFindClassIntent",
+    "name": "ReferenceFindRace",
     "slots": [
       {
         "name": "race",
@@ -165,7 +165,7 @@
     ]
   },
   {
-    "name": "ReferenceFindClassIntent",
+    "name": "ReferenceFindSubrace",
     "slots": [
       {
         "name": "subrace",

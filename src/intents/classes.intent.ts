@@ -8,8 +8,8 @@ import * as Utils from '../utils';
 export class ClassesIntentHandler extends IntentHandler {
   get intents(): IntentMap {
     return {
-      ClassListIntent: this.classList,
-      SubclassListIntent: this.subclassList
+      ClassList: this.classList,
+      SubclassList: this.subclassList
     };
   }
 

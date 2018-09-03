@@ -1,6 +1,6 @@
 [
   {
-    "name": "SpellMaterialsIntent",
+    "name": "SpellMaterials",
     "slots": [
       {
         "name": "spell",
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "name": "SpellConcentrationIntent",
+    "name": "SpellConcentration",
     "slots": [
       {
         "name": "spell",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "name": "SpellRitualIntent",
+    "name": "SpellRitual",
     "slots": [
       {
         "name": "spell",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "name": "SpellDescriptionIntent",
+    "name": "SpellDescription",
     "slots": [
       {
         "name": "spell",

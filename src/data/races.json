@@ -15,6 +15,10 @@
     "subraces": [
       {
         "name": "Protector",
+        "synonyms": [
+          "protector aasimar",
+          "protector aasimars"
+        ],
         "reference": {
           "book": "VGM",
           "page": 105
@@ -22,6 +26,10 @@
       },
       {
         "name": "Scourge",
+        "synonyms": [
+          "scourge aasimar",
+          "scourge aasimars"
+        ],
         "reference": {
           "book": "PHB",
           "page": 105
@@ -29,6 +37,10 @@
       },
       {
         "name": "Fallen",
+        "synonyms": [
+          "fallen aasimar",
+          "fallen aasimars"
+        ],
         "reference": {
           "book": "PHB",
           "page": 105
@@ -42,6 +54,9 @@
   },
   {
     "name": "Centaur",
+    "synonyms": [
+      "centaurs"
+    ],
     "subraces": [],
     "reference": {
       "book": "UA",
@@ -61,6 +76,9 @@
   },
   {
     "name": "Changeling",
+    "synonyms": [
+      "changelings"
+    ],
     "subraces": [],
     "reference": {
       "book": "WGE",
@@ -70,9 +88,7 @@
   {
     "name": "Dragonborn",
     "synonyms": [
-      "hobbit",
-      "halflings",
-      "hobbits"
+      "dragonborns"
     ],
     "subraces": [],
     "reference": {
@@ -88,6 +104,10 @@
     "subraces": [
       {
         "name": "Hill",
+        "synonyms": [
+          "hill dwarf",
+          "hill dwarves"
+        ],
         "reference": {
           "book": "PHB",
           "page": 20
@@ -95,6 +115,10 @@
       },
       {
         "name": "Mountain",
+        "synonyms": [
+          "mountain dwarf",
+          "mountain dwarves"
+        ],
         "reference": {
           "book": "PHB",
           "page": 20
@@ -103,7 +127,8 @@
       {
         "name": "Gray",
         "synonyms": [
-          "duergar"
+          "duergar",
+          "gray dwarves"
         ],
         "reference": {
           "book": "MTF",
@@ -113,11 +138,12 @@
       {
         "name": "Kundarak",
         "synonyms": [
+          "kundarak dwarves",
           "house kundarak",
           "house of kundarak",
-          "mark of warding",
-          "marked",
-          "warding"
+          "dwarves of house kundarak",
+          "marked dwarves",
+          "mark of warding dwarves"
         ],
         "reference": {
           "book": "WGE",
@@ -138,6 +164,10 @@
     "subraces": [
       {
         "name": "High",
+        "synonyms": [
+          "high elf",
+          "high elves"
+        ],
         "reference": {
           "book": "PHB",
           "page": 23
@@ -145,6 +175,10 @@
       },
       {
         "name": "Wood",
+        "synonyms": [
+          "wood elf",
+          "wood elves"
+        ],
         "reference": {
           "book": "PHB",
           "page": 24
@@ -153,7 +187,11 @@
       {
         "name": "Drow",
         "synonyms": [
-          "dark"
+          "dark",
+          "dark elf",
+          "dark elves",
+          "drow elf",
+          "drow eves"
         ],
         "reference": {
           "book": "PHB",
@@ -163,7 +201,11 @@
       {
         "name": "Eladrin",
         "synonyms": [
-          "fey"
+          "fey",
+          "fey elf",
+          "fey elves",
+          "eladrin elf",
+          "eladrin elves"
         ],
         "reference": {
           "book": "MTF",
@@ -172,6 +214,13 @@
       },
       {
         "name": "Sea",
+        "synonyms": [
+          "aquatic",
+          "aquatic elf",
+          "aquatic elves",
+          "sea elf",
+          "sea elves"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -180,7 +229,11 @@
       {
         "name": "Shadar-kai",
         "synonyms": [
-          "shadow"
+          "shadow",
+          "shadow elf",
+          "shadow elves",
+          "shadar-kai elf",
+          "shadar-kai elves"
         ],
         "reference": {
           "book": "MTF",
@@ -190,7 +243,9 @@
       {
         "name": "Aerenal",
         "synonyms": [
-          "aereni"
+          "aereni",
+          "aereni elf",
+          "aereni elves"
         ],
         "reference": {
           "book": "WGE",
@@ -199,6 +254,10 @@
       },
       {
         "name": "Valenar",
+        "synonyms": [
+          "valenar elf",
+          "valenar elves"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -254,7 +313,7 @@
         }
       },
       {
-        "name": "Air",
+        "name": "Air Genasi",
         "reference": {
           "book": "EE",
           "page": -1
@@ -297,6 +356,10 @@
     "subraces": [
       {
         "name": "Forest",
+        "synonyms": [
+          "forest gnome",
+          "forest gnomes"
+        ],
         "reference": {
           "book": "PHB",
           "page": 37
@@ -304,6 +367,10 @@
       },
       {
         "name": "Rock",
+        "synonyms": [
+          "rock gnome",
+          "rock gnomes"
+        ],
         "reference": {
           "book": "PHB",
           "page": 37
@@ -312,7 +379,11 @@
       {
         "name": "Deep",
         "synonyms": [
-          "svirfneblin"
+          "deep gnome",
+          "deep gnomes",
+          "svirfneblin",
+          "svirfneblin gnome",
+          "svirfneblin gnomes"
         ],
         "reference": {
           "book": "MTF",
@@ -322,6 +393,8 @@
       {
         "name": "Scribing",
         "synonyms": [
+          "scribing gnome",
+          "scribing gnomes",
           "mark of scribing"
         ],
         "reference": {
@@ -365,6 +438,12 @@
     "subraces": [
       {
         "name": "Wood",
+        "synonyms": [
+          "wood half elf",
+          "wood half elves",
+          "half wood elf",
+          "half wood elves"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -372,6 +451,12 @@
       },
       {
         "name": "High",
+        "synonyms": [
+          "high half elf",
+          "high half elves",
+          "half high elf",
+          "half high elves"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -379,6 +464,17 @@
       },
       {
         "name": "Drow",
+        "synonyms": [
+          "dark half elf",
+          "dark half elves",
+          "half dark elf",
+          "half dark elves",
+          "half drow",
+          "half drow elf",
+          "half drow elves",
+          "drow half elf",
+          "drow half elves"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -386,6 +482,16 @@
       },
       {
         "name": "Aquatic",
+        "synonyms": [
+          "aquatic half elf",
+          "aquatic half elves",
+          "half aquatic elf",
+          "half aquatic elves",
+          "sea half elf",
+          "sea half elves",
+          "half sea elf",
+          "half sea elves"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -393,6 +499,12 @@
       },
       {
         "name": "Medani",
+        "synonyms": [
+          "medani half elf",
+          "medani half elves",
+          "half medani elf",
+          "half medani elves"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -400,6 +512,12 @@
       },
       {
         "name": "Lyrandar",
+        "synonyms": [
+          "lyrandar half elf",
+          "lyrandar half elves",
+          "half lyrandar elf",
+          "half lyrandar elves"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -421,6 +539,10 @@
     "subraces": [
       {
         "name": "Lightfoot",
+        "synonyms": [
+          "lightfoot halfling",
+          "lightfoot halflings"
+        ],
         "reference": {
           "book": "PHB",
           "page": 28
@@ -428,6 +550,10 @@
       },
       {
         "name": "Stout",
+        "synonyms": [
+          "stout halfling",
+          "stout halflings"
+        ],
         "reference": {
           "book": "PHB",
           "page": 28
@@ -435,6 +561,10 @@
       },
       {
         "name": "Ghostwise",
+        "synonyms": [
+          "ghostwise halfling",
+          "ghostwise halflings"
+        ],
         "reference": {
           "book": "SCG",
           "page": -1
@@ -443,8 +573,12 @@
       {
         "name": "Ghallanda",
         "synonyms": [
+          "ghallanda halfling",
+          "ghallanda halflings",
           "hospitality",
-          "mark of hospitality"
+          "hospitality halfling",
+          "mark of hospitality",
+          "mark of hospitality halfling"
         ],
         "reference": {
           "book": "WGE",
@@ -454,8 +588,12 @@
       {
         "name": "Jorasco",
         "synonyms": [
+          "jorasco halfling",
+          "jorasco halflings",
           "healing",
-          "mark of healing"
+          "healing halfling",
+          "mark of healing",
+          "mark of healing halfling"
         ],
         "reference": {
           "book": "WGE",
@@ -476,6 +614,10 @@
     "subraces": [
       {
         "name": "Tharashk",
+        "synonyms": [
+          "tharashk half-orc",
+          "tharashk half-orcs"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -506,6 +648,10 @@
     "subraces": [
       {
         "name": "Cannith",
+        "synonyms": [
+          "cannith human",
+          "cannith humans"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -513,6 +659,10 @@
       },
       {
         "name": "Vadalis",
+        "synonyms": [
+          "vadalis human",
+          "vadalis humans"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -520,6 +670,10 @@
       },
       {
         "name": "Orien",
+        "synonyms": [
+          "orien human",
+          "orien humans"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -527,6 +681,10 @@
       },
       {
         "name": "Deneith",
+        "synonyms": [
+          "deneith human",
+          "deneith humans"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -534,6 +692,10 @@
       },
       {
         "name": "Tharashk",
+        "synonyms": [
+          "tharashk human",
+          "tharashk humans"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -590,6 +752,9 @@
   },
   {
     "name": "Minotaur",
+    "synonyms": [
+      "minotaurs"
+    ],
     "subraces": [],
     "reference": {
       "book": "UA",
@@ -612,6 +777,9 @@
     "subraces": [
       {
         "name": "Beasthide",
+        "synonyms": [
+          "beasthide shifter"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -619,6 +787,9 @@
       },
       {
         "name": "Longtooth",
+        "synonyms": [
+          "longtooth shifter"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -626,6 +797,9 @@
       },
       {
         "name": "Swiftstride",
+        "synonyms": [
+          "swiftstride shifter"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -633,6 +807,9 @@
       },
       {
         "name": "Wildhunt",
+        "synonyms": [
+          "wildhunt shifter"
+        ],
         "reference": {
           "book": "WGE",
           "page": -1
@@ -646,6 +823,9 @@
   },
   {
     "name": "Simic Hybrid",
+    "synonyms": [
+      "simic"
+    ],
     "subraces": [],
     "reference": {
       "book": "UA",
@@ -654,6 +834,9 @@
   },
   {
     "name": "Tabaxi",
+    "synonyms": [
+      "catfolk"
+    ],
     "subraces": [],
     "reference": {
       "book": "VGM",
@@ -668,6 +851,10 @@
     "subraces": [
       {
         "name": "Baalzebul",
+        "synonyms": [
+          "baalzebul tiefling",
+          "baalzebul tieflings"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -675,6 +862,10 @@
       },
       {
         "name": "Dispater",
+        "synonyms": [
+          "dispater tiefling",
+          "dispater tieflings"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -682,6 +873,10 @@
       },
       {
         "name": "Fierna",
+        "synonyms": [
+          "fierna tiefling",
+          "fierna tieflings"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -689,6 +884,10 @@
       },
       {
         "name": "Glasya",
+        "synonyms": [
+          "glasya tiefling",
+          "glasya tieflings"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -696,6 +895,10 @@
       },
       {
         "name": "Levistus",
+        "synonyms": [
+          "levistus tiefling",
+          "levistus tieflings"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -703,6 +906,10 @@
       },
       {
         "name": "Mammon",
+        "synonyms": [
+          "mammon tiefling",
+          "mammon tieflings"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -710,6 +917,10 @@
       },
       {
         "name": "Mephistopheles",
+        "synonyms": [
+          "mephistopheles tiefling",
+          "mephistopheles tieflings"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -717,6 +928,10 @@
       },
       {
         "name": "Zariel",
+        "synonyms": [
+          "zariel tiefling",
+          "zariel tieflings"
+        ],
         "reference": {
           "book": "MTF",
           "page": -1
@@ -730,6 +945,9 @@
   },
   {
     "name": "Tortle",
+    "synonyms": [
+      "tortles"
+    ],
     "subraces": [],
     "reference": {
       "book": "TTP",

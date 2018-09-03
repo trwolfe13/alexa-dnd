@@ -5,7 +5,7 @@ import * as Levels from '../data/levels.json';
 
 import { IntentHandler, IntentMap } from '../framework';
 
-export class LevelIntentHandler extends IntentHandler {
+export class MagicItemsIntentHandler extends IntentHandler {
   get intents(): IntentMap {
     return {
       LevelsAbsoluteExperience: this.absoluteExperience,

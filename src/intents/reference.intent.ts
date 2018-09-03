@@ -8,36 +8,36 @@ import * as Spells from '../data/spells.json';
 import { IntentHandler, IntentMap } from '../framework';
 import * as Utils from '../utils';
 
-function getSpeech(noun: string, obj: any): string {
+function getSpeech(obj: any, name: string): string {
   if (obj.reference) {
     const book = Books[obj.reference.book];
-    let speech = `You can find the ${noun} ${obj.name} in ${book}`;
-    if (obj.reference.page) {
+    let speech = `You can find the ${name} in ${book}`;
+    if (obj.reference.page > 0) {
       speech += ` on page ${obj.reference.page}.`;
     } else {
       speech += `.`;
     }
     return speech;
   } else {
-    return `I don't know where you can find the ${noun} ${obj.name}.`;
+    return `I don't know where you can find the ${name}.`;
   }
 }
 
 export class ReferenceIntentHandler extends IntentHandler {
   get intents(): IntentMap {
     return {
-      ReferenceFindSpellIntent: this.findSpell,
-      ReferenceFindClassIntent: this.findClass,
-      ReferenceFindSubclassIntent: this.findSubclass,
-      ReferenceFindRaceIntent: this.findRace,
-      ReferenceFindSubraceIntent: this.findSubrace,
+      ReferenceFindSpell: this.findSpell,
+      ReferenceFindClass: this.findClass,
+      ReferenceFindSubclass: this.findSubclass,
+      ReferenceFindRace: this.findRace,
+      ReferenceFindSubrace: this.findSubrace,
     };
   }
 
   findSpell(handlerInput: HandlerInput, intent: Intent): Response {
     const name = Utils.slotValue(intent.slots.spell);
     const spell = (<any[]><any>Spells).find(s => s.name === name);
-    const speech = getSpeech('spell', spell);
+    const speech = getSpeech(spell, `${spell.name} spell`);
     return handlerInput.responseBuilder
       .speak(speech)
       .withSimpleCard(name, speech)
@@ -47,7 +47,7 @@ export class ReferenceIntentHandler extends IntentHandler {
   findClass(handlerInput: HandlerInput, intent: Intent): Response {
     const name = Utils.slotValue(intent.slots.class);
     const c = (<any[]><any>Classes).find(cc => cc.name === name);
-    const speech = getSpeech('class', c);
+    const speech = getSpeech(c, `${c.name} class`);
     return handlerInput.responseBuilder
       .speak(speech)
       .withSimpleCard(name, speech)
@@ -60,11 +60,9 @@ export class ReferenceIntentHandler extends IntentHandler {
 
     const c = (<any[]><any>Classes).find(cc => cc.name === className);
     const sc = c.subclasses.find(scc => scc.name === subclassName);
-    const book = Books[sc.reference.book];
-    let speech = `You can find the ${sc.name} ${c.name} ${c.subclassNoun.singular} in ${book}`;
-    if (sc.reference.page) {
-      speech += ` on page ${sc.reference.page}`;
-    }
+
+    const name = `${sc.name} ${c.name} ${c.subclassNoun.singular}`;
+    const speech = getSpeech(sc, name);
 
     return handlerInput.responseBuilder
       .speak(speech)
@@ -75,7 +73,7 @@ export class ReferenceIntentHandler extends IntentHandler {
   findRace(handlerInput: HandlerInput, intent: Intent): Response {
     const name = Utils.slotValue(intent.slots.race);
     const race = (<any[]><any>Races).find(r => r.name === name);
-    const speech = getSpeech('race', race);
+    const speech = getSpeech(race, `${race.name} race`);
     return handlerInput.responseBuilder
       .speak(speech)
       .withSimpleCard(name, speech)
@@ -83,16 +81,20 @@ export class ReferenceIntentHandler extends IntentHandler {
   }
 
   findSubrace(handlerInput: HandlerInput, intent: Intent): Response {
-    const raceName = Utils.slotValue(intent.slots.race);
     const subraceName = Utils.slotValue(intent.slots.subrace);
+    let race, subrace;
 
-    const race = (<any[]><any>Races).find(r => r.name === raceName);
-    const subrace = race.subraces.find(sr => sr.name === subraceName);
-    const speech = getSpeech('subrace', subrace);
+    for (let x = 0; x < (<any[]><any>Races).length; x++) {
+      race = Races[x];
+      if (subrace = race.subraces.find(sr => sr.name === subraceName)) { break; }
+    }
+
+    const name = `${subrace.name} ${race.name}`;
+    const speech = getSpeech(subrace, name);
 
     return handlerInput.responseBuilder
       .speak(speech)
-      .withSimpleCard(subrace.name, speech)
+      .withSimpleCard(name, speech)
       .getResponse();
   }
 

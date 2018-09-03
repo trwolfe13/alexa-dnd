@@ -7,7 +7,7 @@ const defaultMap = obj => {
       value: obj.name,
     }
   };
-  if (obj.synonyms) { value.synonyms = obj.synonyms; }
+  if (obj.synonyms) { value.name.synonyms = obj.synonyms; }
   return value;
 }
 
@@ -40,6 +40,7 @@ module.exports = {
   createSpell: dir => createType(dir, 'spells.json', 'Spell'),
   createClass: dir => createType(dir, 'classes.json', 'Class'),
   createRace: dir => createType(dir, 'races.json', 'Race'),
+  createMagicItem: dir => createType(dir, 'magic-items.json', 'MagicItem'),
   createSubclass,
   createSubrace
 };

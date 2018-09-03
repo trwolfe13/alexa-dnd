@@ -7,9 +7,9 @@ import * as Utils from '../utils';
 export class CharacterAbilitiesIntentHandler extends DialogIntentHandler {
   get intents(): IntentMap {
     return {
-      CharacterStrengthVerbIntent: this.characterStrengthVerb,
-      CharacterJumpVerbIntent: this.characterJumpVerb,
-      CharacterBreathIntent: this.characterBreath
+      CharacterStrengthVerb: this.characterStrengthVerb,
+      CharacterJumpVerb: this.characterJumpVerb,
+      CharacterBreath: this.characterBreath
     };
   }
 

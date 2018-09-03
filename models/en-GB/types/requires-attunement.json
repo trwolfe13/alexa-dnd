@@ -1,0 +1,72 @@
+[
+  {
+    "name": "RequiresAttunement",
+    "values": [
+      {
+        "name": {
+          "value": "attuned"
+        }
+      },
+      {
+        "name": {
+          "value": "is attuned"
+        }
+      },
+      {
+        "name": {
+          "value": "attuneable"
+        }
+      },
+      {
+        "name": {
+          "value": "is attuneable"
+        }
+      },
+      {
+        "name": {
+          "value": "require attunement"
+        }
+      },
+      {
+        "name": {
+          "value": "requires attunement"
+        }
+      },
+      {
+        "name": {
+          "value": "is an attuned item"
+        }
+      },
+      {
+        "name": {
+          "value": "requires attuning"
+        }
+      },
+      {
+        "name": {
+          "value": "require attuning"
+        }
+      },
+      {
+        "name": {
+          "value": "need concentration"
+        }
+      },
+      {
+        "name": {
+          "value": "needs concentration"
+        }
+      },
+      {
+        "name": {
+          "value": "need to concentrate on"
+        }
+      },
+      {
+        "name": {
+          "value": "needs concentrating on"
+        }
+      }
+    ]
+  }
+]

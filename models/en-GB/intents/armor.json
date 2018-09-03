@@ -1,6 +1,6 @@
 [
   {
-    "name": "ArmorPropertiesIntent",
+    "name": "ArmorProperties",
     "slots": [
       {
         "name": "armor",

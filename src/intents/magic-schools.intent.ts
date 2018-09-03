@@ -8,8 +8,8 @@ import * as Utils from '../utils';
 export class MagicSchoolsIntentHandler extends IntentHandler {
   get intents(): IntentMap {
     return {
-      MagicSchoolsListIntent: this.magicSchoolsList,
-      MagicSchoolIntent: this.magicSchool,
+      MagicSchoolsList: this.magicSchoolsList,
+      MagicSchool: this.magicSchool,
     };
   }
 

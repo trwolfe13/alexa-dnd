@@ -1,6 +1,6 @@
 [
   {
-    "name": "ConditionListIntent",
+    "name": "ConditionList",
     "slots": [
       {
         "name": "nameThe",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "name": "ConditionExhaustionIntent",
+    "name": "ConditionExhaustion",
     "slots": [
       {
         "name": "nameThe",
@@ -29,7 +29,7 @@
     ]
   },
   {
-    "name": "ConditionExhaustionLevelIntent",
+    "name": "ConditionExhaustionLevel",
     "slots": [
       {
         "name": "nameThe",
@@ -49,7 +49,7 @@
     ]
   },
   {
-    "name": "ConditionIntent",
+    "name": "ConditionDescription",
     "slots": [
       {
         "name": "condition",

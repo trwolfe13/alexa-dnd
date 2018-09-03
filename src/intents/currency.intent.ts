@@ -9,7 +9,7 @@ import * as Utils from '../utils';
 export class CurrencyIntentHandler extends IntentHandler {
   get intents(): IntentMap {
     return {
-      CurrencyConversionIntent: this.currencyConversion,
+      CurrencyConversion: this.currencyConversion,
     };
   }
 

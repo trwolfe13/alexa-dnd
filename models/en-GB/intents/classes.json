@@ -1,6 +1,6 @@
 [
   {
-    "name": "ClassListIntent",
+    "name": "ClassList",
     "slots": [
       {
         "name": "nameThe",
@@ -14,7 +14,7 @@
   },
   
   {
-    "name": "SubclassListIntent",
+    "name": "SubclassList",
     "slots": [
       {
         "name": "nameThe",
