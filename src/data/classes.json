@@ -13,15 +13,15 @@
       {
         "name": "Alchemist",
         "reference": {
-          "book": "Unearthed Arcana: Artificer Article",
-          "page": 5
+          "book": "UA",
+          "page": 0
         }
       },
       {
         "name": "Gunsmith",
         "reference": {
-          "book": "Unearthed Arcana: Artificer Article",
-          "page": 6
+          "book": "UA",
+          "page": 0
         }
       }
     ],

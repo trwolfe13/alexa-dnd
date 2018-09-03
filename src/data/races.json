@@ -1,0 +1,806 @@
+[
+  {
+    "name": "Aarakocra",
+    "subraces": [],
+    "reference": {
+      "book": "EE",
+      "page": -1
+    }
+  },
+  {
+    "name": "Genasi",
+    "subraces": [
+      {
+        "name": "Fire",
+        "reference": {
+          "book": "EE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Water",
+        "reference": {
+          "book": "EE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Earth",
+        "reference": {
+          "book": "EE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Air",
+        "reference": {
+          "book": "EE",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "EE",
+      "page": -1
+    }
+  },
+  {
+    "name": "Tortle",
+    "subraces": [],
+    "reference": {
+      "book": "TTP",
+      "page": -1
+    }
+  },
+  {
+    "name": "Vedalken",
+    "subraces": [],
+    "reference": {
+      "book": "UA",
+      "page": 0
+    }
+  },
+  {
+    "name": "Warforged",
+    "subraces": [
+      {
+        "name": "Envoy",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Juggernaut",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Skirmisher",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "WGE",
+      "page": -1
+    }
+  },
+  {
+    "name": "Viashino",
+    "subraces": [],
+    "reference": {
+      "book": "UA",
+      "page": -1
+    }
+  },
+  {
+    "name": "Gith",
+    "subraces": [
+      {
+        "name": "Githzerai",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Githyanki",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "MTF",
+      "page": -1
+    }
+  },
+  {
+    "name": "Aasimar",
+    "synonyms": [
+      "aasimars"
+    ],
+    "subraces": [
+      {
+        "name": "Protector",
+        "reference": {
+          "book": "VGM",
+          "page": 105
+        }
+      },
+      {
+        "name": "Scourge",
+        "reference": {
+          "book": "PHB",
+          "page": 105
+        }
+      },
+      {
+        "name": "Fallen",
+        "reference": {
+          "book": "PHB",
+          "page": 105
+        }
+      }
+    ],
+    "reference": {
+      "book": "VGM",
+      "page": 104
+    }
+  },
+  {
+    "name": "Centaur",
+    "subraces": [],
+    "reference": {
+      "book": "UA",
+      "page": 0
+    }
+  },
+  {
+    "name": "Changeling",
+    "subraces": [],
+    "reference": {
+      "book": "WGE",
+      "page": -1
+    }
+  },
+  {
+    "name": "Dwarf",
+    "synonyms": [
+      "dwarves"
+    ],
+    "subraces": [
+      {
+        "name": "Hill",
+        "reference": {
+          "book": "PHB",
+          "page": 20
+        }
+      },
+      {
+        "name": "Mountain",
+        "reference": {
+          "book": "PHB",
+          "page": 20
+        }
+      },
+      {
+        "name": "Gray",
+        "synonyms": [
+          "duergar"
+        ],
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Kundarak",
+        "synonyms": [
+          "house kundarak",
+          "house of kundarak",
+          "mark of warding",
+          "marked",
+          "warding"
+        ],
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 18
+    }
+  },
+  {
+    "name": "Elf",
+    "synonyms": [
+      "elves"
+    ],
+    "subraces": [
+      {
+        "name": "High",
+        "reference": {
+          "book": "PHB",
+          "page": 23
+        }
+      },
+      {
+        "name": "Wood",
+        "reference": {
+          "book": "PHB",
+          "page": 24
+        }
+      },
+      {
+        "name": "Drow",
+        "synonyms": [
+          "dark"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 24
+        }
+      },
+      {
+        "name": "Eladrin",
+        "synonyms": [
+          "fey"
+        ],
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Sea",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Shadar-kai",
+        "synonyms": [
+          "shadow"
+        ],
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Aerenal",
+        "synonyms": [
+          "aereni"
+        ],
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Valenar",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 21
+    }
+  },
+  {
+    "name": "Firbolg",
+    "synonyms": [
+      "firbolgs"
+    ],
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 106
+    }
+  },
+  {
+    "name": "Feral Tiefling",
+    "subraces": [],
+    "reference": {
+      "book": "SCG",
+      "page": -1
+    }
+  },
+  {
+    "name": "Goliath",
+    "synonyms": [
+      "goliaths"
+    ],
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 108
+    }
+  },
+  {
+    "name": "Halfling",
+    "synonyms": [
+      "hobbit",
+      "halflings",
+      "hobbits"
+    ],
+    "subraces": [
+      {
+        "name": "Lightfoot",
+        "reference": {
+          "book": "PHB",
+          "page": 28
+        }
+      },
+      {
+        "name": "Stout",
+        "reference": {
+          "book": "PHB",
+          "page": 28
+        }
+      },
+      {
+        "name": "Ghostwise",
+        "reference": {
+          "book": "SCG",
+          "page": -1
+        }
+      },
+      {
+        "name": "Ghallanda",
+        "synonyms": [
+          "hospitality",
+          "mark of hospitality"
+        ],
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Jorasco",
+        "synonyms": [
+          "healing",
+          "mark of healing"
+        ],
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 26
+    }
+  },
+  
+  {
+    "name": "Human",
+    "synonyms": [
+      "humans"
+    ],
+    "subraces": [
+      {
+        "name": "Cannith",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Vadalis",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Orien",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Deneith",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Tharashk",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 26
+    }
+  },
+  {
+    "name": "Kalashtar",
+    "subraces": [],
+    "reference": {
+      "book": "WGE",
+      "page": -1
+    }
+  },
+  {
+    "name": "Loxodon",
+    "subraces": [],
+    "reference": {
+      "book": "UA",
+      "page": 0
+    }
+  },
+  {
+    "name": "Simic Hybrid",
+    "subraces": [],
+    "reference": {
+      "book": "UA",
+      "page": 0
+    }
+  },
+  {
+    "name": "Minotaur",
+    "subraces": [],
+    "reference": {
+      "book": "UA",
+      "page": 0
+    }
+  },
+  {
+    "name": "Shifter",
+    "subraces": [
+      {
+        "name": "Beasthide",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Longtooth",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Swiftstride",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Wildhunt",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "WGE",
+      "page": -1
+    }
+  },
+  {
+    "name": "Kenku",
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 109
+    }
+  },
+  {
+    "name": "Lizardfolk",
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 111
+    }
+  },
+  {
+    "name": "Tabaxi",
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 113
+    }
+  },
+  {
+    "name": "Triton",
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 115
+    }
+  },
+  {
+    "name": "Bugbear",
+    "synonyms": [
+      "bugbears"
+    ],
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 119
+    }
+  },
+  {
+    "name": "Goblin",
+    "synonyms": [
+      "goblins"
+    ],
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 119
+    }
+  },
+  {
+    "name": "Hobgoblin",
+    "synonyms": [
+      "hobgolblins"
+    ],
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 119
+    }
+  },
+  {
+    "name": "Kobold",
+    "synonyms": [
+      "kobolds"
+    ],
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 119
+    }
+  },
+  {
+    "name": "Orc",
+    "synonyms": [
+      "orcs"
+    ],
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 120
+    }
+  },
+  {
+    "name": "Yuan-ti Pureblood",
+    "synonyms": [
+      "yuan-ti",
+      "pureblood"
+    ],
+    "subraces": [],
+    "reference": {
+      "book": "VGM",
+      "page": 120
+    }
+  },
+  {
+    "name": "Dragonborn",
+    "synonyms": [
+      "hobbit",
+      "halflings",
+      "hobbits"
+    ],
+    "subraces": [],
+    "reference": {
+      "book": "PHB",
+      "page": 32
+    }
+  },
+  {
+    "name": "Gnome",
+    "synonyms": [
+      "gnomes"
+    ],
+    "subraces": [
+      {
+        "name": "Forest",
+        "reference": {
+          "book": "PHB",
+          "page": 37
+        }
+      },
+      {
+        "name": "Rock",
+        "reference": {
+          "book": "PHB",
+          "page": 37
+        }
+      },
+      {
+        "name": "Deep",
+        "synonyms": [
+          "svirfneblin"
+        ],
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Scribing",
+        "synonyms": [
+          "mark of scribing"
+        ],
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 35
+    }
+  },
+  {
+    "name": "Half-Elf",
+    "synonyms": [
+      "half-elves"
+    ],
+    "subraces": [
+      {
+        "name": "Wood",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "High",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Drow",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Aquatic",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Medani",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      },
+      {
+        "name": "Lyrandar",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 38
+    }
+  },
+  {
+    "name": "Half-Orc",
+    "synonyms": [
+      "half-orcs"
+    ],
+    "subraces": [
+      {
+        "name": "Tharashk",
+        "reference": {
+          "book": "WGE",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 40
+    }
+  },
+  {
+    "name": "Tiefling",
+    "synonyms": [
+      "tieflings"
+    ],
+    "subraces": [
+      {
+        "name": "Baalzebul",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Dispater",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Fierna",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Glasya",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Levistus",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Mammon",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Mephistopheles",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      },
+      {
+        "name": "Zariel",
+        "reference": {
+          "book": "MTF",
+          "page": -1
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 40
+    }
+  }
+]

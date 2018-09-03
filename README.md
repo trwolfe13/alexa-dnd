@@ -38,12 +38,19 @@ These are the intents that are available or in-progress.
 * "What are the schools of magic?"
 * "What does illusion magic do?"
 
+### References
+
+* "Where can I find the wizard class?"
+* "Where is the fireball spell?"
+
 ### Spells
 
 * "What materials do I need to cast Fireball?"
 * "Is Mage Hand a concentration spell?"
 * "Can I cast Locate Creature as a ritual spell?"
 * "What does maelstrom do?"
+* "What types of magic are there?"
+* "What is evocation magic for?"
 
 ### Wild Magic
 
