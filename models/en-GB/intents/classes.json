@@ -31,12 +31,17 @@
       {
         "name": "archetype",
         "type": "Archetype"
+      },
+      {
+        "name": "what",
+        "type": "What"
       }
     ],
     "samples": [
       "{nameThe} {class} {archetype}",
       "{nameThe} {class} {archetype} are there",
-      "{nameThe} {archetype} {do} {class} have"
+      "{nameThe} {archetype} {do} {class} have",
+      "{what} {archetype} of {class} are there"
     ]
   }
 ]
