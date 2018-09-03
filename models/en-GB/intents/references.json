@@ -125,5 +125,81 @@
       "{what} {pageBook} {is} {subclass} {class} {onIn}",
       "{what} {pageBook} {is} {subclass} {class} {archetype} {onIn}"
     ]
+  },
+  {
+    "name": "ReferenceFindClassIntent",
+    "slots": [
+      {
+        "name": "race",
+        "type": "Race"
+      },
+      {
+        "name": "onIn",
+        "type": "OnIn"
+      },
+      {
+        "name": "where",
+        "type": "Where"
+      },
+      {
+        "name": "pageBook",
+        "type": "PageBook"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      }
+    ],
+    "samples": [
+      "{where} {race}",
+      "{where} {race} race",
+      "{where} {race} {is}",
+      "{where} {race} race {is}",
+      "{what} {pageBook} {is} {race}",
+      "{what} {pageBook} {is} {race} {onIn}",
+      "{what} {pageBook} {is} {race} race {onIn}"
+    ]
+  },
+  {
+    "name": "ReferenceFindClassIntent",
+    "slots": [
+      {
+        "name": "subrace",
+        "type": "Subrace"
+      },
+      {
+        "name": "onIn",
+        "type": "OnIn"
+      },
+      {
+        "name": "where",
+        "type": "Where"
+      },
+      {
+        "name": "pageBook",
+        "type": "PageBook"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      }
+    ],
+    "samples": [
+      "{where} {subrace}",
+      "{where} {subrace} race",
+      "{where} {subrace} {is}",
+      "{where} {subrace} race {is}",
+      "{what} {pageBook} {is} {subrace}",
+      "{what} {pageBook} {is} {subrace} {onIn}",
+      "{what} {pageBook} {is} {subrace} race {onIn}"
+    ]
   }
 ]

@@ -29,6 +29,8 @@ regions.forEach(region => {
   models.interactionModel.languageModel.types.push(types.createSpell(config.data));
   models.interactionModel.languageModel.types.push(types.createClass(config.data));
   models.interactionModel.languageModel.types.push(types.createSubclass(config.data));
+  models.interactionModel.languageModel.types.push(types.createRace(config.data));
+  models.interactionModel.languageModel.types.push(types.createSubrace(config.data));
 
   validateModels(models);
 

@@ -3,6 +3,7 @@ import { Intent, Response } from 'ask-sdk-model';
 
 import * as Books from '../data/books.json';
 import * as Classes from '../data/classes.json';
+import * as Races from '../data/races.json';
 import * as Spells from '../data/spells.json';
 import { IntentHandler, IntentMap } from '../framework';
 import * as Utils from '../utils';
@@ -28,6 +29,8 @@ export class ReferenceIntentHandler extends IntentHandler {
       ReferenceFindSpellIntent: this.findSpell,
       ReferenceFindClassIntent: this.findClass,
       ReferenceFindSubclassIntent: this.findSubclass,
+      ReferenceFindRaceIntent: this.findRace,
+      ReferenceFindSubraceIntent: this.findSubrace,
     };
   }
 
@@ -68,4 +71,29 @@ export class ReferenceIntentHandler extends IntentHandler {
       .withSimpleCard(`${sc.name} ${c.name}`, speech)
       .getResponse();
   }
+
+  findRace(handlerInput: HandlerInput, intent: Intent): Response {
+    const name = Utils.slotValue(intent.slots.race);
+    const race = (<any[]><any>Races).find(r => r.name === name);
+    const speech = getSpeech('race', race);
+    return handlerInput.responseBuilder
+      .speak(speech)
+      .withSimpleCard(name, speech)
+      .getResponse();
+  }
+
+  findSubrace(handlerInput: HandlerInput, intent: Intent): Response {
+    const raceName = Utils.slotValue(intent.slots.race);
+    const subraceName = Utils.slotValue(intent.slots.subrace);
+
+    const race = (<any[]><any>Races).find(r => r.name === raceName);
+    const subrace = race.subraces.find(sr => sr.name === subraceName);
+    const speech = getSpeech('subrace', subrace);
+
+    return handlerInput.responseBuilder
+      .speak(speech)
+      .withSimpleCard(subrace.name, speech)
+      .getResponse();
+  }
+
 }

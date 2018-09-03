@@ -27,8 +27,19 @@ const createSubclass = dir => {
   return type;
 };
 
+const createSubrace = dir => {
+  const type = { name: 'Subrace', values: [] };
+  const list = JSON.parse(fs.readFileSync(path.join(dir, 'races.json')));
+  list.forEach(race => {
+    type.values.push(...race.subraces.map(defaultMap));
+  });
+  return type;
+};
+
 module.exports = {
   createSpell: dir => createType(dir, 'spells.json', 'Spell'),
   createClass: dir => createType(dir, 'classes.json', 'Class'),
-  createSubclass
+  createRace: dir => createType(dir, 'races.json', 'Race'),
+  createSubclass,
+  createSubrace
 };
