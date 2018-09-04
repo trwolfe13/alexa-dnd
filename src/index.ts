@@ -9,8 +9,6 @@ export const handler =
     .custom()
     .addRequestHandlers(
       new Requests.LaunchRequestHandler(),
-      new Intents.HelpIntentHandler(),
-      new Intents.CancelAndStopIntentHandler(),
       new Intents.CharacterAbilitiesIntentHandler(),
       new Intents.ClassesIntentHandler(),
       new Intents.ConditionIntentHandler(),
