@@ -28,7 +28,7 @@
         "type": "Race"
       },
       {
-        "name": "subrace",
+        "name": "subraces",
         "type": "Subraces"
       },
       {
@@ -37,10 +37,10 @@
       }
     ],
     "samples": [
-      "{nameThe} {race} {subrace}",
-      "{nameThe} {race} {subrace} are there",
-      "{nameThe} {subrace} {do} {race} have",
-      "{what} {subrace} of {race} are there"
+      "{nameThe} {race} {subraces}",
+      "{nameThe} {race} {subraces} are there",
+      "{nameThe} {subraces} {do} {race} have",
+      "{what} {subraces} of {race} are there"
     ]
   }
 ]

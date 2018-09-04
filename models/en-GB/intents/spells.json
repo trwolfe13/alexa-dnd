@@ -135,7 +135,7 @@
       {
         "name": "do",
         "type": "Do"
-      }
+      },
       {
         "name": "target",
         "type": "Target"
