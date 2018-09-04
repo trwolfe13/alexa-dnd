@@ -67,12 +67,9 @@
     ],
     "samples": [
       "{where} {class}",
-      "{where} {class} class",
       "{where} {class} {is}",
-      "{where} {class} class {is}",
       "{what} {pageBook} {is} {class}",
-      "{what} {pageBook} {is} {class} {onIn}",
-      "{what} {pageBook} {is} {class} class {onIn}"
+      "{what} {pageBook} {is} {class} {onIn}"
     ]
   },
   {
@@ -156,12 +153,9 @@
     ],
     "samples": [
       "{where} {race}",
-      "{where} {race} race",
       "{where} {race} {is}",
-      "{where} {race} race {is}",
       "{what} {pageBook} {is} {race}",
-      "{what} {pageBook} {is} {race} {onIn}",
-      "{what} {pageBook} {is} {race} race {onIn}"
+      "{what} {pageBook} {is} {race} {onIn}"
     ]
   },
   {
@@ -194,12 +188,9 @@
     ],
     "samples": [
       "{where} {subrace}",
-      "{where} {subrace} race",
       "{where} {subrace} {is}",
-      "{where} {subrace} race {is}",
       "{what} {pageBook} {is} {subrace}",
-      "{what} {pageBook} {is} {subrace} {onIn}",
-      "{what} {pageBook} {is} {subrace} race {onIn}"
+      "{what} {pageBook} {is} {subrace} {onIn}"
     ]
   }
 ]

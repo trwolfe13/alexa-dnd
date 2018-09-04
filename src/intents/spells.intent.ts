@@ -13,6 +13,7 @@ export class SpellsIntentHandler extends IntentHandler {
       SpellConcentration: this.spellConcentration,
       SpellRitual: this.spellRitual,
       SpellTarget: this.spellTarget,
+      SpellTime: this.spellTime
     };
   }
 
@@ -89,6 +90,19 @@ export class SpellsIntentHandler extends IntentHandler {
       }
     }
 
+    return handlerInput.responseBuilder
+      .speak(speech)
+      .getResponse();
+  }
+
+  spellTime(handlerInput: HandlerInput, intent: Intent): Response {
+    const name = Utils.slotValue(intent.slots.spell);
+    const spell = (<any[]><any>Spells).find(s => s.name === name);
+
+    let speech = spell.casting.time;
+    if (spell.casting.condition) {
+      speech += `, ${spell.casting.condition}`;
+    }
     return handlerInput.responseBuilder
       .speak(speech)
       .getResponse();
