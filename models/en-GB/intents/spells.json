@@ -112,5 +112,44 @@
     "samples": [
       "{whatHow} {do} {spell} {doWork}"
     ]
+  },
+  {
+    "name": "SpellTarget",
+    "slots": [
+      {
+        "name": "spell",
+        "type": "Spell"
+      },
+      {
+        "name": "whatHow",
+        "type": "WhatHow"
+      },
+      {
+        "name": "pronoun",
+        "type": "Pronoun"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      },
+      {
+        "name": "do",
+        "type": "Do"
+      }
+      {
+        "name": "target",
+        "type": "Target"
+      }
+    ],
+    "samples": [
+      "{whatHow} {is} the range of {spell}",
+      "{whatHow} far does {spell} go",
+      "{whatHow} far can {pronoun} cast {spell}",
+
+      "who {do} {spell} {target}",
+      "who {do} {spell} spell target",
+      "who can {pronoun} {target} with {spell}",
+      "who can {pronoun} {target} with the {spell} spell"
+    ]
   }
 ]
