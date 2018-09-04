@@ -8,10 +8,10 @@ import * as Utils from '../utils';
 export class SpellsIntentHandler extends IntentHandler {
   get intents(): IntentMap {
     return {
-      SpellMaterialsIntent: this.spellMaterials,
-      SpellDescriptionIntent: this.spellDescription,
-      SpellConcentrationIntent: this.spellConcentration,
-      SpellRitualIntent: this.spellRitual,
+      SpellMaterials: this.spellMaterials,
+      SpellDescription: this.spellDescription,
+      SpellConcentration: this.spellConcentration,
+      SpellRitual: this.spellRitual,
     };
   }
 

@@ -1,0 +1,1091 @@
+[
+  {
+    "name": "Artificer",
+    "synonyms": [
+      "artificers",
+      "the artificer"
+    ],
+    "subclassNoun": {
+      "singular": "Specialist",
+      "plural": "Specialists"
+    },
+    "subclasses": [
+      {
+        "name": "Alchemist",
+        "reference": {
+          "book": "UA",
+          "page": 0
+        }
+      },
+      {
+        "name": "Gunsmith",
+        "reference": {
+          "book": "UA",
+          "page": 0
+        }
+      }
+    ],
+    "reference": {
+      "book": "UA",
+      "page": 0
+    }
+  },
+  {
+    "name": "Barbarian",
+    "synonyms": [
+      "barbarians",
+      "the barbarian"
+    ],
+    "subclassNoun": {
+      "singular": "Path",
+      "plural": "Paths"
+    },
+    "subclasses": [
+      {
+        "name": "Ancestral Guardian",
+        "synonyms": [
+          "path of the ancestral guardian",
+          "path of the guardian",
+          "guardian"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 9
+        }
+      },
+      {
+        "name": "Battlerager",
+        "synonyms": [
+          "path of the battle rager",
+          "battle rager"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 121
+        }
+      },
+      {
+        "name": "Beserker",
+        "synonyms": [
+          "path of the beserker",
+          "beserker path"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 49
+        }
+      },
+      {
+        "name": "Storm Herald",
+        "synonyms": [
+          "path of the storm herald",
+          "path of the herald",
+          "path of the storm",
+          "storm",
+          "herald"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 10
+        }
+      },
+      {
+        "name": "Totem Warrior",
+        "synonyms": [
+          "totem",
+          "path of the totem",
+          "path of the totem warrior",
+          "totem path",
+          "totem warrior path"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 50
+        }
+      },
+      {
+        "name": "Zealot",
+        "synonyms": [
+          "path of the zealot"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 11
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 46
+    }
+  },
+  {
+    "name": "Bard",
+    "synonyms": [
+      "bards",
+      "the bard"
+    ],
+    "subclassNoun": {
+      "singular": "College",
+      "plural": "Colleges"
+    },
+    "subclasses": [
+      {
+        "name": "Glamour",
+        "synonyms": [
+          "college of glamour"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 14
+        }
+      },
+      {
+        "name": "Lore",
+        "synonyms": [
+          "college of lore"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 54
+        }
+      },
+      {
+        "name": "Swords",
+        "synonyms": [
+          "college of swords"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 15
+        }
+      },
+      {
+        "name": "Valor",
+        "synonyms": [
+          "college of valor"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 55
+        }
+      },
+      {
+        "name": "Whispers",
+        "synonyms": [
+          "college of whispers"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 16
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 51
+    }
+  },
+  {
+    "name": "Cleric",
+    "synonyms": [
+      "clerics",
+      "the cleric"
+    ],
+    "subclassNoun": {
+      "singular": "Domain",
+      "plural": "Domains"
+    },
+    "subclasses": [
+      {
+        "name": "Arcana",
+        "synonyms": [
+          "arcana domain"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 125
+        }
+      },
+      {
+        "name": "Death",
+        "synonyms": [
+          "death domain"
+        ],
+        "reference": {
+          "book": "DMG",
+          "page": 96
+        }
+      },
+      {
+        "name": "Forge",
+        "synonyms": [
+          "forge domain"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 18
+        }
+      },
+      {
+        "name": "Grave",
+        "synonyms": [
+          "grave domain"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 19
+        }
+      },
+      {
+        "name": "Knowledge",
+        "synonyms": [
+          "knowledge domain"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 59
+        }
+      },
+      {
+        "name": "Life",
+        "synonyms": [
+          "life domain"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 60
+        }
+      },
+      {
+        "name": "Light",
+        "synonyms": [
+          "light domain"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 60
+        }
+      },
+      {
+        "name": "Nature",
+        "synonyms": [
+          "nature domain"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 61
+        }
+      },
+      {
+        "name": "Order",
+        "synonyms": [
+          "order domain"
+        ],
+        "reference": {
+          "book": "UA",
+          "page": 0
+        }
+      },
+      {
+        "name": "Tempest",
+        "synonyms": [
+          "tempest domain"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 62
+        }
+      },
+      {
+        "name": "Trickery",
+        "synonyms": [
+          "trickery domain"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 62
+        }
+      },
+      {
+        "name": "War",
+        "synonyms": [
+          "war domain"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 66
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 56
+    }
+  },
+  {
+    "name": "Druid",
+    "synonyms": [
+      "druids",
+      "the druid"
+    ],
+    "subclassNoun": {
+      "singular": "Circle",
+      "plural": "Circles"
+    },
+    "subclasses": [
+      {
+        "name": "Dreams",
+        "synonyms": [
+          "dreams circle",
+          "dream circle",
+          "dream",
+          "circle of the dream",
+          "circle of dreams"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 22
+        }
+      },
+      {
+        "name": "Land",
+        "synonyms": [
+          "land circle",
+          "circle of the land"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 68
+        }
+      },
+      {
+        "name": "Moon",
+        "synonyms": [
+          "moon circle",
+          "circle of the moon"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 69
+        }
+      },
+      {
+        "name": "Shepherd",
+        "synonyms": [
+          "circle of the shepherd"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 23
+        }
+      },
+      {
+        "name": "Spores",
+        "synonyms": [
+          "spores circle",
+          "spore circle",
+          "spore",
+          "spores",
+          "circle of the spore",
+          "circle of spores"
+        ],
+        "reference": {
+          "book": "UA",
+          "page": 0
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 64
+    }
+  },
+  {
+    "name": "Fighter",
+    "synonyms": [
+      "fighter",
+      "the fighter"
+    ],
+    "subclassNoun": {
+      "singular": "Archetype",
+      "plural": "Archetypes"
+    },
+    "subclasses": [
+      {
+        "name": "Arcane Archer",
+        "reference": {
+          "book": "XGE",
+          "page": 28
+        }
+      },
+      {
+        "name": "Battle Master",
+        "reference": {
+          "book": "PHB",
+          "page": 73
+        }
+      },
+      {
+        "name": "Brute",
+        "reference": {
+          "book": "UA",
+          "page": 0
+        }
+      },
+      {
+        "name": "Cavalier",
+        "reference": {
+          "book": "XGE",
+          "page": 30
+        }
+      },
+      {
+        "name": "Champion",
+        "reference": {
+          "book": "PHB",
+          "page": 72
+        }
+      },
+      {
+        "name": "Eldritch Knight",
+        "reference": {
+          "book": "PHB",
+          "page": 74
+        }
+      },
+      {
+        "name": "Purple Dragon Knight",
+        "synonyms": [
+          "dragon knight"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 128
+        }
+      },
+      {
+        "name": "Samurai",
+        "reference": {
+          "book": "XGE",
+          "page": 31
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 70
+    }
+  },
+  {
+    "name": "Monk",
+    "synonyms": [
+      "monks",
+      "the monk"
+    ],
+    "subclassNoun": {
+      "singular": "Tradition",
+      "plural": "Traditions"
+    },
+    "subclasses": [
+      {
+        "name": "Drunken Master",
+        "synonyms": [
+          "way of the drunken master"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 33
+        }
+      },
+      {
+        "name": "Four Elements",
+        "synonyms": [
+          "way of the four elements"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 80
+        }
+      },
+      {
+        "name": "Kensei",
+        "synonyms": [
+          "way of the kensei"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 34
+        }
+      },
+      {
+        "name": "Long Death",
+        "synonyms": [
+          "way of death",
+          "way of the long death"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 130
+        }
+      },
+      {
+        "name": "Open Hand",
+        "synonyms": [
+          "way of the open hand"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 78
+        }
+      },
+      {
+        "name": "Shadow",
+        "synonyms": [
+          "way of shadow",
+          "way of the shadow"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 80
+        }
+      },
+      {
+        "name": "Sun Soul",
+        "synonyms": [
+          "way of the sun soul",
+          "way of the sun"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 35
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 76
+    }
+  },
+  {
+    "name": "Paladin",
+    "synonyms": [
+      "paladins",
+      "the paladin"
+    ],
+    "subclassNoun": {
+      "singular": "Oath",
+      "plural": "Oaths"
+    },
+    "subclasses": [
+      {
+        "name": "Ancients",
+        "synonyms": [
+          "oath of the ancients",
+          "oath of ancients"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 86
+        }
+      },
+      {
+        "name": "Conquest",
+        "synonyms": [
+          "oath of conquest"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 37
+        }
+      },
+      {
+        "name": "Crown",
+        "synonyms": [
+          "oath of crown",
+          "oath of the crown"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 132
+        }
+      },
+      {
+        "name": "Devotion",
+        "synonyms": [
+          "oath of devotion"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 85
+        }
+      },
+      {
+        "name": "Oathbreaker",
+        "reference": {
+          "book": "DMG",
+          "page": 97
+        }
+      },
+      {
+        "name": "Redemption",
+        "synonyms": [
+          "oath of redemption"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 38
+        }
+      },
+      {
+        "name": "Vengeance",
+        "synonyms": [
+          "oath of vengeance"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 87
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 82
+    }
+  },
+  {
+    "name": "Ranger",
+    "synonyms": [
+      "rangers",
+      "the ranger"
+    ],
+    "subclassNoun": {
+      "singular": "Archetype",
+      "plural": "Archetypes"
+    },
+    "subclasses": [
+      {
+        "name": "Beast Master",
+        "reference": {
+          "book": "PHB",
+          "page": 93
+        }
+      },
+      {
+        "name": "Gloom Stalker",
+        "reference": {
+          "book": "XGE",
+          "page": 41
+        }
+      },
+      {
+        "name": "Horizon Walker",
+        "reference": {
+          "book": "XGE",
+          "page": 42
+        }
+      },
+      {
+        "name": "Hunter",
+        "reference": {
+          "book": "PHB",
+          "page": 93
+        }
+      },
+      {
+        "name": "Monster Slayer",
+        "reference": {
+          "book": "XGE",
+          "page": 43
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 89
+    }
+  },
+  {
+    "name": "Rogue",
+    "synonyms": [
+      "rogues",
+      "the rogue"
+    ],
+    "subclassNoun": {
+      "singular": "Archetype",
+      "plural": "Archetypes"
+    },
+    "subclasses": [
+      {
+        "name": "Arcane Trickster",
+        "reference": {
+          "book": "PHB",
+          "page": 97
+        }
+      },
+      {
+        "name": "Assassin",
+        "reference": {
+          "book": "PHB",
+          "page": 97
+        }
+      },
+      {
+        "name": "Inquisitive",
+        "synonyms": [
+          "inquisitor"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 45
+        }
+      },
+      {
+        "name": "Mastermind",
+        "reference": {
+          "book": "XGE",
+          "page": 46
+        }
+      },
+      {
+        "name": "Scout",
+        "reference": {
+          "book": "XGE",
+          "page": 47
+        }
+      },
+      {
+        "name": "Swashbuckler",
+        "reference": {
+          "book": "XGE",
+          "page": 47
+        }
+      },
+      {
+        "name": "Thief",
+        "reference": {
+          "book": "PHB",
+          "page": 97
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 94
+    }
+  },
+  {
+    "name": "Sorcerer",
+    "synonyms": [
+      "sorcerers",
+      "the sorcerer"
+    ],
+    "subclassNoun": {
+      "singular": "Origin",
+      "plural": "Origins"
+    },
+    "subclasses": [
+      {
+        "name": "Divine Soul",
+        "synonyms": [
+          "divine"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 50
+        }
+      },
+      {
+        "name": "Draconic",
+        "synonyms": [
+          "draconic origin",
+          "draconic bloodline",
+          "draconic bloodline origin"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 102
+        }
+      },
+      {
+        "name": "Giant Soul",
+        "synonyms": [
+          "giant",
+          "giant origin"
+        ],
+        "reference": {
+          "book": "UA",
+          "page": 0
+        }
+      },
+      {
+        "name": "Shadow",
+        "synonyms": [
+          "shadow magic"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 50
+        }
+      },
+      {
+        "name": "Storm",
+        "synonyms": [
+          "storm sorcery"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 51
+        }
+      },
+      {
+        "name": "Wild Magic",
+        "reference": {
+          "book": "PHB",
+          "page": 103
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 99
+    }
+  },
+  {
+    "name": "Warlock",
+    "synonyms": [
+      "warlocks",
+      "the warlock"
+    ],
+    "subclassNoun": {
+      "singular": "Patron",
+      "plural": "Patrons"
+    },
+    "subclasses": [
+      {
+        "name": "Archfey",
+        "synonyms": [
+          "the archfey",
+          "the archfey patron",
+          "archfey patron",
+          "of the archfey"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 108
+        }
+      },
+      {
+        "name": "Celestial",
+        "synonyms": [
+          "the celestial",
+          "celestial patron",
+          "the celestial patron",
+          "of the celestial"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 54
+        }
+      },
+      {
+        "name": "Fiend",
+        "synonyms": [
+          "the fiend",
+          "the fiend patron",
+          "fiend patron",
+          "of the fiend"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 109
+        }
+      },
+      {
+        "name": "Great Old One",
+        "synonyms": [
+          "the great old one",
+          "the great old one patron",
+          "great old one patron",
+          "of the great old one"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 109
+        }
+      },
+      {
+        "name": "Hexblade",
+        "synonyms": [
+          "the hexblade",
+          "hexblade patron",
+          "the hexblade patron",
+          "of the hexblade"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 55
+        }
+      },
+      {
+        "name": "Undying",
+        "synonyms": [
+          "the undying",
+          "undying patron",
+          "the undying patron",
+          "of the undying"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 139
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 105
+    }
+  },
+  {
+    "name": "Wizard",
+    "synonyms": [
+      "wizards",
+      "the wizard"
+    ],
+    "subclassNoun": {
+      "singular": "School",
+      "plural": "Schools"
+    },
+    "subclasses": [
+      {
+        "name": "Abjuration",
+        "synonyms": [
+          "school of abjuration",
+          "abjuration school"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 115
+        }
+      },
+      {
+        "name": "Bladesinging",
+        "synonyms": [
+          "blade singing",
+          "school of blade singing",
+          "blade singing school"
+        ],
+        "reference": {
+          "book": "SCG",
+          "page": 142
+        }
+      },
+      {
+        "name": "Conjuration",
+        "synonyms": [
+          "school of conjuration",
+          "conjuration school"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 116
+        }
+      },
+      {
+        "name": "Divination",
+        "synonyms": [
+          "school of divination",
+          "divination school"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 116
+        }
+      },
+      {
+        "name": "Enchantment",
+        "synonyms": [
+          "school of enchantment",
+          "enchantment school"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 117
+        }
+      },
+      {
+        "name": "Evocation",
+        "synonyms": [
+          "school of evocation",
+          "evocation school"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 117
+        }
+      },
+      {
+        "name": "Illusion",
+        "synonyms": [
+          "school of illusion",
+          "illusion school"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 118
+        }
+      },
+      {
+        "name": "Invention",
+        "synonyms": [
+          "school of invention",
+          "invention school"
+        ],
+        "reference": {
+          "book": "UA",
+          "page": 0
+        }
+      },
+      {
+        "name": "Necromancy",
+        "synonyms": [
+          "school of necromancy",
+          "necromancy school"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 118
+        }
+      },
+      {
+        "name": "Transmutation",
+        "synonyms": [
+          "school of transmutation",
+          "transmutation school"
+        ],
+        "reference": {
+          "book": "PHB",
+          "page": 119
+        }
+      },
+      {
+        "name": "War",
+        "synonyms": [
+          "war magic",
+          "school of war",
+          "war school",
+          "school of war magic",
+          "war magic school"
+        ],
+        "reference": {
+          "book": "XGE",
+          "page": 59
+        }
+      }
+    ],
+    "reference": {
+      "book": "PHB",
+      "page": 112
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ArmorProperties",
+    "slots": [
+      {
+        "name": "armor",
+        "type": "Armor"
+      }
+    ],
+    "samples": [
+      "what properties does {armor} have"
+    ]
+  }
+]

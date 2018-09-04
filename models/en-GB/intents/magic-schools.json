@@ -1,6 +1,6 @@
 [
   {
-    "name": "MagicSchoolsListIntent",
+    "name": "MagicSchoolsList",
     "slots": [
       {
         "name": "magicSchools",
@@ -19,7 +19,7 @@
     ]
   },
   {
-    "name": "MagicSchoolIntent",
+    "name": "MagicSchool",
     "slots": [
       {
         "name": "school",

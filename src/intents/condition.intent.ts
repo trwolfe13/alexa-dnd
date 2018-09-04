@@ -9,10 +9,10 @@ import * as Exhaustion from '../data/exhaustion.json';
 export class ConditionIntentHandler extends IntentHandler {
   get intents(): IntentMap {
     return {
-      ConditionIntent: this.conditionDetail,
-      ConditionListIntent: this.conditionList,
-      ConditionExhaustionIntent: this.exhaustion,
-      ConditionExhaustionLevelIntent: this.exhaustionLevel
+      ConditionDescription: this.conditionDescription,
+      ConditionList: this.conditionList,
+      ConditionExhaustion: this.exhaustion,
+      ConditionExhaustionLevel: this.exhaustionLevel
     };
   }
 
@@ -23,7 +23,7 @@ export class ConditionIntentHandler extends IntentHandler {
       .getResponse();
   }
 
-  conditionDetail(handlerInput: HandlerInput, intent: Intent): Response {
+  conditionDescription(handlerInput: HandlerInput, intent: Intent): Response {
     const condition = Utils.slotValue(intent.slots.condition);
 
     if (!Conditions[condition.toLowerCase()]) {

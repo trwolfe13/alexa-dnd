@@ -1,6 +1,6 @@
 [
   {
-    "name": "CharacterStrengthVerbIntent",
+    "name": "CharacterStrengthVerb",
     "confirmationRequired": false,
     "prompts": {},
     "slots": [
@@ -16,7 +16,7 @@
     ]
   },
   {
-    "name": "CharacterJumpVerbIntent",
+    "name": "CharacterJumpVerb",
     "confirmationRequired": false,
     "prompts": {},
     "slots": [
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "name": "CharacterBreathIntent",
+    "name": "CharacterBreath",
     "confirmationRequired": false,
     "prompts": {},
     "slots": [

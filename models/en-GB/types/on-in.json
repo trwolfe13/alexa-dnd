@@ -1,15 +1,15 @@
 [
   {
-    "name": "IsAre",
+    "name": "OnIn",
     "values": [
       {
         "name": {
-          "value": "is"
+          "value": "on"
         }
       },
       {
         "name": {
-          "value": "are"
+          "value": "in"
         }
       }
     ]

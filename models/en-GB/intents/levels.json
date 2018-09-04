@@ -1,6 +1,6 @@
 [
   {
-    "name": "LevelsAbsoluteExperienceIntent",
+    "name": "LevelsAbsoluteExperience",
     "slots": [
       {
         "name": "level",
@@ -29,7 +29,7 @@
     ]
   },
   {
-    "name": "LevelsRelativeExperienceIntent",
+    "name": "LevelsRelativeExperience",
     "slots": [
       {
         "name": "howMany",
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "name": "LevelsProficiencyIntent",
+    "name": "LevelsProficiency",
     "slots": [
       {
         "name": "proficiency",

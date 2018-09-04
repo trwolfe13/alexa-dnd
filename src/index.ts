@@ -9,13 +9,15 @@ export const handler =
     .custom()
     .addRequestHandlers(
       new Requests.LaunchRequestHandler(),
-      new Intents.HelpIntentHandler(),
-      new Intents.CancelAndStopIntentHandler(),
       new Intents.CharacterAbilitiesIntentHandler(),
+      new Intents.ClassesIntentHandler(),
       new Intents.ConditionIntentHandler(),
       new Intents.CurrencyIntentHandler(),
       new Intents.LevelIntentHandler(),
+      new Intents.MagicItemsIntentHandler(),
       new Intents.MagicSchoolsIntentHandler(),
+      new Intents.RacesIntentHandler(),
+      new Intents.ReferenceIntentHandler(),
       new Intents.SpellsIntentHandler(),
       new Intents.WildMagicIntentHandler(),
       new Requests.SessionEndedRequestHandler()

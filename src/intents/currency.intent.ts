@@ -9,7 +9,7 @@ import * as Utils from '../utils';
 export class CurrencyIntentHandler extends IntentHandler {
   get intents(): IntentMap {
     return {
-      CurrencyConversionIntent: this.currencyConversion,
+      CurrencyConversion: this.currencyConversion,
     };
   }
 
@@ -25,10 +25,7 @@ export class CurrencyIntentHandler extends IntentHandler {
     } else {
       const amount: Currency = { [from]: value };
       const result = Utils.convertCurrency(amount);
-
-      console.log('Result:', result);
       speech = Utils.speakCurrency(result);
-      console.log('Speech:', speech);
     }
 
     return handlerInput.responseBuilder

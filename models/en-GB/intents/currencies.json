@@ -1,6 +1,6 @@
 [
   {
-    "name": "CurrencyConversionIntent",
+    "name": "CurrencyConversion",
     "slots": [
       {
         "name": "value",

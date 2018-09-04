@@ -1,6 +1,6 @@
 [
   {
-    "name": "SpellMaterialsIntent",
+    "name": "SpellMaterials",
     "slots": [
       {
         "name": "spell",
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "name": "SpellConcentrationIntent",
+    "name": "SpellConcentration",
     "slots": [
       {
         "name": "spell",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "name": "SpellRitualIntent",
+    "name": "SpellRitual",
     "slots": [
       {
         "name": "spell",
@@ -75,8 +75,8 @@
         "type": "RitualSpell"
       },
       {
-        "name": "isAre",
-        "type": "IsAre"
+        "name": "is",
+        "type": "Is"
       },
       {
         "name": "pronoun",
@@ -86,11 +86,11 @@
     "samples": [
       "can {spell} be {ritually}",
       "can {pronoun} cast {spell} {ritually}",
-      "{isAre} {spell} {ritualSpell}"
+      "{is} {spell} {ritualSpell}"
     ]
   },
   {
-    "name": "SpellDescriptionIntent",
+    "name": "SpellDescription",
     "slots": [
       {
         "name": "spell",

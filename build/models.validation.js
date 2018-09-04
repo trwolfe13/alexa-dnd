@@ -66,15 +66,37 @@ function checkAllSlotsAreUsed(models) {
       usedSlots.push(...findAllSlots(slot.samples));
     });
     usedSlots.push(...findAllSlots(intent.samples));
-    
+
     const unusedSlots = slots.filter(s => !usedSlots.includes(s));
     if (unusedSlots.length > 0) {
-      console.log('slots', slots);
-      console.log('usedSlots', usedSlots);
-      console.log('unusedSlots', unusedSlots);
       throw new Error(`The intent ${intent.name} declares the following slots that aren't used: ${unusedSlots.join(', ')}.`);
     }
   });
+}
+
+function checkAllSlotsAreUnique(models) {
+  models.interactionModel.languageModel.intents.filter(i => i.slots).forEach(intent => {
+    const slots = intent.slots.map(s => s.name);
+    slots.forEach(slot => {
+      if (slots.filter(s => s === slot).length > 1) {
+        throw new Error(`The intent ${intent.name} declares the slot ${slot} multiple times."`);
+      }
+    });
+  });
+}
+
+function checkAllTypesAreUsed(models) {
+  const types = models.interactionModel.languageModel.types.map(t => t.name);
+  const usedTypes = [];
+
+  models.interactionModel.languageModel.intents.filter(i => i.slots).forEach(intent => {
+    usedTypes.push(...intent.slots.map(s => s.type));
+  });
+
+  const unusedTypes = types.filter(t => !usedTypes.includes(t));
+  if (unusedTypes.length > 0) {
+    throw new Error(`The following custom types aren't used: ${unusedTypes.join(', ')}.`);
+  }
 }
 
 function validateModels(models) {
@@ -83,6 +105,8 @@ function validateModels(models) {
   checkAllSlotTypesExist(models)
   checkAllSlotsDeclared(models);
   checkAllSlotsAreUsed(models);
+  checkAllSlotsAreUnique(models);
+  checkAllTypesAreUsed(models);
 }
 
 module.exports = validateModels;

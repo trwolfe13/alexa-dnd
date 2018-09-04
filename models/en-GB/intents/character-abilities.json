@@ -1,6 +1,6 @@
 [
   {
-    "name": "CharacterStrengthVerbIntent",
+    "name": "CharacterStrengthVerb",
     "slots": [
       {
         "name": "strengthPhrase",
@@ -57,7 +57,7 @@
     ]
   },
   {
-    "name": "CharacterJumpVerbIntent",
+    "name": "CharacterJumpVerb",
     "slots": [
       {
         "name": "strengthPhrase",
@@ -115,7 +115,7 @@
     ]
   },
   {
-    "name": "CharacterBreathIntent",
+    "name": "CharacterBreath",
     "slots": [
       {
         "name": "constitutionPhrase",

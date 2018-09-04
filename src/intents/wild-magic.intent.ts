@@ -8,11 +8,11 @@ import { IntentHandler, IntentMap } from '../framework';
 export class WildMagicIntentHandler extends IntentHandler {
   get intents(): IntentMap {
     return {
-      WildMagicIntent: this.wildMagic,
+      WildMagicSurge: this.wildMagicSurge,
     };
   }
 
-  wildMagic(handlerInput: HandlerInput): Response {
+  wildMagicSurge(handlerInput: HandlerInput): Response {
     const random = new Random(Random.engines.mt19937().autoSeed());
     const number = random.integer(1, 100);
 
