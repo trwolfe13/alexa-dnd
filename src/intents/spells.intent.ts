@@ -13,7 +13,10 @@ export class SpellsIntentHandler extends IntentHandler {
       SpellConcentration: this.spellConcentration,
       SpellRitual: this.spellRitual,
       SpellTarget: this.spellTarget,
-      SpellTime: this.spellTime
+      SpellTime: this.spellTime,
+      SpellSchool: this.spellSchool,
+      SpellLevel: this.spellLevel,
+      SpellDuration: this.spellDuration
     };
   }
 
@@ -105,6 +108,33 @@ export class SpellsIntentHandler extends IntentHandler {
     }
     return handlerInput.responseBuilder
       .speak(speech)
+      .getResponse();
+  }
+
+  spellSchool(handlerInput: HandlerInput, intent: Intent): Response {
+    const name = Utils.slotValue(intent.slots.spell);
+    const spell = (<any[]><any>Spells).find(s => s.name === name);
+
+    return handlerInput.responseBuilder
+      .speak(spell.school)
+      .getResponse();
+  }
+
+  spellLevel(handlerInput: HandlerInput, intent: Intent): Response {
+    const name = Utils.slotValue(intent.slots.spell);
+    const spell = (<any[]><any>Spells).find(s => s.name === name);
+
+    return handlerInput.responseBuilder
+      .speak(spell.level)
+      .getResponse();
+  }
+
+  spellDuration(handlerInput: HandlerInput, intent: Intent): Response {
+    const name = Utils.slotValue(intent.slots.spell);
+    const spell = (<any[]><any>Spells).find(s => s.name === name);
+
+    return handlerInput.responseBuilder
+      .speak(spell.duration)
       .getResponse();
   }
 }
