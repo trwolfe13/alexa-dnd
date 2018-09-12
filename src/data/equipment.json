@@ -1,0 +1,5464 @@
+[
+  {
+    "name": "Abacus",
+    "description": "A standard tool used to make calculations.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Acid (vial)",
+    "description": "As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.",
+    "type": "Adventuring Gear",
+    "cost": "25 gp",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "utility",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 148
+    },
+    "synonyms": [
+      "acid",
+      "vial of acid"
+    ]
+  },
+  {
+    "name": "Alchemist's Fire (flask)",
+    "description": "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
+    "type": "Adventuring Gear",
+    "cost": "50 gp",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "utility",
+      "combat",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 148
+    },
+    "synonyms": [
+      "alchemist's fire",
+      "alchemist fire",
+      "flask of alchemist fire",
+      "flask of alchemist's fire"
+    ]
+  },
+  {
+    "name": "Alchemist's Supplies",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "50 gp",
+    "weight": "8 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 79
+    }
+  },
+  {
+    "name": "Alms Box",
+    "description": "A small box for alms, typically found in a priest's pack.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Amulet",
+    "description": "A holy symbol is a representation of a god or pantheon. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in the Spellcasting section. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.",
+    "type": "Holy Symbol",
+    "cost": "5 gp",
+    "weight": "1 lb",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Antimatter Rifle",
+    "description": "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+    "type": "Firearms Ranged Weapon",
+    "cost": "--",
+    "weight": "10 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "6d8",
+        "type": "necrotic"
+      },
+      "properties": [
+        "ammunition (firearms)",
+        "range",
+        "reload",
+        "two-handed"
+      ],
+      "range": {
+        "short": 120,
+        "long": 360
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    }
+  },
+  {
+    "name": "Antitoxin",
+    "description": "A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.",
+    "type": "Adventuring Gear",
+    "cost": "50 gp",
+    "weight": "--",
+    "tags": [
+      "healing",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Arcane Focus",
+    "description": "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Arcane Focus",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Arrows",
+    "description": "Arrows are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+    "type": "Ammunition",
+    "cost": "1 gp",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Assassin's Blood (Ingested)",
+    "description": "A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12) poison damage and is poisoned for 24 hours. On a successful save, the creature takes half damage and isn't poisoned.\n\nIngested. A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.",
+    "type": "Poison",
+    "cost": "150 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 257
+    },
+    "synonyms": [
+      "assassin's blood",
+      "assassin's blood poison"
+    ]
+  },
+  {
+    "name": "Backpack",
+    "description": "A backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold 1 cubic foot/ 30 pounds of gear.\n\nYou can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Bagpipes",
+    "description": "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use bagpipes as a spellcasting focus.",
+    "type": "Tool",
+    "cost": "30 gp",
+    "weight": "6 lbs",
+    "tags": [
+      "instrument"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Ball Bearings (bag of 1,000)",
+    "description": "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the save.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "control",
+      "utility",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    },
+    "synonyms": [
+      "ball bearings"
+    ]
+  },
+  {
+    "name": "Barding",
+    "description": "Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.\n\nApplicable Armor:",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 155
+    }
+  },
+  {
+    "name": "Barrel",
+    "description": "A barrel can hold 40 gallons of liquid, or 4 cubic feet of solid material.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "70 lbs",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Basket",
+    "description": "A basket can hold 2 cubic feet/40 pounds of gear.",
+    "type": "Adventuring Gear",
+    "cost": "4 sp",
+    "weight": "2 lbs",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Battleaxe",
+    "description": "Proficiency with a battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "10 gp",
+    "weight": "4 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "slashing"
+      },
+      "properties": [
+        "versatile (1d10)"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Bedroll",
+    "description": "You never know where you're going to sleep, and a bedroll helps you get better sleep in a hayloft or on the cold ground. A bedroll consists of bedding and a blanket thin enough to be rolled up and tied. In an emergency, it can double as a stretcher.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "7 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Bell",
+    "description": "A standard bell that rings, typically used for signaling.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "--",
+    "tags": [
+      "communication",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Bit and Bridle",
+    "description": "Standard equipment used to direct a mount.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "1 lb",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Blanket",
+    "description": "A thick, quilted, blanket made to keep you warm in cold weather.",
+    "type": "Adventuring Gear",
+    "cost": "5 sp",
+    "weight": "3 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Block and Tackle",
+    "description": "A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Block of Incense",
+    "description": "A block of incense, typically found in a priest's pack.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "social",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    },
+    "synonyms": [
+      "incense"
+    ]
+  },
+  {
+    "name": "Blowgun Needles",
+    "description": "Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+    "type": "Ammunition",
+    "cost": "1 gp",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "blowgun darts",
+      "blowgun ammo"
+    ]
+  },
+  {
+    "name": "Blowgun",
+    "description": "Proficiency with a blowgun allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Ranged Weapon",
+    "cost": "10 gp",
+    "weight": "1 lb",
+    "weapon": {
+      "damage": {
+        "dice": "1",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition",
+        "loading",
+        "range"
+      ],
+      "range": {
+        "short": 25,
+        "long": 100
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Bomb",
+    "description": "As an action, a character can light this bomb and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take 3d6 fire damage.",
+    "type": "Adventuring Gear",
+    "cost": "150 gp",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    }
+  },
+  {
+    "name": "Book",
+    "description": "A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook.",
+    "type": "Adventuring Gear",
+    "cost": "25 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "social",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Boomerang",
+    "description": "The boomerang is a ranged weapon, and any creature proficient with the javelin is also proficient with this weapon.\n\nOn a miss, a boomerang returns to the thrower's hand.",
+    "type": "Simple Ranged Weapon",
+    "cost": "--",
+    "weight": "--",
+    "weapon": {
+      "damage": {
+        "dice": "1d4",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        ""
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "SKT",
+      "page": 223
+    }
+  },
+  {
+    "name": "Bottle, Glass",
+    "description": "A bottle can hold 1 1/2 pints of liquid.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "glass bottle",
+      "bottle"
+    ]
+  },
+  {
+    "name": "Breastplate",
+    "description": "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.",
+    "type": "Medium Armor",
+    "cost": "400 gp",
+    "weight": "20 lbs",
+    "armor": {
+      "ac": 14,
+      "plusDex": true,
+      "restrictedDex": true,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 145
+    }
+  },
+  {
+    "name": "Brewer's Supplies",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "20 gp",
+    "weight": "9 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 79
+    }
+  },
+  {
+    "name": "Bucket",
+    "description": "A bucket can hold 3 gallons of liquid, or 1/2 cubic foot of solid material.",
+    "type": "Adventuring Gear",
+    "cost": "5 cp",
+    "weight": "2 lbs",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Bullets, Modern",
+    "description": "The ammunition of a firearm is destroyed upon use. Renaissance and modern firearms use bullets.",
+    "type": "Ammunition",
+    "cost": "--",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    },
+    "synonyms": [
+      "modern bullets"
+    ]
+  },
+  {
+    "name": "Bullets, Renaissance",
+    "description": "The ammunition of a firearm is destroyed upon use. Renaissance and modern firearms use bullets.",
+    "type": "Ammunition",
+    "cost": "3 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    },
+    "synonyms": [
+      "renaissance bullets",
+      "bullets"
+    ]
+  },
+  {
+    "name": "Burglar's Pack",
+    "description": "Includes a backpack, a bag of 1,000 ball bearings, 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 10 pitons, a hooded lantern, 2 flasks of oil, 5 days rations, a tinderbox, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it.",
+    "type": "Equipment Pack",
+    "cost": "16 gp",
+    "weight": "47 1/2 lbs",
+    "tags": [
+      "utility",
+      "exploration",
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Burnt Othur Fumes (Inhaled)",
+    "description": "A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends.\n\nInhaled. These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.",
+    "type": "Poison",
+    "cost": "500 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "othur fumes",
+      "othur poison",
+      "burnt othur fumes"
+    ]
+  },
+  {
+    "name": "Calligrapher's Supplies",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "10 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 79
+    }
+  },
+  {
+    "name": "Caltrops (bag of 20)",
+    "description": "As an action, you can spread a bag of caltrops to cover a square area that is 5 feet on a side. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage. Taking this damage reduces the creature's walking speed by 10 feet until the creature regains at least 1 hit point. A creature moving through the area at half speed doesn't need to make the save.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "damage",
+      "movement",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    },
+    "synonyms": [
+      "caltrops"
+    ]
+  },
+  {
+    "name": "Camel",
+    "description": "Camel Statistics\n\nA good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.\n\nAn animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.",
+    "type": "Mount",
+    "cost": "50 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Candle",
+    "description": "For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.",
+    "type": "Adventuring Gear",
+    "cost": "5 cp",
+    "weight": "--",
+    "tags": [
+      "utility",
+      "exploration",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Canoe",
+    "description": "A canoe can be purchased in Port Nyanzaru for 50 gp. It holds up to six Medium creatures and has a maximum speed of 2 mph. It is otherwise identical to a rowboat (see chapter 5 of the Dungeon Master's Guide).\n\nThe sale of canoes in Port Nyanzaru is controlled by the merchant prince Ekene-Afa.",
+    "type": "Adventuring Gear",
+    "cost": "50 gp",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "TOA",
+      "page": 31
+    }
+  },
+  {
+    "name": "Carpenter's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "8 gp",
+    "weight": "6 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 80
+    }
+  },
+  {
+    "name": "Carriage",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "type": "Vehicle (Land)",
+    "cost": "100 gp",
+    "weight": "600 lbs",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Cart",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "type": "Vehicle (Land)",
+    "cost": "15 gp",
+    "weight": "200 lbs",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Cartographer's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "15 gp",
+    "weight": "6 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 79
+    }
+  },
+  {
+    "name": "Case, Crossbow Bolt",
+    "description": "This wooden case can hold up to twenty crossbow bolts.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "1 lb",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    },
+    "synonyms": [
+      "crossbow bolt case",
+      "crossbow quiver"
+    ]
+  },
+  {
+    "name": "Case, Map or Scroll",
+    "description": "This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "1 lb",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    },
+    "synonyms": [
+      "map case",
+      "scroll case"
+    ]
+  },
+  {
+    "name": "Censer",
+    "description": "A censer, typically found in a priest's pack.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Chain (10 feet)",
+    "description": "A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "10 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    },
+    "synonyms": [
+      "chain"
+    ]
+  },
+  {
+    "name": "Chain Mail",
+    "description": "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.",
+    "type": "Heavy Armor",
+    "cost": "75 gp",
+    "weight": "55 lbs",
+    "armor": {
+      "ac": 16,
+      "plusDex": false,
+      "restrictedDex": false,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 145
+    }
+  },
+  {
+    "name": "Chain Shirt",
+    "description": "Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.",
+    "type": "Medium Armor",
+    "cost": "50 gp",
+    "weight": "20 lbs",
+    "armor": {
+      "ac": 13,
+      "plusDex": true,
+      "restrictedDex": true,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 144
+    }
+  },
+  {
+    "name": "Chalk (1 piece)",
+    "description": "A piece of chalk used for writing and marking on various surfaces.",
+    "type": "Adventuring Gear",
+    "cost": "1 cp",
+    "weight": "--",
+    "tags": [
+      "communication",
+      "utility",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "chalk"
+    ]
+  },
+  {
+    "name": "Chariot",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "type": "Vehicle (Land)",
+    "cost": "250 gp",
+    "weight": "100 lbs",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Chest",
+    "description": "A chest can hold 12 cubic feet/ 300 pounds of gear.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "25 lbs",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Climber's Kit",
+    "description": "A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor.",
+    "type": "Adventuring Gear",
+    "cost": "25 gp",
+    "weight": "12 lbs",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Clothes, Common",
+    "description": "This set of clothes could consist of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes.",
+    "type": "Adventuring Gear",
+    "cost": "5 sp",
+    "weight": "3 lbs",
+    "tags": [
+      "social",
+      "outerwear"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "common clothes"
+    ]
+  },
+  {
+    "name": "Clothes, Costume",
+    "description": "This set of clothes is fashioned after a particular costume, typically meant for entertaining.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "4 lbs",
+    "tags": [
+      "social",
+      "deception",
+      "outerwear"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "costume"
+    ]
+  },
+  {
+    "name": "Clothes, Fine",
+    "description": "This set of clothes is designed specifically to be expensive and to show it, including fancy, tailored clothes in whatever fashion happens to be the current style in the courts of the nobles.Precious metals and gems could be worked into the clothing.",
+    "type": "Adventuring Gear",
+    "cost": "15 gp",
+    "weight": "6 lbs",
+    "tags": [
+      "social",
+      "outerwear"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "fine clothes"
+    ]
+  },
+  {
+    "name": "Clothes, Traveler's",
+    "description": "This set of clothes could consist of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "4 lbs",
+    "tags": [
+      "social",
+      "outerwear"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "traveler's clothes"
+    ]
+  },
+  {
+    "name": "Club",
+    "description": "Proficiency with a club allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Melee Weapon",
+    "cost": "1 sp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d4",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        "light"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Cobbler's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "5 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 80
+    }
+  },
+  {
+    "name": "Component Pouch",
+    "description": "A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).",
+    "type": "Adventuring Gear",
+    "cost": "25 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "utility",
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Cook's Utensils",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "1 gp",
+    "weight": "8 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 80
+    }
+  },
+  {
+    "name": "Crawler Mucus (Contact)",
+    "description": "This poison must be harvested from a dead or incapacitated crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nContact. Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.",
+    "type": "Poison",
+    "cost": "200 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "debuff",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "crawler poison",
+      "crawler mucus"
+    ]
+  },
+  {
+    "name": "Crossbow Bolts",
+    "description": "Crossbow bolts are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+    "type": "Ammunition",
+    "cost": "1 gp",
+    "weight": "1 1/2 lb",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Crossbow, Hand",
+    "description": "Proficiency with a hand crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Ranged Weapon",
+    "cost": "75 gp",
+    "weight": "3 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d6",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition",
+        "light",
+        "loading",
+        "range"
+      ],
+      "range": {
+        "short": 30,
+        "long": 120
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    },
+    "synonyms": [
+      "hand crossbow"
+    ]
+  },
+  {
+    "name": "Crossbow, Heavy",
+    "description": "Proficiency with a heavy crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Ranged Weapon",
+    "cost": "50 gp",
+    "weight": "18 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d10",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition",
+        "heavy",
+        "loading",
+        "range",
+        "two-handed"
+      ],
+      "range": {
+        "short": 100,
+        "long": 400
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    },
+    "synonyms": [
+      "heavy crossbow"
+    ]
+  },
+  {
+    "name": "Crossbow, Light",
+    "description": "Proficiency with a light crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Ranged Weapon",
+    "cost": "25 gp",
+    "weight": "5 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition",
+        "loading",
+        "range",
+        "two-handed"
+      ],
+      "range": {
+        "short": 80,
+        "long": 320
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    },
+    "synonyms": [
+      "light crossbow"
+    ]
+  },
+  {
+    "name": "Crowbar",
+    "description": "Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Crystal",
+    "description": "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Arcane Focus",
+    "cost": "10 gp",
+    "weight": "1 lb",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Dagger",
+    "description": "Proficiency with a dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Melee Weapon",
+    "cost": "2 gp",
+    "weight": "1 lb",
+    "weapon": {
+      "damage": {
+        "dice": "1d4",
+        "type": "piercing"
+      },
+      "properties": [
+        "finesse",
+        "light",
+        "range"
+      ],
+      "range": {
+        "short": 20,
+        "long": 60
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Dart",
+    "description": "Proficiency with a dart allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Ranged Weapon",
+    "cost": "5 cp",
+    "weight": "1/4 lb",
+    "weapon": {
+      "damage": {
+        "dice": "1d4",
+        "type": "piercing"
+      },
+      "properties": [
+        "finesse",
+        "range"
+      ],
+      "range": {
+        "short": 20,
+        "long": 60
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Dice Set",
+    "description": "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set.",
+    "type": "Tool",
+    "cost": "1 sp",
+    "weight": "--",
+    "tags": [
+      "social"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 81
+    },
+    "synonyms": [
+      "dice",
+      "set of dice"
+    ]
+  },
+  {
+    "name": "Diplomat's Pack",
+    "description": "Includes a chest, 2 cases for maps and scrolls, a set of fine clothes, a bottle of ink, an ink pen, a lamp, 2 flasks of oil, 5 sheets of paper, a vial of perfume, sealing wax, and soap.",
+    "type": "Equipment Pack",
+    "cost": "39 gp",
+    "weight": "36 lbs",
+    "tags": [
+      "social",
+      "utility",
+      "exploration",
+      "container",
+      "outerwear"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Disguise Kit",
+    "description": "This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.",
+    "type": "Tool",
+    "cost": "25 gp",
+    "weight": "3 lbs",
+    "tags": [
+      "utility",
+      "deception"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 81
+    }
+  },
+  {
+    "name": "Donkey (or Mule)",
+    "description": "Mule Statistics\n\nA good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.\n\nAn animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.",
+    "type": "Mount",
+    "cost": "8 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    },
+    "synonyms": [
+      "donkey",
+      "mule"
+    ]
+  },
+  {
+    "name": "Double-Bladed Scimitar",
+    "description": "The double scimitar is the signature weapon of Valenar elves. A haft of fine wood supports a long blade on either end. Forged with techniques honed over tens of thousands of years, these blades are strong, sharp, and remarkably light. Each scimitar is a masterpiece, and as a result the double scimitar is an expensive weapon, but few people ever have an opportunity to purchase one. If you're an elf, your blade could have a long and storied history. If you're not an elf, you might have stolen the weapon from a fallen foe or received it from a dying Valenar ally. If you work with your DM to create the story behind your double scimitar, you can start with the weapon at 1st level in place of a martial weapon normally granted by your class. However, it can be dangerous for a non-elf to carry a double scimitar. Valenar may demand its return or challenge you to prove that you're worthy to wield it.\n\nSpecial. When you take the attack action and make a two-handed attack with a double-bladed scimitar, you can use a bonus action to make a melee attack with the blade at the opposite end of the weapon. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a d4, and it deals slashing damage.",
+    "type": "Martial Melee Weapon",
+    "cost": "100 gp",
+    "weight": "6 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "2d4",
+        "type": "slashing"
+      },
+      "properties": [
+        "special",
+        "two-handed"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "WGE",
+      "page": 73
+    }
+  },
+  {
+    "name": "Draft Horse",
+    "description": "Draft Horse Statistics\n\nA good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.\n\nAn animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.",
+    "type": "Mount",
+    "cost": "50 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Dragonchess Set",
+    "description": "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set.",
+    "type": "Tool",
+    "cost": "1 gp",
+    "weight": "1/2 lb",
+    "tags": [
+      "social"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 81
+    }
+  },
+  {
+    "name": "Drow Poison (Injury)",
+    "description": "This poison is typically made only by the drow, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.\n\nInjury. Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.",
+    "type": "Poison",
+    "cost": "200 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "debuff",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "drow poison"
+    ]
+  },
+  {
+    "name": "Druidic Focus",
+    "description": "A druid can use a Sprig of Mistletoe (or holly) as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Druidic Focus",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Drum",
+    "description": "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.",
+    "type": "Tool",
+    "cost": "6 gp",
+    "weight": "3 lbs",
+    "tags": [
+      "instrument"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Dulcimer",
+    "description": "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.",
+    "type": "Tool",
+    "cost": "25 gp",
+    "weight": "10 lbs",
+    "tags": [
+      "instrument"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Dungeoneer's Pack",
+    "description": "Includes a backpack, a crowbar, a hammer, 10 pitons, 10 torches, a tinderbox, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it.",
+    "type": "Equipment Pack",
+    "cost": "12 gp",
+    "weight": "61 1/2 lbs",
+    "tags": [
+      "utility",
+      "exploration",
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Dynamite (Stick)",
+    "description": "As an action, a creature can light a stick of dynamite and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must make a DC 12 Dexterity saving throw, taking 3d6 bludgeoning damage on a failed save, or half as much damage on a successful one.\n\nA character can bind sticks of dynamite together so they explode at the same time. Each additional stick increases the damage by 1d6 (to a maximum of 10d6) and the burst radius by 5 feet (to a maximum of 20 feet).\n\nDynamite can be rigged with a longer fuse to explode after a set amount of time, usually 1 to 6 rounds. Roll initiative for the dynamite. After the set number of rounds goes by, the dynamite explodes on that initiative.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    },
+    "synonyms": [
+      "dynamite",
+      "stick of dynamite"
+    ]
+  },
+  {
+    "name": "Elephant",
+    "description": "Elephant Statistics\n\nA good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.\n\nAn animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.",
+    "type": "Mount",
+    "cost": "200 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Emblem",
+    "description": "A holy symbol is a representation of a god or pantheon. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in the Spellcasting section. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.",
+    "type": "Holy Symbol",
+    "cost": "5 gp",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Energy Cell",
+    "description": "The ammunition of a firearm is destroyed upon use. Futuristic firearms are powered by a special type of ammunition called energy cells. An energy cell contains enough power for all the shots its firearm can make.",
+    "type": "Ammunition",
+    "cost": "--",
+    "weight": "lb",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    }
+  },
+  {
+    "name": "Entertainer's Pack",
+    "description": "Includes a backpack, a bedroll, 2 costumes, 5 candles, 5 days of rations, a waterskin, and a disguise kit.",
+    "type": "Equipment Pack",
+    "cost": "40 gp",
+    "weight": "38 lbs",
+    "tags": [
+      "social",
+      "utility",
+      "exploration",
+      "deception",
+      "container",
+      "outerwear"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Essence of Ether (Inhaled)",
+    "description": "A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 8 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.\n\nInhaled. These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.",
+    "type": "Poison",
+    "cost": "300 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "debuff",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "ether",
+      "ether essence",
+      "essence of ether"
+    ]
+  },
+  {
+    "name": "Explorer's Pack",
+    "description": "Includes a backpack, a bedroll, a mess kit, a tinderbox, 10 torches, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it.",
+    "type": "Equipment Pack",
+    "cost": "10 gp",
+    "weight": "59 lbs",
+    "tags": [
+      "utility",
+      "exploration",
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Feed (per day)",
+    "description": "Standard feed typically consumed by a mount per day.",
+    "type": "Adventuring Gear",
+    "cost": "5 cp",
+    "weight": "10 lbs",
+    "tags": [
+      "utility",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    },
+    "synonyms": [
+      "feed",
+      "animal feed",
+      "goat feed",
+      "horse feed",
+      "cow feed"
+    ]
+  },
+  {
+    "name": "Fishing Tackle",
+    "description": "This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "4 lbs",
+    "tags": [
+      "social",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    },
+    "synonyms": [
+      "fisherman's kit",
+      "fishing kit",
+      "rod and tackle",
+      "tackle"
+    ]
+  },
+  {
+    "name": "Flail",
+    "description": "Proficiency with a flail allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "10 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        ""
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Flask or Tankard",
+    "description": "A flask or tankard can hold 1 pint of liquid.",
+    "type": "Adventuring Gear",
+    "cost": "2 cp",
+    "weight": "1 lb",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "flask",
+      "tankard"
+    ]
+  },
+  {
+    "name": "Flute",
+    "description": "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.",
+    "type": "Tool",
+    "cost": "2 gp",
+    "weight": "1 lb",
+    "tags": [
+      "instrument"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Forgery Kit",
+    "description": "This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.",
+    "type": "Tool",
+    "cost": "15 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility",
+      "deception"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 81
+    }
+  },
+  {
+    "name": "Galley",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "type": "Vehicle (Water)",
+    "cost": "30000 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Glaive",
+    "description": "Proficiency with a glaive allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "20 gp",
+    "weight": "6 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d10",
+        "type": "slashing"
+      },
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range": {
+        "short": 10,
+        "long": 10
+      }
+    },
+    "tags": [
+      "damage",
+      "control",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Glassblower's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "30 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 82
+    }
+  },
+  {
+    "name": "Grappling Hook",
+    "description": "When tied to the end of a rope, a grappling hook can secure the rope to a battlement, window ledge, tree limb, or other protrusion.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "4 lbs",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Greataxe",
+    "description": "Proficiency with a greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "30 gp",
+    "weight": "6 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d12",
+        "type": "slashing"
+      },
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Greatclub",
+    "description": "Proficiency with a greatclub allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Melee Weapon",
+    "cost": "2 sp",
+    "weight": "10 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        "two-handed"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Greatsword",
+    "description": "Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "50 gp",
+    "weight": "6 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "2d6",
+        "type": "slashing"
+      },
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Grenade, Fragmentation",
+    "description": "As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.\n\nEach creature within 20 feet of an exploding fragmentation grenade must make a DC 15 Dexterity saving throw, taking 5d6 piercing damage on a failed save, or half as much damage on a successful one.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    },
+    "synonyms": [
+      "frag",
+      "frag grenade"
+    ]
+  },
+  {
+    "name": "Grenade Launcher",
+    "description": "As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "7 lbs",
+    "tags": [
+      "damage",
+      "control",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    }
+  },
+  {
+    "name": "Grenade, Smoke",
+    "description": "As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.\n\nOne round after a smoke grenade lands, it emits a cloud of smoke that creates a heavily obscured area in a 20-foot radius. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "2 lbs",
+    "tags": [
+      "control",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    },
+    "synonyms": [
+      "smoke grenade"
+    ]
+  },
+  {
+    "name": "Gunpowder, Keg",
+    "description": "Gunpowder is chiefly used to propel a bullet out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs and in water-resistant powder horns.\n\nSetting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it (3d6 for a powder horn, 7d6 for a keg). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet.\n\n",
+    "type": "Adventuring Gear",
+    "cost": "250 gp",
+    "weight": "20 lbs",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    },
+    "synonyms": [
+      "gunpowder",
+      "keg of gunpowder"
+    ]
+  },
+  {
+    "name": "Gunpowder, Powder Horn",
+    "description": "Gunpowder is chiefly used to propel a bullet out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs and in water-resistant powder horns.\n\nSetting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it (3d6 for a powder horn, 7d6 for a keg). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet.",
+    "type": "Adventuring Gear",
+    "cost": "35 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    },
+    "synonyms": [
+      "horn of gunpowder"
+    ]
+  },
+  {
+    "name": "Halberd",
+    "description": "Proficiency with a halberd allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "20 gp",
+    "weight": "6 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d10",
+        "type": "slashing"
+      },
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range": {
+        "short": 10,
+        "long": 10
+      }
+    },
+    "tags": [
+      "damage",
+      "control",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Half Plate",
+    "description": "Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.",
+    "type": "Medium Armor",
+    "cost": "750 gp",
+    "weight": "40 lbs",
+    "armor": {
+      "ac": 15,
+      "plusDex": true,
+      "restrictedDex": true,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 145
+    }
+  },
+  {
+    "name": "Hammer, Sledge",
+    "description": "This two-handed, iron-headed hammer is good for smashing open treasure chests.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "10 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "sledge hammer"
+    ]
+  },
+  {
+    "name": "Hammer",
+    "description": "This one-handed hammer with an iron head is useful for pounding pitons into a wall.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "3 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Handaxe",
+    "description": "Proficiency with a handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Melee Weapon",
+    "cost": "5 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d6",
+        "type": "slashing"
+      },
+      "properties": [
+        "light",
+        "range"
+      ],
+      "range": {
+        "short": 20,
+        "long": 60
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Healer's Kit",
+    "description": "This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "3 lbs",
+    "tags": [
+      "healing",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Herbalism Kit",
+    "description": "This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and any potion of healing.",
+    "type": "Tool",
+    "cost": "5 gp",
+    "weight": "3 lbs",
+    "tags": [
+      "healing",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 82
+    }
+  },
+  {
+    "name": "Hide",
+    "description": "This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.",
+    "type": "Medium Armor",
+    "cost": "10 gp",
+    "weight": "12 lbs",
+    "armor": {
+      "ac": 12,
+      "plusDex": true,
+      "restrictedDex": true,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 144
+    }
+  },
+  {
+    "name": "Holy Symbol",
+    "description": "A holy symbol is a representation of a god or pantheon. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in the Spellcasting section. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.",
+    "type": "Holy Symbol",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Holy Water (flask)",
+    "description": "As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.\n\nA cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.",
+    "type": "Adventuring Gear",
+    "cost": "25 gp",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "utility",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    },
+    "synonyms": [
+      "flask of holy water",
+      "holy water"
+    ]
+  },
+  {
+    "name": "Horn",
+    "description": "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.",
+    "type": "Tool",
+    "cost": "3 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "instrument"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Hourglass",
+    "description": "A standard hourglass used to measure the passage of time.",
+    "type": "Adventuring Gear",
+    "cost": "25 gp",
+    "weight": "1 lb",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Hunting Trap",
+    "description": "When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "25 lbs",
+    "tags": [
+      "damage",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 152
+    }
+  },
+  {
+    "name": "Ink (1 ounce bottle)",
+    "description": "Ink is typically used with an ink pen to write.",
+    "type": "Adventuring Gear",
+    "cost": "10 gp",
+    "weight": "--",
+    "tags": [
+      "communication",
+      "social",
+      "utility",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "ink",
+      "writing ink"
+    ]
+  },
+  {
+    "name": "Ink Pen",
+    "description": "An ink pen is a wooden stick with a special tip on the end. The tip draws ink in when dipped in a vial and leaves an ink trail when drawn across a surface.",
+    "type": "Adventuring Gear",
+    "cost": "2 cp",
+    "weight": "--",
+    "tags": [
+      "communication",
+      "social",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Insect Repellant-Salve",
+    "description": "Insect repellent can be purchased in Port Nyanzaru in two forms: blocks of incense or a greasy salve. The merchant prince Kwayothé controls the sale of both. Neither kind of repellent protects against giant insects or the vile swarms of insects described in appendix A of the Monster Manual.\n\nA gourd or vial of salve, which sells for 1 gp, contains 20 applications of odorless grease. One application protects its wearer against normal insects for 24 hours. The salve is waterproof so it doesn't wash off in rain.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "TOA",
+      "page": 32
+    }
+  },
+  {
+    "name": "Insect Repellent-Incense",
+    "description": "Insect repellent can be purchased in Port Nyanzaru in two forms: blocks of incense or a greasy salve. The merchant prince Kwayothé controls the sale of both. Neither kind of repellent protects against giant insects or the vile swarms of insects described in appendix A of the Monster Manual.\n\nA block of incense sells for 1 sp. When lit, it burns for 8 hours and repels normal insects within a 20-foot-radius centered on it.\n\n",
+    "type": "Adventuring Gear",
+    "cost": "1 sp",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "TOA",
+      "page": 32
+    }
+  },
+  {
+    "name": "Javelin",
+    "description": "Proficiency with a javelin allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Melee Weapon",
+    "cost": "5 sp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d6",
+        "type": "piercing"
+      },
+      "properties": [
+        "range"
+      ],
+      "range": {
+        "short": 30,
+        "long": 120
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Jeweler's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "25 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 82
+    }
+  },
+  {
+    "name": "Jug or Pitcher",
+    "description": "A jug or pitcher can hold 1 gallon of liquid.",
+    "type": "Adventuring Gear",
+    "cost": "2 cp",
+    "weight": "4 lbs",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "jug",
+      "pitcher"
+    ]
+  },
+  {
+    "name": "Keelboat",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.\n\nKeelboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores.",
+    "type": "Vehicle (Water)",
+    "cost": "3000 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Ladder (10 foot)",
+    "description": "This item is a straight, simple wooden ladder.",
+    "type": "Adventuring Gear",
+    "cost": "1 sp",
+    "weight": "25 lbs",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "ladder"
+    ]
+  },
+  {
+    "name": "Lamp",
+    "description": "A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.",
+    "type": "Adventuring Gear",
+    "cost": "5 sp",
+    "weight": "1 lb",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 152
+    }
+  },
+  {
+    "name": "Lance",
+    "description": "Proficiency with a lance allows you to add your proficiency bonus to the attack roll for any attack you make with it.\n\nYou have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.",
+    "type": "Martial Melee Weapon",
+    "cost": "10 gp",
+    "weight": "6 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d12",
+        "type": "piercing"
+      },
+      "properties": [
+        "reach",
+        "special"
+      ],
+      "range": {
+        "short": 10,
+        "long": 10
+      }
+    },
+    "tags": [
+      "damage",
+      "control",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 148
+    }
+  },
+  {
+    "name": "Lantern, Bullseye",
+    "description": "A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.",
+    "type": "Adventuring Gear",
+    "cost": "10 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 152
+    },
+    "synonyms": [
+      "bullseye lantern"
+    ]
+  },
+  {
+    "name": "Lantern, Hooded",
+    "description": "A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 152
+    },
+    "synonyms": [
+      "hooded lantern"
+    ]
+  },
+  {
+    "name": "Laser Pistol",
+    "description": "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+    "type": "Firearms Ranged Weapon",
+    "cost": "--",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "3d6",
+        "type": "radiant"
+      },
+      "properties": [
+        "ammunition (firearms)",
+        "range",
+        "reload"
+      ],
+      "range": {
+        "short": 40,
+        "long": 120
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    }
+  },
+  {
+    "name": "Laser Rifle",
+    "description": "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+    "type": "Firearms Ranged Weapon",
+    "cost": "--",
+    "weight": "7 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "3d8",
+        "type": "radiant"
+      },
+      "properties": [
+        "ammunition (firearms)",
+        "range",
+        "reload",
+        "two-handed"
+      ],
+      "range": {
+        "short": 100,
+        "long": 300
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    }
+  },
+  {
+    "name": "Leather",
+    "description": "The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.",
+    "type": "Light Armor",
+    "cost": "10 gp",
+    "weight": "10 lbs",
+    "armor": {
+      "ac": 11,
+      "plusDex": true,
+      "restrictedDex": false,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 144
+    }
+  },
+  {
+    "name": "Leatherworker's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "5 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 82
+    }
+  },
+  {
+    "name": "Light Hammer",
+    "description": "Proficiency with a light hammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Melee Weapon",
+    "cost": "2 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d4",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        "light",
+        "range"
+      ],
+      "range": {
+        "short": 20,
+        "long": 60
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Little Bag of Sand",
+    "description": "A small bag of sand, typically found in a scholar's pack.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    },
+    "synonyms": [
+      "sand",
+      "bag of sand"
+    ]
+  },
+  {
+    "name": "Lock",
+    "description": "A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices.",
+    "type": "Adventuring Gear",
+    "cost": "10 gp",
+    "weight": "1 lb",
+    "tags": [
+      "utility",
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 152
+    }
+  },
+  {
+    "name": "Longbow",
+    "description": "Proficiency with a longbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Ranged Weapon",
+    "cost": "50 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition",
+        "heavy",
+        "range",
+        "two-handed"
+      ],
+      "range": {
+        "short": 150,
+        "long": 600
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Longship",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "type": "Vehicle (Water)",
+    "cost": "10000 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Longsword",
+    "description": "Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "15 gp",
+    "weight": "3 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "slashing"
+      },
+      "properties": [
+        "versatile (1d10)"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Lute",
+    "description": "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.",
+    "type": "Tool",
+    "cost": "35 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "instrument"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Lyre",
+    "description": "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.",
+    "type": "Tool",
+    "cost": "30 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "instrument"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Mace",
+    "description": "Proficiency with a mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Melee Weapon",
+    "cost": "5 gp",
+    "weight": "4 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d6",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        ""
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Magnifying Glass",
+    "description": "This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.",
+    "type": "Adventuring Gear",
+    "cost": "100 gp",
+    "weight": "--",
+    "tags": [
+      "detection",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 152
+    }
+  },
+  {
+    "name": "Malice (Inhaled)",
+    "description": "A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 1 hour. The poisoned creature is blinded.\n\nInhaled. These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.",
+    "type": "Poison",
+    "cost": "250 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "debuff",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "malice"
+    ]
+  },
+  {
+    "name": "Manacles",
+    "description": "These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "6 lbs",
+    "tags": [
+      "control",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 152
+    }
+  },
+  {
+    "name": "Mason's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "10 gp",
+    "weight": "8 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Mastiff",
+    "description": "Mastiff Statistics\n\nA good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.\n\nAn animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.",
+    "type": "Mount",
+    "cost": "25 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Maul",
+    "description": "Proficiency with a maul allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "10 gp",
+    "weight": "10 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "2d6",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Mess Kit",
+    "description": "This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.",
+    "type": "Adventuring Gear",
+    "cost": "2 sp",
+    "weight": "1 lb",
+    "tags": [
+      "social",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 152
+    }
+  },
+  {
+    "name": "Midnight Tears (Ingested)",
+    "description": "A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a DC 17 Constitution saving throw, taking 31 (9d6) poison damage on a failed save, or half as much damage on a successful one.\n\nIngested. A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.",
+    "type": "Poison",
+    "cost": "1500 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "midnight tears"
+    ]
+  },
+  {
+    "name": "Mirror, Steel",
+    "description": "A steel mirror is handy when you want to look around corners, signal friends with reflected sunlight, keep an eye on a medusa, make sure that you look good enough to present yourself to the queen, or examine wounds that you've received on hard-to-see parts of your body.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "1/2 lb",
+    "tags": [
+      "social",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "steel mirror"
+    ]
+  },
+  {
+    "name": "Monster Hunter's Pack",
+    "description": "Includes a chest, a crowbar, a hammer, three wooden stakes, a holy symbol, a flask of holy water, a set of manacles, a steel mirror, a flask of oil, a tinderbox, and 3 torches.",
+    "type": "Equipment Pack",
+    "cost": "33 gp",
+    "weight": "49 lbs",
+    "tags": [
+      "control",
+      "utility",
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "COS",
+      "page": 209
+    }
+  },
+  {
+    "name": "Morningstar",
+    "description": "Proficiency with a morningstar allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "15 gp",
+    "weight": "4 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "piercing"
+      },
+      "properties": [
+        ""
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Musket",
+    "description": "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+    "type": "Firearms Ranged Weapon",
+    "cost": "500 gp",
+    "weight": "10 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d12",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition (firearms)",
+        "loading",
+        "range",
+        "two-handed"
+      ],
+      "range": {
+        "short": 40,
+        "long": 120
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    }
+  },
+  {
+    "name": "Navigator's Tools",
+    "description": "This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.",
+    "type": "Tool",
+    "cost": "25 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Net",
+    "description": "Proficiency with a net allows you to add your proficiency bonus to the attack roll for any attack you make with it.\n\nA Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.\n\nWhen you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.",
+    "type": "Martial Ranged Weapon",
+    "cost": "1 gp",
+    "weight": "3 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "0",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        "range",
+        "special"
+      ],
+      "range": {
+        "short": 5,
+        "long": 15
+      }
+    },
+    "tags": [
+      "control",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 148
+    }
+  },
+  {
+    "name": "Oil (flask)",
+    "description": "Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.",
+    "type": "Adventuring Gear",
+    "cost": "1 sp",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "utility",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 152
+    },
+    "synonyms": [
+      "oil",
+      "flask of oil"
+    ]
+  },
+  {
+    "name": "Oil of Taggit (Contact)",
+    "description": "A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage.\n\nContact. Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.",
+    "type": "Poison",
+    "cost": "400 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "debuff",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "oil of taggit",
+      "taggit oil"
+    ]
+  },
+  {
+    "name": "Orb",
+    "description": "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Arcane Focus",
+    "cost": "20 gp",
+    "weight": "3 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Padded",
+    "description": "Padded armor consists of quilted layers of cloth and batting.",
+    "type": "Light Armor",
+    "cost": "5 gp",
+    "weight": "8 lbs",
+    "armor": {
+      "ac": 11,
+      "plusDex": true,
+      "restrictedDex": false,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 144
+    }
+  },
+  {
+    "name": "Painter's Supplies",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "10 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 82
+    }
+  },
+  {
+    "name": "Pale Tincture (Ingested)",
+    "description": "A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or take 3 (1d6) poison damage and become poisoned. The poisoned creature must repeat the saving throw every 24 hours, taking 3 (1d6) poison damage on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally.\n\nIngested. A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.",
+    "type": "Poison",
+    "cost": "250 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "debuff",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "pale tincture"
+    ]
+  },
+  {
+    "name": "Pan Flute",
+    "description": "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.",
+    "type": "Tool",
+    "cost": "12 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "instrument"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Paper (one sheet)",
+    "description": "A sheet of standard paper is made from cloth fibers.",
+    "type": "Adventuring Gear",
+    "cost": "2 sp",
+    "weight": "--",
+    "tags": [
+      "communication",
+      "social",
+      "utility",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "paper",
+      "piece of paper"
+    ]
+  },
+  {
+    "name": "Parchment (one sheet)",
+    "description": "A sheet of parchment is a piece of goat hide or sheepskin that has been prepared for writing on.",
+    "type": "Adventuring Gear",
+    "cost": "1 sp",
+    "weight": "--",
+    "tags": [
+      "communication",
+      "social",
+      "utility",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "parchment",
+      "piece of parchment"
+    ]
+  },
+  {
+    "name": "Perfume (vial)",
+    "description": "A fragrant commodity typically used by the wealthy.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "--",
+    "tags": [
+      "social",
+      "utility",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "perfume",
+      "vial of perfume"
+    ]
+  },
+  {
+    "name": "Pick, Miner's",
+    "description": "A miner's pick is designed to concentrate the force of its blow on a small area.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "10 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "pickaxe",
+      "miner's pick",
+      "pick"
+    ]
+  },
+  {
+    "name": "Pike",
+    "description": "Proficiency with a pike allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "5 gp",
+    "weight": "18 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d10",
+        "type": "piercing"
+      },
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range": {
+        "short": 10,
+        "long": 10
+      }
+    },
+    "tags": [
+      "damage",
+      "control",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Pistol, Automatic",
+    "description": "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+    "type": "Firearms Ranged Weapon",
+    "cost": "--",
+    "weight": "3 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "2d6",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition (firearms)",
+        "range",
+        "reload"
+      ],
+      "range": {
+        "short": 50,
+        "long": 150
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    },
+    "synonyms": [
+      "automatic pistol"
+    ]
+  },
+  {
+    "name": "Pistol",
+    "description": "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+    "type": "Firearms Ranged Weapon",
+    "cost": "250 gp",
+    "weight": "3 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d10",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition (firearms)",
+        "loading",
+        "range"
+      ],
+      "range": {
+        "short": 30,
+        "long": 90
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    }
+  },
+  {
+    "name": "Piton",
+    "description": "When a wall doesn't offer handholds and footholds, you can make your own. A piton is a steel spike with an eye through which you can loop a rope.",
+    "type": "Adventuring Gear",
+    "cost": "5 cp",
+    "weight": "1/4 lb",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Plate",
+    "description": "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.",
+    "type": "Heavy Armor",
+    "cost": "1500 gp",
+    "weight": "65 lbs",
+    "armor": {
+      "ac": 18,
+      "plusDex": false,
+      "restrictedDex": false,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 145
+    }
+  },
+  {
+    "name": "Playing Card Set",
+    "description": "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set.",
+    "type": "Tool",
+    "cost": "5 sp",
+    "weight": "--",
+    "tags": [
+      "social"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 81
+    },
+    "synonyms": [
+      "cards",
+      "playing cards"
+    ]
+  },
+  {
+    "name": "Poison, Basic (vial)",
+    "description": "You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.",
+    "type": "Poison",
+    "cost": "100 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "utility",
+      "combat",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    },
+    "synonyms": [
+      "basic poison",
+      "poison",
+      "vial of poison",
+      "vial of basic poison"
+    ]
+  },
+  {
+    "name": "Poisoner's Kit",
+    "description": "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.",
+    "type": "Tool",
+    "cost": "50 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Pole (10-foot)",
+    "description": "When you suspect a trap, you can put the end of your 10-foot pole through that hole in the wall instead of reaching in with your hand.",
+    "type": "Adventuring Gear",
+    "cost": "5 cp",
+    "weight": "7 lbs",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "ten foot pole",
+      "pole"
+    ]
+  },
+  {
+    "name": "Pony",
+    "description": "Pony Statistics\n\nA good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.\n\nAn animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.",
+    "type": "Mount",
+    "cost": "30 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Pot, Iron",
+    "description": "An iron pot can hold 1 gallon of liquid.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "10 lbs",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "pot",
+      "iron pot"
+    ]
+  },
+  {
+    "name": "Potion of Healing",
+    "description": "A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action.",
+    "type": "Potion",
+    "cost": "50 gp",
+    "weight": "1/2 lb",
+    "tags": [
+      "healing",
+      "combat",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    },
+    "synonyms": [
+      "healing potion"
+    ]
+  },
+  {
+    "name": "Potter's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "10 gp",
+    "weight": "3 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 84
+    }
+  },
+  {
+    "name": "Pouch",
+    "description": "A cloth or leather pouch can hold 1/5 cubic foot/ 6 pounds of gear - or up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch.",
+    "type": "Adventuring Gear",
+    "cost": "5 sp",
+    "weight": "1 lb",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    }
+  },
+  {
+    "name": "Priest's Pack",
+    "description": "Includes a backpack, a blanket, 10 candles, a tinderbox, an alms box, 2 blocks of incense, a censer, vestments, 2 days of rations, and a waterskin.",
+    "type": "Equipment Pack",
+    "cost": "19 gp",
+    "weight": "24 lbs",
+    "tags": [
+      "social",
+      "utility",
+      "exploration",
+      "container",
+      "outerwear"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Purple Worm Poison (Injury)",
+    "description": "This poison must be harvested from a dead or incapacitated purple worm. A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.\n\nInjury. Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.",
+    "type": "Poison",
+    "cost": "2000 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "debuff",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "purple worm poison"
+    ]
+  },
+  {
+    "name": "Quarterstaff",
+    "description": "",
+    "type": "Simple Melee Weapon",
+    "cost": "2 sp",
+    "weight": "4 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d6",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        "versatile (1d8)"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Quiver",
+    "description": "A quiver can hold up to 20 arrows.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "1 lb",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    }
+  },
+  {
+    "name": "Rain Catcher",
+    "description": "A rain catcher is a simple contraption consisting of a 5-foot-square leather tarp and a wooden frame with legs. When the tarp is stretched across the wooden frame, it forms a basin that can catch 2 gallons of drinking water per inch of rainfall and hold up to 8 gallons. The tarp and wooden frame fold up for easy transport.  A rain catcher costs 1 gp and weighs 5 pounds.\n\nMerchant prince Ekene-Afa controls the sale of rain catchers in Port Nyanzaru.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "TOA",
+      "page": 32
+    }
+  },
+  {
+    "name": "Ram, Portable",
+    "description": "You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.",
+    "type": "Adventuring Gear",
+    "cost": "4 gp",
+    "weight": "35 lbs",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    },
+    "synonyms": [
+      "portable ram",
+      "ram"
+    ]
+  },
+  {
+    "name": "Rapier",
+    "description": "Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "25 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "piercing"
+      },
+      "properties": [
+        "finesse"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Rations (1 day)",
+    "description": "Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.",
+    "type": "Adventuring Gear",
+    "cost": "5 sp",
+    "weight": "2 lbs",
+    "tags": [
+      "social",
+      "utility",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    },
+    "synonyms": [
+      "ration",
+      "rations",
+      "dry ration",
+      "dry rations",
+      "fresh rations"
+    ]
+  },
+  {
+    "name": "Reliquary",
+    "description": "A holy symbol is a representation of a god or pantheon. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in the Spellcasting section. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.",
+    "type": "Holy Symbol",
+    "cost": "5 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Revolver",
+    "description": "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+    "type": "Firearms Ranged Weapon",
+    "cost": "--",
+    "weight": "3 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "2d8",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition (firearms)",
+        "range",
+        "reload"
+      ],
+      "range": {
+        "short": 40,
+        "long": 120
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    }
+  },
+  {
+    "name": "Riding Horse",
+    "description": "Riding Horse Statistics\n\nA good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.\n\nAn animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.",
+    "type": "Mount",
+    "cost": "75 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Rifle, Automatic",
+    "description": "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+    "type": "Firearms Ranged Weapon",
+    "cost": "--",
+    "weight": "8 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "2d8",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition (firearms)",
+        "burst fire",
+        "range",
+        "reload",
+        "two-handed"
+      ],
+      "range": {
+        "short": 80,
+        "long": 240
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    },
+    "synonyms": [
+      "automatic rifle"
+    ]
+  },
+  {
+    "name": "Rifle, Hunting",
+    "description": "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+    "type": "Firearms Ranged Weapon",
+    "cost": "--",
+    "weight": "8 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "2d10",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition (firearms)",
+        "range",
+        "reload",
+        "two-handed"
+      ],
+      "range": {
+        "short": 80,
+        "long": 240
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    },
+    "synonyms": [
+      "hunting rifle"
+    ]
+  },
+  {
+    "name": "Ring Mail",
+    "description": "This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor.",
+    "type": "Heavy Armor",
+    "cost": "30 gp",
+    "weight": "40 lbs",
+    "armor": {
+      "ac": 14,
+      "plusDex": false,
+      "restrictedDex": false,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 145
+    }
+  },
+  {
+    "name": "Robes",
+    "description": "A standard set of robes.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "4 lbs",
+    "tags": [
+      "utility",
+      "outerwear"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Rod",
+    "description": "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Arcane Focus",
+    "cost": "10 gp",
+    "weight": "2 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Rope, Hempen (50 feet)",
+    "description": "Rope, has 2 hit points and can be burst with a DC 17 Strength check.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "10 lbs",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    },
+    "synonyms": [
+      "rope",
+      "hemp rope",
+      "hempen rope"
+    ]
+  },
+  {
+    "name": "Rope, Silk (50 feet)",
+    "description": "Rope, has 2 hit points and can be burst with a DC 17 Strength check.",
+    "type": "Adventuring Gear",
+    "cost": "10 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    },
+    "synonyms": [
+      "silk rope"
+    ]
+  },
+  {
+    "name": "Rowboat",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.\n\nRowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land.",
+    "type": "Vehicle (Water)",
+    "cost": "50 gp",
+    "weight": "100 lbs",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Sack",
+    "description": "A sack can hold 1 cubic foot/ 30 pounds of gear.",
+    "type": "Adventuring Gear",
+    "cost": "1 cp",
+    "weight": "1/2 lb",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Saddle, Exotic",
+    "description": "An exotic saddle is required for riding any aquatic or flying mount.",
+    "type": "Adventuring Gear",
+    "cost": "60 gp",
+    "weight": "40 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 155
+    },
+    "synonyms": [
+      "exotic saddle"
+    ]
+  },
+  {
+    "name": "Saddle, Military",
+    "description": "A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted.",
+    "type": "Adventuring Gear",
+    "cost": "20 gp",
+    "weight": "30 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 155
+    },
+    "synonyms": [
+      "military saddle"
+    ]
+  },
+  {
+    "name": "Saddle, Pack",
+    "description": "A standard saddle for a pack mount.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "15 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 155
+    },
+    "synonyms": [
+      "pack saddle"
+    ]
+  },
+  {
+    "name": "Saddle, Riding",
+    "description": "A standard saddle for a riding mount.",
+    "type": "Adventuring Gear",
+    "cost": "10 gp",
+    "weight": "25 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 155
+    },
+    "synonyms": [
+      "saddle",
+      "riding saddle"
+    ]
+  },
+  {
+    "name": "Saddlebags",
+    "description": "Standard saddlebags that can be attached to a mount's saddle.",
+    "type": "Adventuring Gear",
+    "cost": "4 gp",
+    "weight": "8 lbs",
+    "tags": [
+      "utility",
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Sailing Ship",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "type": "Vehicle (Water)",
+    "cost": "10000 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Scale Mail",
+    "description": "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.",
+    "type": "Medium Armor",
+    "cost": "50 gp",
+    "weight": "45 lbs",
+    "armor": {
+      "ac": 14,
+      "plusDex": true,
+      "restrictedDex": true,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 144
+    }
+  },
+  {
+    "name": "Scale, Merchant's",
+    "description": "A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "3 lbs",
+    "tags": [
+      "social",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    },
+    "synonyms": [
+      "scale",
+      "weighing scale",
+      "merchant's scale"
+    ]
+  },
+  {
+    "name": "Scholar's Pack",
+    "description": "Includes a backpack, a book of lore, a bottle of ink, an ink pen, 10 sheets of parchment, a little bag of sand, and a small knife.",
+    "type": "Equipment Pack",
+    "cost": "40 gp",
+    "weight": "10 lbs",
+    "tags": [
+      "social",
+      "utility",
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Scimitar",
+    "description": "Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "25 gp",
+    "weight": "3 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d6",
+        "type": "slashing"
+      },
+      "properties": [
+        "finesse",
+        "light"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Sealing Wax",
+    "description": "When you press a signet ring into warm sealing wax, you leave an identifying mark.",
+    "type": "Adventuring Gear",
+    "cost": "5 sp",
+    "weight": "--",
+    "tags": [
+      "communication",
+      "social",
+      "utility",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Serpent Venom (Injury)",
+    "description": "This poison must be harvested from a dead or incapacitated giant poisonous snake. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.\n\nInjury. Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.\n\n",
+    "type": "Poison",
+    "cost": "200 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "debuff",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "serpent venom",
+      "serpent poison",
+      "serpent venom poison"
+    ]
+  },
+  {
+    "name": "Shawm",
+    "description": "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.",
+    "type": "Tool",
+    "cost": "2 gp",
+    "weight": "1 lb",
+    "tags": [
+      "instrument"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Shield",
+    "description": "A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.",
+    "type": "Shield",
+    "cost": "10 gp",
+    "weight": "6 lbs",
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 144
+    }
+  },
+  {
+    "name": "Shortbow",
+    "description": "Proficiency with a shortbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Ranged Weapon",
+    "cost": "25 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d6",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition",
+        "range",
+        "two-handed"
+      ],
+      "range": {
+        "short": 80,
+        "long": 320
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Shortsword",
+    "description": "Proficiency with a shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "10 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d6",
+        "type": "piercing"
+      },
+      "properties": [
+        "finesse",
+        "light"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Shotgun",
+    "description": "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+    "type": "Firearms Ranged Weapon",
+    "cost": "--",
+    "weight": "7 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "2d8",
+        "type": "piercing"
+      },
+      "properties": [
+        "ammunition (firearms)",
+        "range",
+        "reload",
+        "two-handed"
+      ],
+      "range": {
+        "short": 30,
+        "long": 90
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 268
+    }
+  },
+  {
+    "name": "Shovel",
+    "description": "A standard shovel used for digging.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Sickle",
+    "description": "Proficiency with a sickle allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Melee Weapon",
+    "cost": "1 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d4",
+        "type": "slashing"
+      },
+      "properties": [
+        "light"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Signal Whistle",
+    "description": "A small whistle used for signaling.",
+    "type": "Adventuring Gear",
+    "cost": "50 cp",
+    "weight": "--",
+    "tags": [
+      "communication",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Signet Ring",
+    "description": "Each signet ring has a distinctive design carved into it. When you press this ring into warm sealing wax, you leave an identifying mark.",
+    "type": "Adventuring Gear",
+    "cost": "5 gp",
+    "weight": "--",
+    "tags": [
+      "communication",
+      "social",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Sled",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "type": "Vehicle (Land)",
+    "cost": "20 gp",
+    "weight": "300 lbs",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Sling Bullets",
+    "description": "Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+    "type": "Ammunition",
+    "cost": "4 cp",
+    "weight": "1 1/2 lb",
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Sling",
+    "description": "Proficiency with a sling allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Ranged Weapon",
+    "cost": "1 sp",
+    "weight": "--",
+    "weapon": {
+      "damage": {
+        "dice": "1d4",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        "ammunition",
+        "range"
+      ],
+      "range": {
+        "short": 30,
+        "long": 120
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Small Knife",
+    "description": "A small knife, typically found in a scholar's pack.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Smith's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "20 gp",
+    "weight": "8 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 84
+    }
+  },
+  {
+    "name": "Soap",
+    "description": "A commodity used for bathing.",
+    "type": "Adventuring Gear",
+    "cost": "2 cp",
+    "weight": "--",
+    "tags": [
+      "social",
+      "utility",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Spear",
+    "description": "Proficiency with a spear allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Simple Melee Weapon",
+    "cost": "1 gp",
+    "weight": "3 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d6",
+        "type": "piercing"
+      },
+      "properties": [
+        "range",
+        "versatile (1d8)"
+      ],
+      "range": {
+        "short": 20,
+        "long": 60
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Spellbook",
+    "description": "Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.",
+    "type": "Adventuring Gear",
+    "cost": "50 gp",
+    "weight": "3 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    }
+  },
+  {
+    "name": "Spiked Armor",
+    "description": "Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal.",
+    "type": "Medium Armor",
+    "cost": "75 gp",
+    "weight": "45 lbs",
+    "armor": {
+      "ac": 14,
+      "plusDex": true,
+      "restrictedDex": true,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "damage",
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "SCG",
+      "page": 121
+    }
+  },
+  {
+    "name": "Spikes, Iron (10)",
+    "description": "Standard iron spikes typically used with a hammer.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    },
+    "synonyms": [
+      "iron spikes"
+    ]
+  },
+  {
+    "name": "Splint",
+    "description": "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.",
+    "type": "Heavy Armor",
+    "cost": "200 gp",
+    "weight": "60 lbs",
+    "armor": {
+      "ac": 17,
+      "plusDex": false,
+      "restrictedDex": false,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 145
+    }
+  },
+  {
+    "name": "Sprig of Mistletoe",
+    "description": "A druid can use a Sprig of Mistletoe (or holly) as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Druidic Focus",
+    "cost": "1 gp",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Spyglass",
+    "description": "Objects viewed through a spyglass are magnified to twice their size.",
+    "type": "Adventuring Gear",
+    "cost": "1000 gp",
+    "weight": "1 lb",
+    "tags": [
+      "social",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    }
+  },
+  {
+    "name": "Staff",
+    "description": "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Arcane Focus",
+    "cost": "5 gp",
+    "weight": "4 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Stake (Wooden)",
+    "description": "Stakes made out of wood, typically found in a monster hunter's pack.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "COS",
+      "page": 209
+    },
+    "synonyms": [
+      "stake",
+      "wooden stake"
+    ]
+  },
+  {
+    "name": "String",
+    "description": "A 10-foot length of string, typically found in a burglar's pack.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Studded Leather",
+    "description": "Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.",
+    "type": "Light Armor",
+    "cost": "45 gp",
+    "weight": "13 lbs",
+    "armor": {
+      "ac": 12,
+      "plusDex": true,
+      "restrictedDex": false,
+      "stealthDisadvantage": false
+    },
+    "tags": [
+      "warding"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 144
+    }
+  },
+  {
+    "name": "Tej",
+    "description": "Tej is an amber-colored, fermented drink made from honey. It's more common and popular in Chult than beer or ale. A mug of tej costs 4 cp in Port Nyanzaru or 6 cp in Fort Beluarian. A 1-gallon cask costs 2 sp in the city or 3 sp at the fort.\n\nSale of tej is controlled by the merchant prince Kwayothé.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "--",
+    "tags": [],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "TOA",
+      "page": 32
+    }
+  },
+  {
+    "name": "Tent, Two-Person",
+    "description": "A simple and portable canvas shelter, a tent sleeps two.",
+    "type": "Adventuring Gear",
+    "cost": "2 gp",
+    "weight": "20 lbs",
+    "tags": [
+      "social",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    },
+    "synonyms": [
+      "two person tent",
+      "tent"
+    ]
+  },
+  {
+    "name": "Thieves' Tools",
+    "description": "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.",
+    "type": "Tool",
+    "cost": "25 gp",
+    "weight": "1 lb",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 84
+    }
+  },
+  {
+    "name": "Three-Dragon Ante Set",
+    "description": "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set.",
+    "type": "Tool",
+    "cost": "1 gp",
+    "weight": "--",
+    "tags": [
+      "social"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 81
+    }
+  },
+  {
+    "name": "Tinderbox",
+    "description": "This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch -- or anything else with abundant, exposed fuel -- takes an action. Lighting any other fire takes 1 minute.\n\n",
+    "type": "Adventuring Gear",
+    "cost": "5 sp",
+    "weight": "1 lb",
+    "tags": [
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    }
+  },
+  {
+    "name": "Tinker's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "50 gp",
+    "weight": "10 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 84
+    }
+  },
+  {
+    "name": "Torch",
+    "description": "A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.",
+    "type": "Adventuring Gear",
+    "cost": "1 cp",
+    "weight": "1 lb",
+    "tags": [
+      "damage",
+      "utility",
+      "exploration",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 153
+    }
+  },
+  {
+    "name": "Torpor (Ingested)",
+    "description": "A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 4d6 hours. The poisoned creature is incapacitated.\n\nIngested. A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.",
+    "type": "Poison",
+    "cost": "600 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "debuff",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "torpor",
+      "torpor poison"
+    ]
+  },
+  {
+    "name": "Totem",
+    "description": "A druid can use a Totem as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Druidic Focus",
+    "cost": "1 gp",
+    "weight": "--",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Trident",
+    "description": "Proficiency with a trident allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "5 gp",
+    "weight": "4 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d6",
+        "type": "piercing"
+      },
+      "properties": [
+        "range",
+        "versatile (1d8)"
+      ],
+      "range": {
+        "short": 20,
+        "long": 60
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Truth Serum (Ingested)",
+    "description": "A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a zone of truth spell.\n\nIngested. A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.",
+    "type": "Poison",
+    "cost": "150 gp",
+    "weight": "--",
+    "tags": [
+      "debuff",
+      "utility",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "truth serum"
+    ]
+  },
+  {
+    "name": "Vestments",
+    "description": "Religious clothing, typically found in a priest's pack.",
+    "type": "Adventuring Gear",
+    "cost": "--",
+    "weight": "--",
+    "tags": [
+      "social",
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Vial",
+    "description": "A vial can hold 4 ounces of liquid.",
+    "type": "Adventuring Gear",
+    "cost": "1 gp",
+    "weight": "--",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Viol",
+    "description": "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.",
+    "type": "Tool",
+    "cost": "30 gp",
+    "weight": "1 lb",
+    "tags": [
+      "instrument"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 83
+    }
+  },
+  {
+    "name": "Wagon",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "type": "Vehicle (Land)",
+    "cost": "35 gp",
+    "weight": "400 lbs",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Wand",
+    "description": "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Arcane Focus",
+    "cost": "10 gp",
+    "weight": "1 lb",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "War Pick",
+    "description": "Proficiency with a war pick allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "5 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "piercing"
+      },
+      "properties": [
+        ""
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Warhammer",
+    "description": "Proficiency with a warhammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "15 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "bludgeoning"
+      },
+      "properties": [
+        "versatile (1d10)"
+      ],
+      "range": {
+        "short": 5,
+        "long": 5
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Warhorse",
+    "description": "Warhorse Statistics\n\nA good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.\n\nAn animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.",
+    "type": "Mount",
+    "cost": "400 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Warship",
+    "description": "If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "type": "Vehicle (Water)",
+    "cost": "25000 gp",
+    "weight": "--",
+    "tags": [
+      "movement",
+      "utility",
+      "exploration"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 157
+    }
+  },
+  {
+    "name": "Waterskin",
+    "description": "A waterskin can hold 4 pints of liquid.",
+    "type": "Adventuring Gear",
+    "cost": "2 sp",
+    "weight": "5 lbs",
+    "tags": [
+      "container"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Weaver's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "1 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 85
+    }
+  },
+  {
+    "name": "Whetstone",
+    "description": "A standard whetstone used to sharpen blades.",
+    "type": "Adventuring Gear",
+    "cost": "1 cp",
+    "weight": "1 lb",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 150
+    }
+  },
+  {
+    "name": "Whip",
+    "description": "Proficiency with a whip allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "type": "Martial Melee Weapon",
+    "cost": "2 gp",
+    "weight": "3 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d4",
+        "type": "slashing"
+      },
+      "properties": [
+        "finesse",
+        "reach"
+      ],
+      "range": {
+        "short": 10,
+        "long": 10
+      }
+    },
+    "tags": [
+      "damage",
+      "control",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 149
+    }
+  },
+  {
+    "name": "Woodcarver's Tools",
+    "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+    "type": "Tool",
+    "cost": "1 gp",
+    "weight": "5 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "XGE",
+      "page": 85
+    }
+  },
+  {
+    "name": "Wooden Staff",
+    "description": "A druid can use a Wooden Staff as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Druidic Focus",
+    "cost": "5 gp",
+    "weight": "4 lbs",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Wyvern Poison (Injury)",
+    "description": "This poison must be harvested from a dead or incapacitated wyvern. A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.\n\nInjury. Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.\n\n",
+    "type": "Poison",
+    "cost": "1200 gp",
+    "weight": "--",
+    "tags": [
+      "damage",
+      "debuff",
+      "consumable"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "DMG",
+      "page": 258
+    },
+    "synonyms": [
+      "wyvern poison"
+    ]
+  },
+  {
+    "name": "Yew Wand",
+    "description": "A druid can use a Yew Wand as a spellcasting focus, as described in the Spellcasting section.",
+    "type": "Druidic Focus",
+    "cost": "10 gp",
+    "weight": "1 lb",
+    "tags": [
+      "utility"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "PHB",
+      "page": 151
+    }
+  },
+  {
+    "name": "Yklwa",
+    "description": "A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. It costs 1 gp, and it deals 1d8 piercing damage on a hit. Although it has the thrown weapon property, the yklwa is not well balanced for throwing (range 10/30 ft.).",
+    "type": "Simple Melee Weapon",
+    "cost": "1 gp",
+    "weight": "2 lbs",
+    "weapon": {
+      "damage": {
+        "dice": "1d8",
+        "type": "piercing"
+      },
+      "properties": [
+        "range"
+      ],
+      "range": {
+        "short": 10,
+        "long": 30
+      }
+    },
+    "tags": [
+      "damage",
+      "combat"
+    ],
+    "source": "Basic Rules",
+    "reference": {
+      "book": "TOA",
+      "page": 32
+    }
+  }
+]

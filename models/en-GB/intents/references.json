@@ -192,5 +192,40 @@
       "{what} {pageBook} {is} {subrace}",
       "{what} {pageBook} {is} {subrace} {onIn}"
     ]
+  },
+  {
+    "name": "ReferenceFindEquipment",
+    "slots": [
+      {
+        "name": "equipment",
+        "type": "Equipment"
+      },
+      {
+        "name": "onIn",
+        "type": "OnIn"
+      },
+      {
+        "name": "where",
+        "type": "Where"
+      },
+      {
+        "name": "pageBook",
+        "type": "PageBook"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      }
+    ],
+    "samples": [
+      "{where} {equipment}",
+      "{where} {equipment} {is}",
+      "{what} {pageBook} {is} {equipment}",
+      "{what} {pageBook} {is} {equipment} {onIn}"
+    ]
   }
 ]

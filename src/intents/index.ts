@@ -2,6 +2,7 @@ export * from './character-abilities.intent';
 export * from './classes.intent';
 export * from './condition.intent';
 export * from './currency.intent';
+export * from './equipment.intent';
 export * from './level.intent';
 export * from './magic-items.intent';
 export * from './magic-schools.intent';

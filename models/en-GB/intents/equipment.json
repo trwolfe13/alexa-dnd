@@ -1,0 +1,31 @@
+[
+  {
+    "name": "EquipmentDescription",
+    "slots": [
+      {
+        "name": "equipment",
+        "type": "Equipment"
+      },
+      {
+        "name": "whatHow",
+        "type": "WhatHow"
+      },
+      {
+        "name": "do",
+        "type": "Do"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      },
+      {
+        "name": "doWork",
+        "type": "DoWork"
+      }
+    ],
+    "samples": [
+      "{whatHow} {do} {equipment} {doWork}",
+      "{whatHow} {is} {equipment}"
+    ]
+  }
+]

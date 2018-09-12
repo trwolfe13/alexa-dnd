@@ -3,6 +3,7 @@ import { Intent, Response } from 'ask-sdk-model';
 
 import * as Books from '../data/books.json';
 import * as Classes from '../data/classes.json';
+import * as Equipment from '../data/equipment.json';
 import * as Races from '../data/races.json';
 import * as Spells from '../data/spells.json';
 import { IntentHandler, IntentMap } from '../framework';
@@ -31,6 +32,7 @@ export class ReferenceIntentHandler extends IntentHandler {
       ReferenceFindSubclass: this.findSubclass,
       ReferenceFindRace: this.findRace,
       ReferenceFindSubrace: this.findSubrace,
+      ReferenceFindEquipment: this.findEquipment
     };
   }
 
@@ -92,6 +94,16 @@ export class ReferenceIntentHandler extends IntentHandler {
     const name = `${subrace.name} ${race.name}`;
     const speech = getSpeech(subrace, name);
 
+    return handlerInput.responseBuilder
+      .speak(speech)
+      .withSimpleCard(name, speech)
+      .getResponse();
+  }
+
+  findEquipment(handlerInput: HandlerInput, intent: Intent): Response {
+    const name = Utils.slotValue(intent.slots.equipment);
+    const equipment = (<any[]><any>Equipment).find(r => r.name === name);
+    const speech = getSpeech(equipment, `${equipment.name}`);
     return handlerInput.responseBuilder
       .speak(speech)
       .withSimpleCard(name, speech)
