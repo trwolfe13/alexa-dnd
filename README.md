@@ -4,6 +4,10 @@ An Alexa skill to act as a reference for Dungeons &amp; Dragons 5th Edition.
 
 Based on the following tutorial: https://medium.com/coinmonks/how-to-develop-an-amazon-alexa-skill-using-node-js-b872ef5320b1
 
+## Build
+
+To run a full build, you can run `npm run build`, but the separate parts can be built separately using either `npm run build:models` or `npm run build:lambda`.
+
 ## Intents
 
 These are the intents that are available or in-progress.

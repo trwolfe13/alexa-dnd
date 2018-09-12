@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Target",
+    "values": [
+      {
+        "name": {
+          "value": "target"
+        }
+      },
+      {
+        "name": {
+          "value": "hit"
+        }
+      },
+      {
+        "name": {
+          "value": "get"
+        }
+      },
+      {
+        "name": {
+          "value": "attack"
+        }
+      },
+      {
+        "name": {
+          "value": "strike"
+        }
+      },
+      {
+        "name": {
+          "value": "reach"
+        }
+      },
+      {
+        "name": {
+          "value": "strike"
+        }
+      },
+      {
+        "name": {
+          "value": "zap"
+        }
+      }
+    ]
+  }
+]

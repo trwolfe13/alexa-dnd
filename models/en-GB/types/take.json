@@ -1,30 +1,25 @@
 [
   {
-    "name": "Do",
+    "name": "Take",
     "values": [
       {
         "name": {
-          "value": "do"
+          "value": "take to cast"
         }
       },
       {
         "name": {
-          "value": "does"
+          "value": "take"
         }
       },
       {
         "name": {
-          "value": "does it"
+          "value": "takes"
         }
       },
       {
         "name": {
-          "value": "do the"
-        }
-      },
-      {
-        "name": {
-          "value": "does the"
+          "value": "takes to cast"
         }
       }
     ]

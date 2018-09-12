@@ -53,7 +53,6 @@
     ],
     "samples": [
       "{do} {pronoun} {concentration} {spell}",
-      "{do} {pronoun} {concentration} {spell} spell",
       "{do} {spell} {concentration}",
       "if {spell} {concentration}",
       "is {spell} {concentration}"
@@ -111,6 +110,134 @@
     ],
     "samples": [
       "{whatHow} {do} {spell} {doWork}"
+    ]
+  },
+  {
+    "name": "SpellTarget",
+    "slots": [
+      {
+        "name": "spell",
+        "type": "Spell"
+      },
+      {
+        "name": "whatHow",
+        "type": "WhatHow"
+      },
+      {
+        "name": "pronoun",
+        "type": "Pronoun"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      },
+      {
+        "name": "do",
+        "type": "Do"
+      },
+      {
+        "name": "target",
+        "type": "Target"
+      }
+    ],
+    "samples": [
+      "{whatHow} {is} the range of {spell}",
+      "{whatHow} far does {spell} go",
+      "{whatHow} far can {pronoun} cast {spell}",
+      "who {do} {spell} {target}",
+      "who can {pronoun} {target} with {spell}"
+    ]
+  },
+  {
+    "name": "SpellTime",
+    "slots": [
+      {
+        "name": "spell",
+        "type": "Spell"
+      },
+      {
+        "name": "do",
+        "type": "Do"
+      },
+      {
+        "name": "take",
+        "type": "Take"
+      }
+    ],
+    "samples": [
+      "how long {do} {take} {spell}",
+      "how long {do} {spell} {take}"
+    ]
+  },
+  {
+    "name": "SpellSchool",
+    "slots": [
+      {
+        "name": "spell",
+        "type": "Spell"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      },
+      {
+        "name": "magicSchoolPhrase",
+        "type": "MagicSchoolPhrase"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      }
+    ],
+    "samples": [
+      "{what} {magicSchoolPhrase} {is} {spell}",
+      "{what} {magicSchoolPhrase} {spell} {is}"
+    ]
+  },
+  {
+    "name": "SpellLevel",
+    "slots": [
+      {
+        "name": "spell",
+        "type": "Spell"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      }
+    ],
+    "samples": [
+      "{what} level {is} {spell}",
+      "{what} level {spell} {is}",
+      "{what} spell level {is} {spell}",
+      "{what} spell level {spell} {is}"
+    ]
+  },
+  {
+    "name": "SpellDuration",
+    "slots": [
+      {
+        "name": "spell",
+        "type": "Spell"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      }
+    ],
+    "samples": [
+      "{what} {is} the duration of {spell}",
+      "{what} the duration of {spell} {is}",
+      "how long does {spell} last",
+      "how long {spell} lasts"
     ]
   }
 ]

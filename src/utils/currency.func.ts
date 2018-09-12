@@ -2,6 +2,25 @@ import * as Currencies from '../data/currencies.json';
 import { Currency } from '../models';
 import { spokenConcat } from './spoken-concat.func';
 
+export function parseCurrency(amount: string): Currency {
+  const output = { platinum: 0, gold: 0, electrum: 0, silver: 0, copper: 0 };
+
+  const test = /(\d+)\s*(pp|gp|ep|sp|cp|platinum|gold|electrum|silver|copper)/gi;
+
+  let match;
+  while (match = test.exec(amount)) {
+    switch (match[2].toLowerCase()) {
+      case 'pp': case 'platinum': { output.platinum += Number(match[1]); break; }
+      case 'gp': case 'gold': { output.gold += Number(match[1]); break; }
+      case 'ep': case 'electrum': { output.electrum += Number(match[1]); break; }
+      case 'sp': case 'silver': { output.silver += Number(match[1]); break; }
+      case 'cp': case 'copper': { output.copper += Number(match[1]); break; }
+    }
+  }
+
+  return convertCurrency(output);
+}
+
 function convertToCopper(amount: Currency) {
   return (amount.platinum || 0) * Currencies['platinum'].copper +
     (amount.gold || 0) * Currencies['gold'].copper +

@@ -32,6 +32,7 @@ regions.forEach(region => {
   models.interactionModel.languageModel.types.push(types.createRace(config.data));
   models.interactionModel.languageModel.types.push(types.createSubrace(config.data));
   models.interactionModel.languageModel.types.push(types.createMagicItem(config.data));
+  models.interactionModel.languageModel.types.push(types.createEquipment(config.data));
 
   validateModels(models);
 
