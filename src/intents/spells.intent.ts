@@ -125,7 +125,7 @@ export class SpellsIntentHandler extends IntentHandler {
     const spell = (<any[]><any>Spells).find(s => s.name === name);
 
     return handlerInput.responseBuilder
-      .speak(spell.level)
+      .speak(`${name} is level ${spell.level}.`)
       .getResponse();
   }
 

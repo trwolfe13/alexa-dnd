@@ -195,31 +195,6 @@
     ]
   },
   {
-    "name": "SpellSchool",
-    "slots": [
-      {
-        "name": "spell",
-        "type": "Spell"
-      },
-      {
-        "name": "what",
-        "type": "What"
-      },
-      {
-        "name": "magicSchoolPhrase",
-        "type": "MagicSchoolPhrase"
-      },
-      {
-        "name": "is",
-        "type": "Is"
-      }
-    ],
-    "samples": [
-      "{what} {magicSchoolPhrase} {is} {spell}",
-      "{what} {magicSchoolPhrase} {spell} {is}"
-    ]
-  },
-  {
     "name": "SpellLevel",
     "slots": [
       {
