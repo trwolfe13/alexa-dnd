@@ -332,5 +332,40 @@
       "{what} {pageBook} {is} {feat}",
       "{what} {pageBook} {is} {feat} {onIn}"
     ]
+  },
+  {
+    "name": "ReferenceFindMonster",
+    "slots": [
+      {
+        "name": "monster",
+        "type": "Monster"
+      },
+      {
+        "name": "onIn",
+        "type": "OnIn"
+      },
+      {
+        "name": "pageBook",
+        "type": "PageBook"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      },
+      {
+        "name": "where",
+        "type": "Where"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      }
+    ],
+    "samples": [
+      "{where} {monster}",
+      "{where} {monster} {is}",
+      "{what} {pageBook} {is} {monster}",
+      "{what} {pageBook} {is} {monster} {onIn}"
+    ]
   }
 ]

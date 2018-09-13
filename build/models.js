@@ -35,6 +35,7 @@ regions.forEach(region => {
   models.interactionModel.languageModel.types.push(types.createEquipment(config.data));
   models.interactionModel.languageModel.types.push(types.createBackground(config.data));
   models.interactionModel.languageModel.types.push(types.createFeat(config.data));
+  models.interactionModel.languageModel.types.push(types.createMonsters(config.data));
 
   validateModels(models);
 

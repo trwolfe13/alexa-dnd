@@ -4,9 +4,10 @@ import { Intent, Response } from 'ask-sdk-model';
 import * as Books from '../data/books.json';
 import * as Classes from '../data/classes.json';
 import * as Equipment from '../data/equipment.json';
-import * as MagicItems from '../data/magic-items.json';
 import * as Backgrounds from '../data/feats.json';
 import * as Feats from '../data/feats.json';
+import * as MagicItems from '../data/magic-items.json';
+import * as Monsters from '../data/monsters.json';
 import * as Races from '../data/races.json';
 import * as Spells from '../data/spells.json';
 import { IntentHandler, IntentMap } from '../framework';
@@ -39,6 +40,7 @@ export class ReferenceIntentHandler extends IntentHandler {
       ReferenceFindBackground: this.findBackground,
       ReferenceFindFeat: this.findFeat,
       ReferenceFindMagicItem: this.findMagicItem,
+      ReferenceFindMonster: this.findMonster
     };
   }
 
@@ -140,6 +142,16 @@ export class ReferenceIntentHandler extends IntentHandler {
     const name = Utils.slotValue(intent.slots.magicItem);
     const item = (<any[]><any>MagicItems).find(r => r.name === name);
     const speech = getSpeech(item, `${item.name}`);
+    return handlerInput.responseBuilder
+      .speak(speech)
+      .withSimpleCard(name, speech)
+      .getResponse();
+  }
+
+  findMonster(handlerInput: HandlerInput, intent: Intent): Response {
+    const name = Utils.slotValue(intent.slots.monster);
+    const monster = (<any[]><any>Monsters).find(r => r.name === monster);
+    const speech = getSpeech(monster, `${monster.name}`);
     return handlerInput.responseBuilder
       .speak(speech)
       .withSimpleCard(name, speech)
