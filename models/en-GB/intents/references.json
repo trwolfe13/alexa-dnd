@@ -227,5 +227,75 @@
       "{what} {pageBook} {is} {equipment}",
       "{what} {pageBook} {is} {equipment} {onIn}"
     ]
+  },
+  {
+    "name": "ReferenceFindBackground",
+    "slots": [
+      {
+        "name": "background",
+        "type": "Background"
+      },
+      {
+        "name": "onIn",
+        "type": "OnIn"
+      },
+      {
+        "name": "pageBook",
+        "type": "PageBook"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      },
+      {
+        "name": "where",
+        "type": "Where"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      }
+    ],
+    "samples": [
+      "{where} {background}",
+      "{where} {background} {is}",
+      "{what} {pageBook} {is} {background}",
+      "{what} {pageBook} {is} {background} {onIn}"
+    ]
+  },
+  {
+    "name": "ReferenceFindFeat",
+    "slots": [
+      {
+        "name": "feat",
+        "type": "Feat"
+      },
+      {
+        "name": "onIn",
+        "type": "OnIn"
+      },
+      {
+        "name": "pageBook",
+        "type": "PageBook"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      },
+      {
+        "name": "where",
+        "type": "Where"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      }
+    ],
+    "samples": [
+      "{where} {feat}",
+      "{where} {feat} {is}",
+      "{what} {pageBook} {is} {feat}",
+      "{what} {pageBook} {is} {feat} {onIn}"
+    ]
   }
 ]

@@ -33,6 +33,8 @@ regions.forEach(region => {
   models.interactionModel.languageModel.types.push(types.createSubrace(config.data));
   models.interactionModel.languageModel.types.push(types.createMagicItem(config.data));
   models.interactionModel.languageModel.types.push(types.createEquipment(config.data));
+  models.interactionModel.languageModel.types.push(types.createBackground(config.data));
+  models.interactionModel.languageModel.types.push(types.createFeat(config.data));
 
   validateModels(models);
 
