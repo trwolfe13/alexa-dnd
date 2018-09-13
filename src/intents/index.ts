@@ -1,3 +1,4 @@
+export * from './armor.intent';
 export * from './character-abilities.intent';
 export * from './classes.intent';
 export * from './condition.intent';
@@ -6,7 +7,9 @@ export * from './equipment.intent';
 export * from './level.intent';
 export * from './magic-items.intent';
 export * from './magic-schools.intent';
+export * from './monsters.intent';
 export * from './races.intent';
 export * from './reference.intent';
 export * from './spells.intent';
+export * from './weapons.intent';
 export * from './wild-magic.intent';

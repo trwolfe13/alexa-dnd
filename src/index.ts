@@ -9,6 +9,7 @@ export const handler =
     .custom()
     .addRequestHandlers(
       new Requests.LaunchRequestHandler(),
+      new Intents.ArmorIntentHandler(),
       new Intents.CharacterAbilitiesIntentHandler(),
       new Intents.ClassesIntentHandler(),
       new Intents.ConditionIntentHandler(),
@@ -17,9 +18,11 @@ export const handler =
       new Intents.LevelIntentHandler(),
       new Intents.MagicItemsIntentHandler(),
       new Intents.MagicSchoolsIntentHandler(),
+      new Intents.MonstersIntentHandler(),
       new Intents.RacesIntentHandler(),
       new Intents.ReferenceIntentHandler(),
       new Intents.SpellsIntentHandler(),
+      new Intents.WeaponsIntentHandler(),
       new Intents.WildMagicIntentHandler(),
       new Requests.SessionEndedRequestHandler()
     )
