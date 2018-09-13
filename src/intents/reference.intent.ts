@@ -4,6 +4,7 @@ import { Intent, Response } from 'ask-sdk-model';
 import * as Books from '../data/books.json';
 import * as Classes from '../data/classes.json';
 import * as Equipment from '../data/equipment.json';
+import * as MagicItems from '../data/magic-items.json';
 import * as Backgrounds from '../data/feats.json';
 import * as Feats from '../data/feats.json';
 import * as Races from '../data/races.json';
@@ -36,7 +37,8 @@ export class ReferenceIntentHandler extends IntentHandler {
       ReferenceFindSubrace: this.findSubrace,
       ReferenceFindEquipment: this.findEquipment,
       ReferenceFindBackground: this.findBackground,
-      ReferenceFindFeat: this.findFeat
+      ReferenceFindFeat: this.findFeat,
+      ReferenceFindMagicItem: this.findMagicItem,
     };
   }
 
@@ -128,6 +130,16 @@ export class ReferenceIntentHandler extends IntentHandler {
     const name = Utils.slotValue(intent.slots.feat);
     const feat = (<any[]><any>Feats).find(r => r.name === name);
     const speech = getSpeech(feat, `${feat.name} feat`);
+    return handlerInput.responseBuilder
+      .speak(speech)
+      .withSimpleCard(name, speech)
+      .getResponse();
+  }
+
+  findMagicItem(handlerInput: HandlerInput, intent: Intent): Response {
+    const name = Utils.slotValue(intent.slots.magicItem);
+    const item = (<any[]><any>MagicItems).find(r => r.name === name);
+    const speech = getSpeech(item, `${item.name}`);
     return handlerInput.responseBuilder
       .speak(speech)
       .withSimpleCard(name, speech)

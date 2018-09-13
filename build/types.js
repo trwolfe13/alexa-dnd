@@ -58,7 +58,7 @@ module.exports = {
   createRace: dir => createType(dir, 'races.json', 'Race', ['{0} race', 'the {0} race']),
   createMagicItem: dir => createType(dir, 'magic-items.json', 'MagicItem', ['the {0}']),
   createEquipment: dir => createType(dir, 'equipment.json', 'Equipment', ['the {0}']),
-  createBackground: dir => createType(dir, 'background.json', 'Background', ['{0} background', 'the {0} background']),
+  createBackground: dir => createType(dir, 'backgrounds.json', 'Background', ['{0} background', 'the {0} background']),
   createFeat: dir => createType(dir, 'feats.json', 'Feat', ['the {0} feat', '{0} feat']),
   createSubclass,
   createSubrace

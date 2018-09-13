@@ -229,6 +229,41 @@
     ]
   },
   {
+    "name": "ReferenceFindMagicItem",
+    "slots": [
+      {
+        "name": "magicItem",
+        "type": "MagicItem"
+      },
+      {
+        "name": "onIn",
+        "type": "OnIn"
+      },
+      {
+        "name": "where",
+        "type": "Where"
+      },
+      {
+        "name": "pageBook",
+        "type": "PageBook"
+      },
+      {
+        "name": "what",
+        "type": "What"
+      },
+      {
+        "name": "is",
+        "type": "Is"
+      }
+    ],
+    "samples": [
+      "{where} {magicItem}",
+      "{where} {magicItem} {is}",
+      "{what} {pageBook} {is} {magicItem}",
+      "{what} {pageBook} {is} {magicItem} {onIn}"
+    ]
+  },
+  {
     "name": "ReferenceFindBackground",
     "slots": [
       {
