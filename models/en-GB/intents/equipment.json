@@ -5,27 +5,10 @@
       {
         "name": "equipment",
         "type": "Equipment"
-      },
-      {
-        "name": "whatHow",
-        "type": "WhatHow"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "is",
-        "type": "Is"
-      },
-      {
-        "name": "doWork",
-        "type": "DoWork"
       }
     ],
     "samples": [
-      "{whatHow} {do} {equipment} {doWork}",
-      "{whatHow} {is} {equipment}"
+      "what is {equipment}"
     ]
   },
   {
@@ -34,23 +17,10 @@
       {
         "name": "equipment",
         "type": "Equipment"
-      },
-      {
-        "name": "howMany",
-        "type": "HowMany"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "is",
-        "type": "Is"
       }
     ],
     "samples": [
-      "{howMany} {do} {equipment} cost",
-      "{howMany} gold {is} {equipment}"
+      "how much does {equipment} cost"
     ]
   },
   {
@@ -59,23 +29,10 @@
       {
         "name": "equipment",
         "type": "Equipment"
-      },
-      {
-        "name": "howMany",
-        "type": "HowMany"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "is",
-        "type": "Is"
       }
     ],
     "samples": [
-      "{howMany} {do} {equipment} weigh",
-      "how heavy {is} {equipment}"
+      "how much does {equipment} weigh"
     ]
   }
 ]

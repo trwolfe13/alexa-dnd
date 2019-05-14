@@ -5,36 +5,10 @@
       {
         "name": "spell",
         "type": "Spell"
-      },
-      {
-        "name": "onIn",
-        "type": "OnIn"
-      },
-      {
-        "name": "pageBook",
-        "type": "PageBook"
-      },
-      {
-        "name": "is",
-        "type": "Is"
-      },
-      {
-        "name": "where",
-        "type": "Where"
-      },
-      {
-        "name": "what",
-        "type": "What"
       }
     ],
     "samples": [
-      "{where} {spell}",
-      "{where} {spell} {is}",
-      "{where} {spell} spell",
-      "{where} {spell} spell {is}",
-      "{what} {pageBook} {is} {spell}",
-      "{what} {pageBook} {is} {spell} {onIn}",
-      "{what} {pageBook} {is} {spell} spell {onIn}"
+      "where is {spell}"
     ]
   },
   {
@@ -43,84 +17,22 @@
       {
         "name": "class",
         "type": "Class"
-      },
-      {
-        "name": "onIn",
-        "type": "OnIn"
-      },
-      {
-        "name": "where",
-        "type": "Where"
-      },
-      {
-        "name": "pageBook",
-        "type": "PageBook"
-      },
-      {
-        "name": "what",
-        "type": "What"
-      },
-      {
-        "name": "is",
-        "type": "Is"
       }
     ],
     "samples": [
-      "{where} {class}",
-      "{where} {class} {is}",
-      "{what} {pageBook} {is} {class}",
-      "{what} {pageBook} {is} {class} {onIn}"
+      "where is {class}"
     ]
   },
   {
     "name": "ReferenceFindSubclass",
     "slots": [
       {
-        "name": "is",
-        "type": "Is"
-      },
-      {
-        "name": "class",
-        "type": "Class"
-      },
-      {
         "name": "subclass",
         "type": "Subclass"
-      },
-      {
-        "name": "archetype",
-        "type": "Archetype"
-      },
-      {
-        "name": "onIn",
-        "type": "OnIn"
-      },
-      {
-        "name": "pageBook",
-        "type": "PageBook"
-      },
-      {
-        "name": "where",
-        "type": "Where"
-      },
-      {
-        "name": "what",
-        "type": "What"
       }
     ],
     "samples": [
-      "{where} {subclass}",
-      "{where} {subclass} {class}",
-      "{where} {subclass} {class} {archetype}",
-      "{where} {subclass} {is}",
-      "{where} {subclass} {class} {is}",
-      "{where} {subclass} {class} {archetype} {is}",
-      "{what} {pageBook} {is} {subclass}",
-      "{what} {pageBook} {is} {subclass} {class}",
-      "{what} {pageBook} {is} {subclass} {class} {archetype}",
-      "{what} {pageBook} {is} {subclass} {onIn}",
-      "{what} {pageBook} {is} {subclass} {class} {onIn}",
-      "{what} {pageBook} {is} {subclass} {class} {archetype} {onIn}"
+      "where is {subclass}"
     ]
   },
   {
@@ -129,33 +41,10 @@
       {
         "name": "race",
         "type": "Race"
-      },
-      {
-        "name": "onIn",
-        "type": "OnIn"
-      },
-      {
-        "name": "where",
-        "type": "Where"
-      },
-      {
-        "name": "pageBook",
-        "type": "PageBook"
-      },
-      {
-        "name": "what",
-        "type": "What"
-      },
-      {
-        "name": "is",
-        "type": "Is"
       }
     ],
     "samples": [
-      "{where} {race}",
-      "{where} {race} {is}",
-      "{what} {pageBook} {is} {race}",
-      "{what} {pageBook} {is} {race} {onIn}"
+      "where is {race}"
     ]
   },
   {
@@ -164,33 +53,10 @@
       {
         "name": "subrace",
         "type": "Subrace"
-      },
-      {
-        "name": "onIn",
-        "type": "OnIn"
-      },
-      {
-        "name": "where",
-        "type": "Where"
-      },
-      {
-        "name": "pageBook",
-        "type": "PageBook"
-      },
-      {
-        "name": "what",
-        "type": "What"
-      },
-      {
-        "name": "is",
-        "type": "Is"
       }
     ],
     "samples": [
-      "{where} {subrace}",
-      "{where} {subrace} {is}",
-      "{what} {pageBook} {is} {subrace}",
-      "{what} {pageBook} {is} {subrace} {onIn}"
+      "where is {subrace}"
     ]
   },
   {
@@ -199,33 +65,10 @@
       {
         "name": "equipment",
         "type": "Equipment"
-      },
-      {
-        "name": "onIn",
-        "type": "OnIn"
-      },
-      {
-        "name": "where",
-        "type": "Where"
-      },
-      {
-        "name": "pageBook",
-        "type": "PageBook"
-      },
-      {
-        "name": "what",
-        "type": "What"
-      },
-      {
-        "name": "is",
-        "type": "Is"
       }
     ],
     "samples": [
-      "{where} {equipment}",
-      "{where} {equipment} {is}",
-      "{what} {pageBook} {is} {equipment}",
-      "{what} {pageBook} {is} {equipment} {onIn}"
+      "where is {equipment}"
     ]
   },
   {
@@ -234,33 +77,10 @@
       {
         "name": "magicItem",
         "type": "MagicItem"
-      },
-      {
-        "name": "onIn",
-        "type": "OnIn"
-      },
-      {
-        "name": "where",
-        "type": "Where"
-      },
-      {
-        "name": "pageBook",
-        "type": "PageBook"
-      },
-      {
-        "name": "what",
-        "type": "What"
-      },
-      {
-        "name": "is",
-        "type": "Is"
       }
     ],
     "samples": [
-      "{where} {magicItem}",
-      "{where} {magicItem} {is}",
-      "{what} {pageBook} {is} {magicItem}",
-      "{what} {pageBook} {is} {magicItem} {onIn}"
+      "where is {magicItem}"
     ]
   },
   {
@@ -269,33 +89,10 @@
       {
         "name": "background",
         "type": "Background"
-      },
-      {
-        "name": "onIn",
-        "type": "OnIn"
-      },
-      {
-        "name": "pageBook",
-        "type": "PageBook"
-      },
-      {
-        "name": "is",
-        "type": "Is"
-      },
-      {
-        "name": "where",
-        "type": "Where"
-      },
-      {
-        "name": "what",
-        "type": "What"
       }
     ],
     "samples": [
-      "{where} {background}",
-      "{where} {background} {is}",
-      "{what} {pageBook} {is} {background}",
-      "{what} {pageBook} {is} {background} {onIn}"
+      "where is {background}"
     ]
   },
   {
@@ -304,33 +101,10 @@
       {
         "name": "feat",
         "type": "Feat"
-      },
-      {
-        "name": "onIn",
-        "type": "OnIn"
-      },
-      {
-        "name": "pageBook",
-        "type": "PageBook"
-      },
-      {
-        "name": "is",
-        "type": "Is"
-      },
-      {
-        "name": "where",
-        "type": "Where"
-      },
-      {
-        "name": "what",
-        "type": "What"
       }
     ],
     "samples": [
-      "{where} {feat}",
-      "{where} {feat} {is}",
-      "{what} {pageBook} {is} {feat}",
-      "{what} {pageBook} {is} {feat} {onIn}"
+      "where is {feat}"
     ]
   },
   {
@@ -339,33 +113,10 @@
       {
         "name": "monster",
         "type": "Monster"
-      },
-      {
-        "name": "onIn",
-        "type": "OnIn"
-      },
-      {
-        "name": "pageBook",
-        "type": "PageBook"
-      },
-      {
-        "name": "is",
-        "type": "Is"
-      },
-      {
-        "name": "where",
-        "type": "Where"
-      },
-      {
-        "name": "what",
-        "type": "What"
       }
     ],
     "samples": [
-      "{where} {monster}",
-      "{where} {monster} {is}",
-      "{what} {pageBook} {is} {monster}",
-      "{what} {pageBook} {is} {monster} {onIn}"
+      "where is {monster}"
     ]
   }
 ]

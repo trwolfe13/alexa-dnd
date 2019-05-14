@@ -1,21 +1,9 @@
 [
   {
     "name": "WildMagicSurge",
-    "slots": [
-      {
-        "name": "wildMagic",
-        "type": "WildMagic"
-      },
-      {
-        "name": "pronoun",
-        "type": "Pronoun"
-      }
-    ],
+    "slots": [],
     "samples": [
-      "For {wildMagic}",
-      "Give {pronoun} {wildMagic}",
-      "To give {pronoun} {wildMagic}",
-      "{wildMagic}"
+      "for a wild magic surge"
     ]
   }
 ]

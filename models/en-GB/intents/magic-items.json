@@ -5,23 +5,10 @@
       {
         "name": "item",
         "type": "MagicItem"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "is",
-        "type": "Is"
-      },
-      {
-        "name": "attunement",
-        "type": "RequiresAttunement"
       }
     ],
     "samples": [
-      "{do} {item} {attunement}",
-      "{is} {item} {attunement}"
+      "does {item} require attunement"
     ]
   },
   {
@@ -30,20 +17,10 @@
       {
         "name": "item",
         "type": "MagicItem"
-      },
-      {
-        "name": "is",
-        "type": "Is"
-      },
-      {
-        "name": "whatIs",
-        "type": "WhatIs"
       }
     ],
     "samples": [
-      "how rare {is} {item}",
-      "how common {is} {item}",
-      "{whatIs} the rarity of {item}"
+      "how rare is {item}"
     ]
   },
   {
@@ -52,27 +29,10 @@
       {
         "name": "item",
         "type": "MagicItem"
-      },
-      {
-        "name": "whatHow",
-        "type": "WhatHow"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "doWork",
-        "type": "DoWork"
-      },
-      {
-        "name": "pronoun",
-        "type": "Pronoun"
       }
     ],
     "samples": [
-      "{whatHow} {do} {item} {doWork}",
-      "{whatHow} {do} {pronoun} use {item}"
+      "how does {item} work"
     ]
   }
 ]
