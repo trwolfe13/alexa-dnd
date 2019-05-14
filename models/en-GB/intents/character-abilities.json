@@ -3,30 +3,6 @@
     "name": "CharacterStrengthVerb",
     "slots": [
       {
-        "name": "strengthPhrase",
-        "type": "StrengthPhrase"
-      },
-      {
-        "name": "pronoun",
-        "type": "Pronoun"
-      },
-      {
-        "name": "pronounHas",
-        "type": "PronounHas"
-      },
-      {
-        "name": "pronounIs",
-        "type": "PronounIs"
-      },
-      {
-        "name": "pronounPossessive",
-        "type": "PronounPossessive"
-      },
-      {
-        "name": "howMany",
-        "type": "HowMany"
-      },
-      {
         "name": "verb",
         "type": "StrengthVerb"
       },
@@ -34,143 +10,46 @@
         "name": "strength",
         "type": "AMAZON.NUMBER",
         "samples": [
-          "{strength}",
-          "{pronounHas} {strengthPhrase} {strength}",
-          "{pronounIs} {strength}",
-          "{pronounPossessive} {strengthPhrase} {strength}"
+          "{strength}"
         ]
       }
     ],
     "samples": [
-      "{howMany} can {pronoun} {verb}",
-      "{howMany} can {pronoun} {verb} with {strength} strength",
-      "{howMany} can {pronoun} {verb} with {strengthPhrase} {strength}",
-      "{howMany} {pronoun} can {verb}",
-      "{howMany} {pronoun} can {verb} with {strength} strength",
-      "{howMany} {pronoun} can {verb} with {strengthPhrase} {strength}",
-      "what can {pronoun} {verb}",
-      "what can {pronoun} {verb} with {strength} strength",
-      "what can {pronoun} {verb} with {strengthPhrase} {strength}",
-      "what {pronoun} can {verb}",
-      "what {pronoun} can {verb} with {strength} strength",
-      "what {pronoun} can {verb} with {strengthPhrase} {strength}"
+      "how much can I {verb}"
     ]
   },
   {
     "name": "CharacterJumpVerb",
     "slots": [
       {
-        "name": "strengthPhrase",
-        "type": "StrengthPhrase"
-      },
-      {
         "name": "jumpType",
         "type": "JumpType"
-      },
-      {
-        "name": "pronoun",
-        "type": "Pronoun"
-      },
-      {
-        "name": "pronounHas",
-        "type": "PronounHas"
-      },
-      {
-        "name": "pronounIs",
-        "type": "PronounIs"
-      },
-      {
-        "name": "pronounPossessive",
-        "type": "PronounPossessive"
-      },
-      {
-        "name": "whatIs",
-        "type": "WhatIs"
-      },
-      {
-        "name": "whatHow",
-        "type": "WhatHow"
       },
       {
         "name": "strength",
         "type": "AMAZON.NUMBER",
         "samples": [
-          "{strength}",
-          "{pronounHas} {strengthPhrase} {strength}",
-          "{pronounIs} {strength}",
-          "{pronounPossessive} {strengthPhrase} {strength}"
+          "{strength}"
         ]
       }
     ],
     "samples": [
-      "{whatHow} {jumpType} can {pronoun} jump",
-      "{whatHow} {jumpType} can {pronoun} jump with {strength} strength",
-      "{whatHow} {jumpType} can {pronoun} jump with {strengthPhrase} {strength}",
-      "{whatHow} {jumpType} {pronoun} can jump",
-      "{whatHow} {jumpType} {pronoun} can jump with {strength} strength",
-      "{whatHow} {jumpType} {pronoun} can jump with {strengthPhrase} {strength}",
-      "{whatIs} {pronounPossessive} jump {jumpType}",
-      "{whatIs} {pronounPossessive} jump {jumpType} with {strength} strength",
-      "{whatIs} {pronounPossessive} jump {jumpType} with {strengthPhrase} {strength}"
+      "how {jumpType} can I jump"
     ]
   },
   {
     "name": "CharacterBreath",
     "slots": [
       {
-        "name": "constitutionPhrase",
-        "type": "ConstitutionPhrase"
-      },
-      {
-        "name": "pronoun",
-        "type": "Pronoun"
-      },
-      {
-        "name": "pronounHas",
-        "type": "PronounHas"
-      },
-      {
-        "name": "pronounIs",
-        "type": "PronounIs"
-      },
-      {
-        "name": "pronounPossessive",
-        "type": "PronounPossessive"
-      },
-      {
-        "name": "air",
-        "type": "Air"
-      },
-      {
-        "name": "survive",
-        "type": "Survive"
-      },
-      {
-        "name": "goWithout",
-        "type": "GoWithout"
-      },
-      {
         "name": "constitution",
         "type": "AMAZON.NUMBER",
         "samples": [
-          "{constitution}",
-          "{pronounHas} {constitutionPhrase} {constitution}",
-          "{pronounIs} {constitution}",
-          "{pronounPossessive} {constitutionPhrase} {constitution}"
+          "{constitution}"
         ]
       }
     ],
     "samples": [
-      "how long can {pronoun} hold {pronounPossessive} breath",
-      "how long can {pronoun} {survive} underwater",
-      "how long can {pronoun} {survive} underwater without {air}",
-      "how long can {pronoun} {survive} without {air}",
-      "how long can {pronoun} {goWithout} {air}",
-      "how long {pronoun} can hold {pronounPossessive} breath",
-      "how long {pronoun} can {survive} underwater",
-      "how long {pronoun} can {survive} underwater without {air}",
-      "how long {pronoun} can {survive} without {air}",
-      "how long {pronoun} can {goWithout} {air}"
+      "how long can i hold my breath"
     ]
   }
 ]

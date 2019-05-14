@@ -5,30 +5,10 @@
       {
         "name": "spell",
         "type": "Spell"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "pronoun",
-        "type": "Pronoun"
-      },
-      {
-        "name": "need",
-        "type": "Need"
-      },
-      {
-        "name": "castFor",
-        "type": "CastFor"
       }
     ],
     "samples": [
-      "what materials {need} {castFor} {spell}",
-      "what materials {do} {pronoun} {need} {castFor} {spell}",
-      "what materials {pronoun} {need} {castFor} {spell}",
-      "what {do} {pronoun} {need} {castFor} {spell}",
-      "what {pronoun} {need} {castFor} {spell}"
+      "how do I cast {spell}"
     ]
   },
   {
@@ -37,25 +17,10 @@
       {
         "name": "spell",
         "type": "Spell"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "pronoun",
-        "type": "Pronoun"
-      },
-      {
-        "name": "concentration",
-        "type": "RequiresConcentration"
       }
     ],
     "samples": [
-      "{do} {pronoun} {concentration} {spell}",
-      "{do} {spell} {concentration}",
-      "if {spell} {concentration}",
-      "is {spell} {concentration}"
+      "does {spell} require concentration"
     ]
   },
   {
@@ -64,28 +29,10 @@
       {
         "name": "spell",
         "type": "Spell"
-      },
-      {
-        "name": "ritually",
-        "type": "Ritually"
-      },
-      {
-        "name": "ritualSpell",
-        "type": "RitualSpell"
-      },
-      {
-        "name": "is",
-        "type": "Is"
-      },
-      {
-        "name": "pronoun",
-        "type": "Pronoun"
       }
     ],
     "samples": [
-      "can {spell} be {ritually}",
-      "can {pronoun} cast {spell} {ritually}",
-      "{is} {spell} {ritualSpell}"
+      "can {spell} be cast as a ritual"
     ]
   },
   {
@@ -94,22 +41,10 @@
       {
         "name": "spell",
         "type": "Spell"
-      },
-      {
-        "name": "whatHow",
-        "type": "WhatHow"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "doWork",
-        "type": "DoWork"
       }
     ],
     "samples": [
-      "{whatHow} {do} {spell} {doWork}"
+      "what is {spell}"
     ]
   },
   {
@@ -118,34 +53,10 @@
       {
         "name": "spell",
         "type": "Spell"
-      },
-      {
-        "name": "whatHow",
-        "type": "WhatHow"
-      },
-      {
-        "name": "pronoun",
-        "type": "Pronoun"
-      },
-      {
-        "name": "is",
-        "type": "Is"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "target",
-        "type": "Target"
       }
     ],
     "samples": [
-      "{whatHow} {is} the range of {spell}",
-      "{whatHow} far does {spell} go",
-      "{whatHow} far can {pronoun} cast {spell}",
-      "who {do} {spell} {target}",
-      "who can {pronoun} {target} with {spell}"
+      "what is the range of {spell}"
     ]
   },
   {
@@ -154,19 +65,10 @@
       {
         "name": "spell",
         "type": "Spell"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
-        "name": "take",
-        "type": "Take"
       }
     ],
     "samples": [
-      "how long {do} {take} {spell}",
-      "how long {do} {spell} {take}"
+      "how long does {spell} take to cast"
     ]
   },
   {
@@ -175,23 +77,10 @@
       {
         "name": "spell",
         "type": "Spell"
-      },
-      {
-        "name": "what",
-        "type": "What"
-      },
-      {
-        "name": "magicSchoolPhrase",
-        "type": "MagicSchoolPhrase"
-      },
-      {
-        "name": "is",
-        "type": "Is"
       }
     ],
     "samples": [
-      "{what} {magicSchoolPhrase} {is} {spell}",
-      "{what} {magicSchoolPhrase} {spell} {is}"
+      "what school is {spell}"
     ]
   },
   {
@@ -200,21 +89,10 @@
       {
         "name": "spell",
         "type": "Spell"
-      },
-      {
-        "name": "what",
-        "type": "What"
-      },
-      {
-        "name": "is",
-        "type": "Is"
       }
     ],
     "samples": [
-      "{what} level {is} {spell}",
-      "{what} level {spell} {is}",
-      "{what} spell level {is} {spell}",
-      "{what} spell level {spell} {is}"
+      "what level is {spell}"
     ]
   },
   {
@@ -223,21 +101,10 @@
       {
         "name": "spell",
         "type": "Spell"
-      },
-      {
-        "name": "what",
-        "type": "What"
-      },
-      {
-        "name": "is",
-        "type": "Is"
       }
     ],
     "samples": [
-      "{what} {is} the duration of {spell}",
-      "{what} the duration of {spell} {is}",
-      "how long does {spell} last",
-      "how long {spell} lasts"
+      "how long does {spell} last"
     ]
   }
 ]

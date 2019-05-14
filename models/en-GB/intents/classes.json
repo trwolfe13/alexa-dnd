@@ -1,47 +1,22 @@
 [
   {
     "name": "ClassList",
-    "slots": [
-      {
-        "name": "nameThe",
-        "type": "NameThe"
-      }
-    ],
+    "slots": [],
     "samples": [
-      "{nameThe} classes",
-      "{nameThe} classes are there"
+      "what classes are there"
     ]
   },
-  
   {
     "name": "SubclassList",
     "slots": [
       {
-        "name": "nameThe",
-        "type": "NameThe"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
         "name": "class",
         "type": "Class"
-      },
-      {
-        "name": "archetype",
-        "type": "Archetype"
-      },
-      {
-        "name": "what",
-        "type": "What"
       }
     ],
     "samples": [
-      "{nameThe} {class} {archetype}",
-      "{nameThe} {class} {archetype} are there",
-      "{nameThe} {archetype} {do} {class} have",
-      "{what} {archetype} of {class} are there"
+      "what are the {class} subclasses",
+      "what are the {class} archetypes"
     ]
   }
 ]

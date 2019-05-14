@@ -1,46 +1,21 @@
 [
   {
     "name": "RaceList",
-    "slots": [
-      {
-        "name": "nameThe",
-        "type": "NameThe"
-      }
-    ],
+    "slots": [],
     "samples": [
-      "{nameThe} races",
-      "{nameThe} races are there"
+      "what races are there"
     ]
   },
   {
     "name": "SubraceList",
     "slots": [
       {
-        "name": "nameThe",
-        "type": "NameThe"
-      },
-      {
-        "name": "do",
-        "type": "Do"
-      },
-      {
         "name": "race",
         "type": "Race"
-      },
-      {
-        "name": "subraces",
-        "type": "Subraces"
-      },
-      {
-        "name": "what",
-        "type": "What"
       }
     ],
     "samples": [
-      "{nameThe} {race} {subraces}",
-      "{nameThe} {race} {subraces} are there",
-      "{nameThe} {subraces} {do} {race} have",
-      "{what} {subraces} of {race} are there"
+      "what are the subraces of {race}"
     ]
   }
 ]

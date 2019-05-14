@@ -5,94 +5,22 @@
       {
         "name": "level",
         "type": "AMAZON.NUMBER"
-      },
-      {
-        "name": "howMany",
-        "type": "HowMany"
-      },
-      {
-        "name": "xp",
-        "type": "XP"
-      },
-      {
-        "name": "getTo",
-        "type": "GetTo"
-      },
-      {
-        "name": "doYouNeed",
-        "type": "DoYouNeed"
       }
     ],
     "samples": [
-      "{howMany} {xp} {doYouNeed} to {getTo} {level}",
-      "{howMany} {xp} {doYouNeed} to {getTo} level {level}"
-    ]
-  },
-  {
-    "name": "LevelsRelativeExperience",
-    "slots": [
-      {
-        "name": "howMany",
-        "type": "HowMany"
-      },
-      {
-        "name": "xp",
-        "type": "XP"
-      },
-      {
-        "name": "doYouNeed",
-        "type": "DoYouNeed"
-      },
-      {
-        "name": "getTo",
-        "type": "GetTo"
-      },
-      {
-        "name": "upperLevel",
-        "type": "AMAZON.NUMBER"
-      },
-      {
-        "name": "lowerLevel",
-        "type": "AMAZON.NUMBER"
-      }
-    ],
-    "samples": [
-      "{howMany} {xp} {doYouNeed} to {getTo} {upperLevel} from {lowerLevel}",
-      "{howMany} {xp} {doYouNeed} to {getTo} level {upperLevel} from {lowerLevel}",
-      "{howMany} {xp} {doYouNeed} to {getTo} {upperLevel} from level {lowerLevel}",
-      "{howMany} {xp} {doYouNeed} to {getTo} level {upperLevel} from level {lowerLevel}",
-      "{howMany} {xp} {doYouNeed} to get from {lowerLevel} to {upperLevel}"
+      "how much experience do i need to get to level {level}"
     ]
   },
   {
     "name": "LevelsProficiency",
     "slots": [
       {
-        "name": "proficiency",
-        "type": "ProficiencyBonus"
-      },
-      {
         "name": "level",
         "type": "AMAZON.NUMBER"
-      },
-      {
-        "name": "pronounPossessive",
-        "type": "PronounPossessive"
-      },
-      {
-        "name": "whatIs",
-        "type": "WhatIs"
       }
     ],
     "samples": [   
-      "to tell me the {proficiency} at level {level}",
-      "to tell me {pronounPossessive} {proficiency} at level {level}",
-
-      "tell me the {proficiency} at level {level}",
-      "tell me {pronounPossessive} {proficiency} at level {level}",
-
-      "{whatIs} the {proficiency} at level {level}",
-      "{whatIs} {pronounPossessive} {proficiency} at level {level}"
+      "what is the proficiency bonus at level {level}"
     ]
   }
 ]

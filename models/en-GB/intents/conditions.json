@@ -1,51 +1,14 @@
 [
   {
-    "name": "ConditionList",
-    "slots": [
-      {
-        "name": "nameThe",
-        "type": "NameThe"
-      }
-    ],
-    "samples": [
-      "{nameThe} conditions",
-      "What conditions are there"
-    ]
-  },
-  {
-    "name": "ConditionExhaustion",
-    "slots": [
-      {
-        "name": "nameThe",
-        "type": "NameThe"
-      },
-      {
-        "name": "exhaustionLevels",
-        "type": "ExhaustionLevels"
-      }
-    ],
-    "samples": [
-      "{nameThe} {exhaustionLevels} of exhaustion"
-    ]
-  },
-  {
     "name": "ConditionExhaustionLevel",
     "slots": [
       {
-        "name": "nameThe",
-        "type": "NameThe"
-      },
-      {
         "name": "position",
         "type": "Position"
-      },
-      {
-        "name": "exhaustionLevels",
-        "type": "ExhaustionLevels"
       }
     ],
     "samples": [
-      "{nameThe} {position} {exhaustionLevels} of exhaustion"
+      "what is the {position} level of exhaustion"
     ]
   },
   {
@@ -54,37 +17,10 @@
       {
         "name": "condition",
         "type": "Condition"
-      },
-      {
-        "name": "pronounIs",
-        "type": "PronounIs"
-      },
-      {
-        "name": "pronounHas",
-        "type": "PronounHas"
-      },
-      {
-        "name": "whatHappens",
-        "type": "WhatHappens"
-      },
-      {
-        "name": "doWork",
-        "type": "DoWork"
-      },
-      {
-        "name": "whatHow",
-        "type": "WhatHow"
-      },
-      {
-        "name": "do",
-        "type": "Do"
       }
     ],
     "samples": [
-      "{whatHow} {do} {condition} {doWork}",
-      "{whatHappens} {pronounIs} {condition}",
-      "{whatHappens} {pronounHas} {condition}",
-      "{whatHow} {do} the {condition} condition {doWork}"
+      "what does {condition} mean"
     ]
   }
 ]
